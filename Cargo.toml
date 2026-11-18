@@ -1,0 +1,31 @@
+[workspace]
+resolver = "3"
+members = ["scene", "model", "orrery", "prim", "app"]
+default-members = ["app"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+publish = false
+
+[workspace.dependencies]
+# termmd's crates for embedded apps (and its DEFLATE, for 3MF; its fonts, for text in a part).
+# Cargo.lock pins the commit. To build against a local checkout instead, see AGENTS.md.
+termmd-surface = { git = "https://github.com/sawdustandswarf/termmd" }
+termmd-vulkan = { git = "https://github.com/sawdustandswarf/termmd" }
+termmd-deflate = { git = "https://github.com/sawdustandswarf/termmd" }
+termmd-font = { git = "https://github.com/sawdustandswarf/termmd" }
+
+[workspace.lints.rust]
+unsafe_op_in_unsafe_fn = "deny"
+missing_debug_implementations = "warn"
+
+[workspace.lints.clippy]
+undocumented_unsafe_blocks = "warn"
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+debug = "line-tables-only"

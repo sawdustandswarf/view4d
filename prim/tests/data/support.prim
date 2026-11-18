@@ -1,0 +1,18 @@
+{
+  "format": "primlib.prim",
+  "version": 1,
+  "primitive": "support",
+  "title": "Support",
+  "params": [{"name": "length", "default": "30", "note": "length of the wall, along x", "group": null}, {"name": "width", "default": "1.2", "note": "width of the wall, along y", "group": null}, {"name": "thickness", "default": "1.4", "note": "bed (or lower part) to the supported face, along z", "group": null}, {"name": "line_w", "default": "0.44", "note": "print line width", "group": null}, {"name": "layer_h", "default": "0.2", "note": "print layer height", "group": null}, {"name": "neck_lines", "default": "0", "note": "neck width at mid-height, in line widths (where it is cut)", "group": null}, {"name": "gap_lines", "default": "2", "note": "least hole width at mid-height, in line widths", "group": null}, {"name": "skin_layers", "default": "1", "note": "bottom skin, and least top skin, in layers", "group": null}],
+  "fixed": [],
+  "derived": [{"name": "neck", "expr": "neck_lines * line_w", "note": "neck width"}, {"name": "skin", "expr": "skin_layers * layer_h", "note": "bottom skin thickness"}, {"name": "count", "expr": "floor(length / (neck + gap_lines * line_w))", "note": "number of hourglasses: as many as fit with the least gap"}, {"name": "pitch", "expr": "length / count", "note": "hourglass width and hole spacing"}, {"name": "half_w", "expr": "(pitch - neck) / 2", "note": "half width of a hole at mid-height"}, {"name": "hole_h", "expr": "2 * half_w", "note": "hole height, its flanks at 45 deg"}, {"name": "min_thickness", "expr": "2 * skin + hole_h", "note": "thinnest wall: a hole and both skins"}, {"name": "mid", "expr": "skin + hole_h / 2", "note": "height of the necks' middle"}, {"name": "hole_top", "expr": "skin + hole_h", "note": "top tip of the holes"}, {"name": "top_skin", "expr": "thickness - hole_top", "note": "top skin thickness"}],
+  "checks": [{"expr": "length", "message": "length must be positive"}, {"expr": "width", "message": "width must be positive"}, {"expr": "line_w", "message": "line_w must be positive"}, {"expr": "layer_h", "message": "layer_h must be positive"}, {"expr": "neck_lines + 0.000001", "message": "neck_lines must not be negative"}, {"expr": "gap_lines", "message": "gap_lines must be positive"}, {"expr": "skin_layers", "message": "skin_layers must be positive"}, {"expr": "count", "message": "length is too short for one neck and gap"}, {"expr": "thickness - min_thickness + 0.000001", "message": "thickness is less than a 45 deg hole and both skins (min_thickness); make it thicker, or reduce gap_lines or skin_layers"}],
+  "result": 3,
+  "motion": [],
+  "ops": [
+    {"id": 0, "op": "box", "name": "wall", "x": ["0", "length"], "y": ["0", "width"], "z": ["0", "thickness"]},
+    {"id": 1, "op": "prism", "name": "hole", "points": [["skin", "0"], ["mid", "half_w"], ["hole_top", "0"], ["mid", "-half_w"]], "plane": "zx", "span": ["-1", "width + 1"]},
+    {"id": 2, "op": "array", "name": "holes", "base": 1, "along": {"x": {"count": "count + 1", "start": "0", "step": "pitch"}}},
+    {"id": 3, "op": "cut", "name": null, "base": 0, "tools": [2]}
+  ]
+}

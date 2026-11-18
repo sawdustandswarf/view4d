@@ -1,0 +1,12698 @@
+{
+ "edge_fill.prim": [
+  {
+   "values": {},
+   "failed": [],
+   "parts": {
+    "big": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0"
+    },
+    "odd": {
+     "length": "40.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0"
+    },
+    "little": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0"
+    }
+   },
+   "print": [],
+   "placed": [
+    [
+     "edge_1B",
+     "big",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      10.0
+     ]
+    ],
+    [
+     "edge_2B",
+     "big",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      70.0
+     ]
+    ],
+    [
+     "edge_3O",
+     "odd",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      130.0
+     ]
+    ],
+    [
+     "edge_4B",
+     "big",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      180.0
+     ]
+    ],
+    [
+     "edge_5B",
+     "big",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      240.0
+     ]
+    ]
+   ]
+  },
+  {
+   "values": {
+    "bigs": "3",
+    "littles": "2",
+    "span": "400"
+   },
+   "failed": [],
+   "parts": {
+    "big": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0"
+    },
+    "odd": {
+     "length": "65.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0"
+    },
+    "little": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0"
+    }
+   },
+   "print": [],
+   "placed": [
+    [
+     "edge_1L",
+     "little",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      10.0
+     ]
+    ],
+    [
+     "edge_2B",
+     "big",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      40.0
+     ]
+    ],
+    [
+     "edge_3O",
+     "odd",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      100.0
+     ]
+    ],
+    [
+     "edge_4B",
+     "big",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      175.0
+     ]
+    ],
+    [
+     "edge_5O",
+     "odd",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      235.0
+     ]
+    ],
+    [
+     "edge_6B",
+     "big",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      310.0
+     ]
+    ],
+    [
+     "edge_7L",
+     "little",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      370.0
+     ]
+    ]
+   ]
+  },
+  {
+   "values": {
+    "bigs": "0",
+    "span": "60"
+   },
+   "failed": [],
+   "parts": {
+    "big": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0"
+    },
+    "odd": {
+     "length": "40.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0"
+    },
+    "little": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0"
+    }
+   },
+   "print": [],
+   "placed": [
+    [
+     "edge_1O",
+     "odd",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      10.0
+     ]
+    ]
+   ]
+  },
+  {
+   "values": {
+    "littles": "1"
+   },
+   "failed": [
+    "littles must be even",
+    "the odd piece is too short: fewer bigs, littles or spacers"
+   ],
+   "parts": {},
+   "print": [],
+   "placed": []
+  },
+  {
+   "values": {
+    "bigs": "9"
+   },
+   "failed": [
+    "the odd piece is too short: fewer bigs, littles or spacers"
+   ],
+   "parts": {},
+   "print": [],
+   "placed": []
+  }
+ ],
+ "edge_run.prim": [
+  {
+   "values": {},
+   "failed": [],
+   "parts": {
+    "S": {
+     "length": "30.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "M": {
+     "length": "60.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "L": {
+     "length": "90.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "F": {
+     "length": "104.5",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    }
+   },
+   "print": [],
+   "placed": [
+    [
+     "edge_1S",
+     "S",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      0.2
+     ]
+    ],
+    [
+     "edge_2F",
+     "F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      30.4
+     ]
+    ],
+    [
+     "edge_3M",
+     "M",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      135.1
+     ]
+    ],
+    [
+     "edge_4F",
+     "F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      195.3
+     ]
+    ]
+   ]
+  },
+  {
+   "values": {
+    "key": "'LMSF"
+   },
+   "failed": [],
+   "parts": {
+    "S": {
+     "length": "30.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "M": {
+     "length": "60.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "L": {
+     "length": "90.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "F": {
+     "length": "119.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    }
+   },
+   "print": [],
+   "placed": [
+    [
+     "edge_1L",
+     "L",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      0.2
+     ]
+    ],
+    [
+     "edge_2M",
+     "M",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      90.4
+     ]
+    ],
+    [
+     "edge_3S",
+     "S",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      150.60000000000002
+     ]
+    ],
+    [
+     "edge_4F",
+     "F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      180.8
+     ]
+    ]
+   ]
+  },
+  {
+   "values": {
+    "run": "100"
+   },
+   "failed": [],
+   "parts": {
+    "S": {
+     "length": "30.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "M": {
+     "length": "60.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "L": {
+     "length": "90.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "F": {
+     "length": "99.6",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    }
+   },
+   "print": [],
+   "placed": [
+    [
+     "edge_1F",
+     "F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      0.2
+     ]
+    ]
+   ]
+  },
+  {
+   "values": {
+    "key": "'SXF"
+   },
+   "failed": [
+    "key has a letter other than S M L F"
+   ],
+   "parts": {},
+   "print": [],
+   "placed": []
+  },
+  {
+   "values": {
+    "key": "'FFF",
+    "run": "160"
+   },
+   "failed": [],
+   "parts": {
+    "S": {
+     "length": "30.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "M": {
+     "length": "60.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "L": {
+     "length": "90.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "F": {
+     "length": "53.06666666666666",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    }
+   },
+   "print": [],
+   "placed": [
+    [
+     "edge_1F",
+     "F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      0.2
+     ]
+    ],
+    [
+     "edge_2F",
+     "F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      53.46666666666667
+     ]
+    ],
+    [
+     "edge_3F",
+     "F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      106.73333333333333
+     ]
+    ]
+   ]
+  }
+ ],
+ "hinge_run.prim": [
+  {
+   "values": {},
+   "failed": [],
+   "parts": {
+    "S": {
+     "length": "20.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "S_lid": {
+     "length": "20.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "M": {
+     "length": "35.0",
+     "rings": "4.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "M_lid": {
+     "length": "35.0",
+     "rings": "4.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "L": {
+     "length": "50.0",
+     "rings": "5.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "L_lid": {
+     "length": "50.0",
+     "rings": "5.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "F": {
+     "length": "273.2",
+     "rings": "27.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "F_lid": {
+     "length": "273.2",
+     "rings": "27.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "T": {
+     "length": "13.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "T_lid": {
+     "length": "13.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    }
+   },
+   "print": [],
+   "placed": [
+    [
+     "hinge_1T",
+     "T",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.2,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "hinge_2F",
+     "F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      13.399999999999999,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "hinge_3T",
+     "T",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      286.79999999999995,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "lidhinge_1T",
+     "T_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.2,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "lidhinge_2F",
+     "F_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      13.399999999999999,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "lidhinge_3T",
+     "T_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      286.79999999999995,
+      0.0,
+      0.0
+     ]
+    ]
+   ]
+  }
+ ],
+ "rail_run.prim": [
+  {
+   "values": {},
+   "failed": [],
+   "parts": {
+    "S": {
+     "length": "20.0",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "2.0",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.4",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "M": {
+     "length": "35.0",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "2.0",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.4",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "L": {
+     "length": "50.0",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "2.0",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.4",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "F": {
+     "length": "299.6",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "2.0",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.4",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    }
+   },
+   "print": [],
+   "placed": [
+    [
+     "rail_1F",
+     "F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.2,
+      0.0,
+      0.0
+     ]
+    ]
+   ]
+  }
+ ],
+ "support_pair.prim": [
+  {
+   "values": {},
+   "failed": [],
+   "parts": {
+    "half": {
+     "radius": "5.0",
+     "height": "3.0",
+     "line_w": "0.44",
+     "layer_h": "0.2",
+     "gap_lines": "4.0",
+     "interface_gap": "0.1"
+    },
+    "mirrored": {
+     "radius": "5.0",
+     "height": "3.0",
+     "line_w": "0.44",
+     "layer_h": "0.2",
+     "gap_lines": "4.0",
+     "interface_gap": "0.1"
+    }
+   },
+   "print": [],
+   "placed": [
+    [
+     "a",
+     "half",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.2,
+      0.0
+     ]
+    ],
+    [
+     "b",
+     "mirrored",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      -0.2,
+      0.0
+     ]
+    ]
+   ]
+  },
+  {
+   "values": {
+    "split": "2",
+    "radius": "8"
+   },
+   "failed": [],
+   "parts": {
+    "half": {
+     "radius": "8.0",
+     "height": "3.0",
+     "line_w": "0.44",
+     "layer_h": "0.2",
+     "gap_lines": "4.0",
+     "interface_gap": "0.1"
+    },
+    "mirrored": {
+     "radius": "8.0",
+     "height": "3.0",
+     "line_w": "0.44",
+     "layer_h": "0.2",
+     "gap_lines": "4.0",
+     "interface_gap": "0.1"
+    }
+   },
+   "print": [],
+   "placed": [
+    [
+     "a",
+     "half",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      1.0,
+      0.0
+     ]
+    ],
+    [
+     "b",
+     "mirrored",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      -1.0,
+      0.0
+     ]
+    ]
+   ]
+  }
+ ],
+ "hinged_lid.prim": [
+  {
+   "values": {},
+   "failed": [],
+   "parts": {
+    "edges/S": {
+     "length": "30.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edges/M": {
+     "length": "60.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edges/L": {
+     "length": "90.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edges/F": {
+     "length": "59.2",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "lid_leaf": {
+     "length": "40.0",
+     "rings": "4.0"
+    },
+    "base_leaf": {
+     "length": "40.0",
+     "rings": "4.0"
+    }
+   },
+   "print": [
+    "edges/F",
+    "edges/L",
+    "edges/M",
+    "edges/S",
+    "lid_leaf"
+   ],
+   "placed": [
+    [
+     "base_run/edge_1S",
+     "edges/S",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.2,
+      -30.0,
+      0.0
+     ]
+    ],
+    [
+     "base_run/edge_2F",
+     "edges/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      30.4,
+      -30.0,
+      0.0
+     ]
+    ],
+    [
+     "base_run/edge_3S",
+     "edges/S",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      89.80000000000001,
+      -30.0,
+      0.0
+     ]
+    ],
+    [
+     "hinge_base",
+     "base_leaf",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      40.0,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "lid_run/edge_1S",
+     "edges/S",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.2,
+      30.0,
+      0.0
+     ]
+    ],
+    [
+     "lid_run/edge_2F",
+     "edges/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      30.4,
+      30.0,
+      0.0
+     ]
+    ],
+    [
+     "lid_run/edge_3S",
+     "edges/S",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      89.80000000000001,
+      30.0,
+      0.0
+     ]
+    ],
+    [
+     "hinge_lid",
+     "lid_leaf",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      40.0,
+      0.0,
+      0.0
+     ]
+    ]
+   ]
+  },
+  {
+   "values": {
+    "open_angle": "90"
+   },
+   "failed": [],
+   "parts": {
+    "edges/S": {
+     "length": "30.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edges/M": {
+     "length": "60.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edges/L": {
+     "length": "90.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edges/F": {
+     "length": "59.2",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "lid_leaf": {
+     "length": "40.0",
+     "rings": "4.0"
+    },
+    "base_leaf": {
+     "length": "40.0",
+     "rings": "4.0"
+    }
+   },
+   "print": [
+    "edges/F",
+    "edges/L",
+    "edges/M",
+    "edges/S",
+    "lid_leaf"
+   ],
+   "placed": [
+    [
+     "base_run/edge_1S",
+     "edges/S",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.2,
+      -30.0,
+      0.0
+     ]
+    ],
+    [
+     "base_run/edge_2F",
+     "edges/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      30.4,
+      -30.0,
+      0.0
+     ]
+    ],
+    [
+     "base_run/edge_3S",
+     "edges/S",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      89.80000000000001,
+      -30.0,
+      0.0
+     ]
+    ],
+    [
+     "hinge_base",
+     "base_leaf",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      40.0,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "lid_run/edge_1S",
+     "edges/S",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      0.2,
+      0.0,
+      30.0
+     ]
+    ],
+    [
+     "lid_run/edge_2F",
+     "edges/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      30.4,
+      0.0,
+      30.0
+     ]
+    ],
+    [
+     "lid_run/edge_3S",
+     "edges/S",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      89.80000000000001,
+      0.0,
+      30.0
+     ]
+    ],
+    [
+     "hinge_lid",
+     "lid_leaf",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      40.0,
+      0.0,
+      0.0
+     ]
+    ]
+   ]
+  },
+  {
+   "values": {
+    "key": "'SMF",
+    "run": "160",
+    "open_angle": "45"
+   },
+   "failed": [],
+   "parts": {
+    "edges/S": {
+     "length": "30.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edges/M": {
+     "length": "60.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edges/L": {
+     "length": "90.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edges/F": {
+     "length": "69.19999999999999",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "lid_leaf": {
+     "length": "40.0",
+     "rings": "4.0"
+    },
+    "base_leaf": {
+     "length": "40.0",
+     "rings": "4.0"
+    }
+   },
+   "print": [
+    "edges/F",
+    "edges/L",
+    "edges/M",
+    "edges/S",
+    "lid_leaf"
+   ],
+   "placed": [
+    [
+     "base_run/edge_1S",
+     "edges/S",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.2,
+      -30.0,
+      0.0
+     ]
+    ],
+    [
+     "base_run/edge_2M",
+     "edges/M",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      30.4,
+      -30.0,
+      0.0
+     ]
+    ],
+    [
+     "base_run/edge_3F",
+     "edges/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      90.6,
+      -30.0,
+      0.0
+     ]
+    ],
+    [
+     "hinge_base",
+     "base_leaf",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      60.0,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "lid_run/edge_1S",
+     "edges/S",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.7071067811865475,
+       0.7071067811865476,
+       0.0
+      ],
+      [
+       -0.7071067811865476,
+       0.7071067811865475,
+       0.0
+      ]
+     ],
+     [
+      0.2,
+      21.213203435596427,
+      21.213203435596423
+     ]
+    ],
+    [
+     "lid_run/edge_2M",
+     "edges/M",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.7071067811865475,
+       0.7071067811865476,
+       0.0
+      ],
+      [
+       -0.7071067811865476,
+       0.7071067811865475,
+       0.0
+      ]
+     ],
+     [
+      30.4,
+      21.213203435596427,
+      21.213203435596423
+     ]
+    ],
+    [
+     "lid_run/edge_3F",
+     "edges/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.7071067811865475,
+       0.7071067811865476,
+       0.0
+      ],
+      [
+       -0.7071067811865476,
+       0.7071067811865475,
+       0.0
+      ]
+     ],
+     [
+      90.6,
+      21.213203435596427,
+      21.213203435596423
+     ]
+    ],
+    [
+     "hinge_lid",
+     "lid_leaf",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.7071067811865476,
+       -0.7071067811865475,
+       0.0
+      ],
+      [
+       0.7071067811865475,
+       0.7071067811865476,
+       0.0
+      ]
+     ],
+     [
+      60.0,
+      0.0,
+      0.0
+     ]
+    ]
+   ]
+  },
+  {
+   "values": {
+    "hinge_length": "200"
+   },
+   "failed": [
+    "the hinge is longer than the runs"
+   ],
+   "parts": {},
+   "print": [],
+   "placed": []
+  }
+ ],
+ "hybrid_case.prim": [
+  {
+   "values": {},
+   "failed": [],
+   "parts": {
+    "corner": {
+     "size": "40.0",
+     "drill_rows": "2.0",
+     "drill_spacing": "12.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/F": {
+     "length": "292.6",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/F": {
+     "length": "202.6",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/F": {
+     "length": "81.3",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/F": {
+     "length": "41.3",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "rail_end": {
+     "size": "27.0",
+     "notch": "3.85",
+     "corner_size": "40.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screws": "1.0",
+     "base_depth": "2.0",
+     "drop_on": "15.0",
+     "taper": "10.0",
+     "drop_clear": "0.5",
+     "drop_chamfer": "1.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "rail_plain": {
+     "length": "38.7",
+     "size": "27.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "rail_notch": {
+     "length": "31.4",
+     "size": "27.0",
+     "relief": "3.85",
+     "holes_x": "0.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "sections/S": {
+     "length": "20.0",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "2.0",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "sections/M": {
+     "length": "35.0",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "2.0",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "sections/L": {
+     "length": "50.0",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "2.0",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "sections/F": {
+     "length": "292.6",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "2.0",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "hinges/S": {
+     "length": "20.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/S_lid": {
+     "length": "20.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/M": {
+     "length": "35.0",
+     "rings": "4.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/M_lid": {
+     "length": "35.0",
+     "rings": "4.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/L": {
+     "length": "50.0",
+     "rings": "5.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/L_lid": {
+     "length": "50.0",
+     "rings": "5.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/F": {
+     "length": "292.2",
+     "rings": "29.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/F_lid": {
+     "length": "292.2",
+     "rings": "29.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/T": {
+     "length": "13.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/T_lid": {
+     "length": "13.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "latch_base": {},
+    "latch_knob": {},
+    "latch_cap": {},
+    "latch_lid": {},
+    "panel_floor": {
+     "length": "344.0",
+     "width": "254.0",
+     "thickness": "6.5"
+    },
+    "panel_side_lower": {
+     "length": "107.0",
+     "width": "254.0",
+     "thickness": "6.5"
+    },
+    "panel_side_upper": {
+     "length": "67.0",
+     "width": "254.0",
+     "thickness": "6.5"
+    },
+    "panel_front_lower": {
+     "length": "344.0",
+     "width": "107.0",
+     "thickness": "6.5"
+    },
+    "panel_front_upper": {
+     "length": "344.0",
+     "width": "67.0",
+     "thickness": "6.5"
+    }
+   },
+   "print": [
+    "corner",
+    "edge_x/F",
+    "edge_x/L",
+    "edge_x/M",
+    "edge_x/S",
+    "edge_y/F",
+    "edge_y/L",
+    "edge_y/M",
+    "edge_y/S",
+    "edge_z_lower/F",
+    "edge_z_lower/L",
+    "edge_z_lower/M",
+    "edge_z_lower/S",
+    "edge_z_upper/F",
+    "edge_z_upper/L",
+    "edge_z_upper/M",
+    "edge_z_upper/S",
+    "latch_base",
+    "latch_cap",
+    "latch_knob",
+    "latch_lid",
+    "rail_end",
+    "rail_notch",
+    "rail_plain",
+    "sections/F",
+    "sections/L",
+    "sections/M",
+    "sections/S"
+   ],
+   "placed": [
+    [
+     "Corner_Left_Front_Bottom",
+     "corner",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "Corner_Right_Front_Bottom",
+     "corner",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "Corner_Left_Rear_Bottom",
+     "corner",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      260.0,
+      0.0
+     ]
+    ],
+    [
+     "Corner_Right_Rear_Bottom",
+     "corner",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      260.0,
+      0.0
+     ]
+    ],
+    [
+     "Panel_Bottom",
+     "panel_floor",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      3.0,
+      3.0,
+      -6.5
+     ]
+    ],
+    [
+     "Panel_Left_Lower",
+     "panel_side_lower",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      3.0,
+      3.0
+     ]
+    ],
+    [
+     "Panel_Right_Lower",
+     "panel_side_lower",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      356.5,
+      3.0,
+      3.0
+     ]
+    ],
+    [
+     "Panel_Front_Lower",
+     "panel_front_lower",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      3.0,
+      0.0,
+      3.0
+     ]
+    ],
+    [
+     "Panel_Rear_Lower",
+     "panel_front_lower",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      3.0,
+      266.5,
+      3.0
+     ]
+    ],
+    [
+     "Edge_X_Bottom_Front/edge_1F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "Edge_X_Bottom_Rear/edge_1F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      260.0,
+      0.0
+     ]
+    ],
+    [
+     "Edge_Z_Front_Left_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      28.7
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Left_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      260.0,
+      28.7
+     ]
+    ],
+    [
+     "Edge_Z_Front_Right_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      0.0,
+      28.7
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Right_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      260.0,
+      28.7
+     ]
+    ],
+    [
+     "Rail/rail_1F",
+     "sections/F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      28.7,
+      130.0,
+      -8.5
+     ]
+    ],
+    [
+     "Rail_Left_PlainFront",
+     "rail_plain",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      28.7,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Left_End",
+     "rail_end",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      130.0,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Left_PlainRear",
+     "rail_plain",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      192.6,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Left_NotchFront",
+     "rail_notch",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      67.6,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Left_NotchRear",
+     "rail_notch",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      161.0,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Right_PlainRear",
+     "rail_plain",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      350.0,
+      231.3,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Right_End",
+     "rail_end",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      130.0,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Right_PlainFront",
+     "rail_plain",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      350.0,
+      67.4,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Right_NotchRear",
+     "rail_notch",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      350.0,
+      192.4,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Right_NotchFront",
+     "rail_notch",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      350.0,
+      99.0,
+      0.0
+     ]
+    ],
+    [
+     "Hinge/hinge_1T",
+     "hinges/T",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      15.7,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/hinge_2F",
+     "hinges/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      28.9,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/hinge_3T",
+     "hinges/T",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      321.29999999999995,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/lidhinge_1T",
+     "hinges/T_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      15.7,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/lidhinge_2F",
+     "hinges/F_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      28.9,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/lidhinge_3T",
+     "hinges/T_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      321.29999999999995,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Latch_Left_base",
+     "latch_base",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      116.66666666666666,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Left_knob",
+     "latch_knob",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      116.66666666666666,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Left_cap",
+     "latch_cap",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      116.66666666666666,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_base",
+     "latch_base",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      233.33333333333334,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_knob",
+     "latch_knob",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      233.33333333333334,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_cap",
+     "latch_cap",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      233.33333333333334,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Corner_Left_Front_Top",
+     "corner",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      180.0
+     ]
+    ],
+    [
+     "Corner_Right_Front_Top",
+     "corner",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ]
+     ],
+     [
+      350.0,
+      0.0,
+      180.0
+     ]
+    ],
+    [
+     "Corner_Left_Rear_Top",
+     "corner",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ]
+     ],
+     [
+      0.0,
+      260.0,
+      180.0
+     ]
+    ],
+    [
+     "Corner_Right_Rear_Top",
+     "corner",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ]
+     ],
+     [
+      350.0,
+      260.0,
+      180.0
+     ]
+    ],
+    [
+     "Panel_Top",
+     "panel_floor",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      3.0,
+      3.0,
+      180.0
+     ]
+    ],
+    [
+     "Panel_Left_Upper",
+     "panel_side_upper",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      3.0,
+      110.0
+     ]
+    ],
+    [
+     "Panel_Right_Upper",
+     "panel_side_upper",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      356.5,
+      3.0,
+      110.0
+     ]
+    ],
+    [
+     "Panel_Front_Upper",
+     "panel_front_upper",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      3.0,
+      0.0,
+      110.0
+     ]
+    ],
+    [
+     "Panel_Rear_Upper",
+     "panel_front_upper",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      3.0,
+      266.5,
+      110.0
+     ]
+    ],
+    [
+     "Edge_X_Top_Front/edge_1F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      0.0,
+      180.0
+     ]
+    ],
+    [
+     "Edge_X_Top_Rear/edge_1F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      260.0,
+      180.0
+     ]
+    ],
+    [
+     "Edge_Y_Left_Top/edge_1F",
+     "edge_y/F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      28.7,
+      180.0
+     ]
+    ],
+    [
+     "Edge_Y_Right_Top/edge_1F",
+     "edge_y/F",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      350.0,
+      28.7,
+      180.0
+     ]
+    ],
+    [
+     "Edge_Z_Front_Left_Upper/edge_1F",
+     "edge_z_upper/F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      110.0
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Left_Upper/edge_1F",
+     "edge_z_upper/F",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      260.0,
+      110.0
+     ]
+    ],
+    [
+     "Edge_Z_Front_Right_Upper/edge_1F",
+     "edge_z_upper/F",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      0.0,
+      110.0
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Right_Upper/edge_1F",
+     "edge_z_upper/F",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      260.0,
+      110.0
+     ]
+    ],
+    [
+     "Latch_Left_lid",
+     "latch_lid",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      116.66666666666666,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_lid",
+     "latch_lid",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      233.33333333333334,
+      -6.5,
+      102.4
+     ]
+    ]
+   ]
+  },
+  {
+   "values": {
+    "open_angle": "60",
+    "key_x": "'SFMF",
+    "key_z_upper": "'SF",
+    "key_hinge": "'TSFMT",
+    "length": "400"
+   },
+   "failed": [],
+   "parts": {
+    "corner": {
+     "size": "40.0",
+     "drill_rows": "2.0",
+     "drill_spacing": "12.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/F": {
+     "length": "143.5",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/F": {
+     "length": "202.6",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/F": {
+     "length": "81.3",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/F": {
+     "length": "21.1",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "rail_end": {
+     "size": "27.0",
+     "notch": "3.85",
+     "corner_size": "40.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screws": "1.0",
+     "base_depth": "2.0",
+     "drop_on": "15.0",
+     "taper": "10.0",
+     "drop_clear": "0.5",
+     "drop_chamfer": "1.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "rail_plain": {
+     "length": "38.7",
+     "size": "27.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "rail_notch": {
+     "length": "31.4",
+     "size": "27.0",
+     "relief": "3.85",
+     "holes_x": "0.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "sections/S": {
+     "length": "20.0",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "2.0",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "sections/M": {
+     "length": "35.0",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "2.0",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "sections/L": {
+     "length": "50.0",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "2.0",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "sections/F": {
+     "length": "342.6",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "2.0",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "hinges/S": {
+     "length": "20.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/S_lid": {
+     "length": "20.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/M": {
+     "length": "35.0",
+     "rings": "4.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/M_lid": {
+     "length": "35.0",
+     "rings": "4.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/L": {
+     "length": "50.0",
+     "rings": "5.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/L_lid": {
+     "length": "50.0",
+     "rings": "5.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/F": {
+     "length": "286.8",
+     "rings": "29.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/F_lid": {
+     "length": "286.8",
+     "rings": "29.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/T": {
+     "length": "13.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/T_lid": {
+     "length": "13.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "latch_base": {},
+    "latch_knob": {},
+    "latch_cap": {},
+    "latch_lid": {},
+    "panel_floor": {
+     "length": "394.0",
+     "width": "254.0",
+     "thickness": "6.5"
+    },
+    "panel_side_lower": {
+     "length": "107.0",
+     "width": "254.0",
+     "thickness": "6.5"
+    },
+    "panel_side_upper": {
+     "length": "67.0",
+     "width": "254.0",
+     "thickness": "6.5"
+    },
+    "panel_front_lower": {
+     "length": "394.0",
+     "width": "107.0",
+     "thickness": "6.5"
+    },
+    "panel_front_upper": {
+     "length": "394.0",
+     "width": "67.0",
+     "thickness": "6.5"
+    }
+   },
+   "print": [
+    "corner",
+    "edge_x/F",
+    "edge_x/L",
+    "edge_x/M",
+    "edge_x/S",
+    "edge_y/F",
+    "edge_y/L",
+    "edge_y/M",
+    "edge_y/S",
+    "edge_z_lower/F",
+    "edge_z_lower/L",
+    "edge_z_lower/M",
+    "edge_z_lower/S",
+    "edge_z_upper/F",
+    "edge_z_upper/L",
+    "edge_z_upper/M",
+    "edge_z_upper/S",
+    "latch_base",
+    "latch_cap",
+    "latch_knob",
+    "latch_lid",
+    "rail_end",
+    "rail_notch",
+    "rail_plain",
+    "sections/F",
+    "sections/L",
+    "sections/M",
+    "sections/S"
+   ],
+   "placed": [
+    [
+     "Corner_Left_Front_Bottom",
+     "corner",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "Corner_Right_Front_Bottom",
+     "corner",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      400.0,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "Corner_Left_Rear_Bottom",
+     "corner",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      260.0,
+      0.0
+     ]
+    ],
+    [
+     "Corner_Right_Rear_Bottom",
+     "corner",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      400.0,
+      260.0,
+      0.0
+     ]
+    ],
+    [
+     "Panel_Bottom",
+     "panel_floor",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      3.0,
+      3.0,
+      -6.5
+     ]
+    ],
+    [
+     "Panel_Left_Lower",
+     "panel_side_lower",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      3.0,
+      3.0
+     ]
+    ],
+    [
+     "Panel_Right_Lower",
+     "panel_side_lower",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      406.5,
+      3.0,
+      3.0
+     ]
+    ],
+    [
+     "Panel_Front_Lower",
+     "panel_front_lower",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      3.0,
+      0.0,
+      3.0
+     ]
+    ],
+    [
+     "Panel_Rear_Lower",
+     "panel_front_lower",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      3.0,
+      266.5,
+      3.0
+     ]
+    ],
+    [
+     "Edge_X_Bottom_Front/edge_1S",
+     "edge_x/S",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "Edge_X_Bottom_Front/edge_2F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      48.9,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "Edge_X_Bottom_Front/edge_3M",
+     "edge_x/M",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      192.6,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "Edge_X_Bottom_Front/edge_4F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      227.8,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "Edge_X_Bottom_Rear/edge_1S",
+     "edge_x/S",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      260.0,
+      0.0
+     ]
+    ],
+    [
+     "Edge_X_Bottom_Rear/edge_2F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      48.9,
+      260.0,
+      0.0
+     ]
+    ],
+    [
+     "Edge_X_Bottom_Rear/edge_3M",
+     "edge_x/M",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      192.6,
+      260.0,
+      0.0
+     ]
+    ],
+    [
+     "Edge_X_Bottom_Rear/edge_4F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      227.8,
+      260.0,
+      0.0
+     ]
+    ],
+    [
+     "Edge_Z_Front_Left_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      28.7
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Left_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      260.0,
+      28.7
+     ]
+    ],
+    [
+     "Edge_Z_Front_Right_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      400.0,
+      0.0,
+      28.7
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Right_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      400.0,
+      260.0,
+      28.7
+     ]
+    ],
+    [
+     "Rail/rail_1F",
+     "sections/F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      28.7,
+      130.0,
+      -8.5
+     ]
+    ],
+    [
+     "Rail_Left_PlainFront",
+     "rail_plain",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      28.7,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Left_End",
+     "rail_end",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      130.0,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Left_PlainRear",
+     "rail_plain",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      192.6,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Left_NotchFront",
+     "rail_notch",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      67.6,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Left_NotchRear",
+     "rail_notch",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      161.0,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Right_PlainRear",
+     "rail_plain",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      400.0,
+      231.3,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Right_End",
+     "rail_end",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      400.0,
+      130.0,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Right_PlainFront",
+     "rail_plain",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      400.0,
+      67.4,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Right_NotchRear",
+     "rail_notch",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      400.0,
+      192.4,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Right_NotchFront",
+     "rail_notch",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      400.0,
+      99.0,
+      0.0
+     ]
+    ],
+    [
+     "Hinge/hinge_1T",
+     "hinges/T",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      15.7,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/hinge_2S",
+     "hinges/S",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      28.9,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/hinge_3F",
+     "hinges/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      49.099999999999994,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/hinge_4M",
+     "hinges/M",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      336.1,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/hinge_5T",
+     "hinges/T",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      371.3,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/lidhinge_1T",
+     "hinges/T_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.8660254037844386,
+       -0.5000000000000001,
+       0.0
+      ],
+      [
+       0.5000000000000001,
+       0.8660254037844386,
+       0.0
+      ]
+     ],
+     [
+      15.7,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/lidhinge_2S",
+     "hinges/S_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.8660254037844386,
+       -0.5000000000000001,
+       0.0
+      ],
+      [
+       0.5000000000000001,
+       0.8660254037844386,
+       0.0
+      ]
+     ],
+     [
+      28.9,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/lidhinge_3F",
+     "hinges/F_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.8660254037844386,
+       -0.5000000000000001,
+       0.0
+      ],
+      [
+       0.5000000000000001,
+       0.8660254037844386,
+       0.0
+      ]
+     ],
+     [
+      49.099999999999994,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/lidhinge_4M",
+     "hinges/M_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.8660254037844386,
+       -0.5000000000000001,
+       0.0
+      ],
+      [
+       0.5000000000000001,
+       0.8660254037844386,
+       0.0
+      ]
+     ],
+     [
+      336.1,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/lidhinge_5T",
+     "hinges/T_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.8660254037844386,
+       -0.5000000000000001,
+       0.0
+      ],
+      [
+       0.5000000000000001,
+       0.8660254037844386,
+       0.0
+      ]
+     ],
+     [
+      371.3,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Latch_Left_base",
+     "latch_base",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      133.33333333333331,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Left_knob",
+     "latch_knob",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      133.33333333333331,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Left_cap",
+     "latch_cap",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      133.33333333333331,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_base",
+     "latch_base",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      266.6666666666667,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_knob",
+     "latch_knob",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      266.6666666666667,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_cap",
+     "latch_cap",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      266.6666666666667,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Corner_Left_Front_Top",
+     "corner",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.5000000000000001,
+       0.0,
+       -0.8660254037844386
+      ],
+      [
+       -0.8660254037844386,
+       0.0,
+       -0.5000000000000001
+      ]
+     ],
+     [
+      0.0,
+      197.6217782649107,
+      382.2909606369362
+     ]
+    ],
+    [
+     "Corner_Right_Front_Top",
+     "corner",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.5000000000000001,
+       -0.8660254037844386
+      ],
+      [
+       0.0,
+       -0.8660254037844386,
+       -0.5000000000000001
+      ]
+     ],
+     [
+      400.0,
+      197.6217782649107,
+      382.2909606369362
+     ]
+    ],
+    [
+     "Corner_Left_Rear_Top",
+     "corner",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -0.5000000000000001,
+       -0.8660254037844386
+      ],
+      [
+       0.0,
+       0.8660254037844386,
+       -0.5000000000000001
+      ]
+     ],
+     [
+      0.0,
+      327.6217782649107,
+      157.12435565298216
+     ]
+    ],
+    [
+     "Corner_Right_Rear_Top",
+     "corner",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       -0.5000000000000001,
+       0.0,
+       -0.8660254037844386
+      ],
+      [
+       0.8660254037844386,
+       0.0,
+       -0.5000000000000001
+      ]
+     ],
+     [
+      400.0,
+      327.6217782649107,
+      157.12435565298216
+     ]
+    ],
+    [
+     "Panel_Top",
+     "panel_floor",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.5000000000000001,
+       0.8660254037844386
+      ],
+      [
+       0.0,
+       -0.8660254037844386,
+       0.5000000000000001
+      ]
+     ],
+     [
+      3.0,
+      199.1217782649107,
+      379.69288442558286
+     ]
+    ],
+    [
+     "Panel_Left_Upper",
+     "panel_side_upper",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.8660254037844386,
+       0.5000000000000001,
+       0.0
+      ],
+      [
+       0.5000000000000001,
+       -0.8660254037844386,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      138.49999999999997,
+      344.69288442558286
+     ]
+    ],
+    [
+     "Panel_Right_Upper",
+     "panel_side_upper",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.8660254037844386,
+       0.5000000000000001,
+       0.0
+      ],
+      [
+       0.5000000000000001,
+       -0.8660254037844386,
+       0.0
+      ]
+     ],
+     [
+      406.5,
+      138.49999999999997,
+      344.69288442558286
+     ]
+    ],
+    [
+     "Panel_Front_Upper",
+     "panel_front_upper",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.8660254037844386,
+       -0.5000000000000001
+      ],
+      [
+       0.0,
+       0.5000000000000001,
+       0.8660254037844386
+      ]
+     ],
+     [
+      3.0,
+      136.99999999999997,
+      347.2909606369362
+     ]
+    ],
+    [
+     "Panel_Rear_Upper",
+     "panel_front_upper",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.8660254037844386,
+       -0.5000000000000001
+      ],
+      [
+       0.0,
+       0.5000000000000001,
+       0.8660254037844386
+      ]
+     ],
+     [
+      3.0,
+      270.25,
+      116.49519052838332
+     ]
+    ],
+    [
+     "Edge_X_Top_Front/edge_1S",
+     "edge_x/S",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.8660254037844386,
+       0.5000000000000001,
+       0.0
+      ],
+      [
+       -0.5000000000000001,
+       -0.8660254037844386,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      197.6217782649107,
+      382.2909606369362
+     ]
+    ],
+    [
+     "Edge_X_Top_Front/edge_2F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.8660254037844386,
+       0.5000000000000001,
+       0.0
+      ],
+      [
+       -0.5000000000000001,
+       -0.8660254037844386,
+       0.0
+      ]
+     ],
+     [
+      48.9,
+      197.6217782649107,
+      382.2909606369362
+     ]
+    ],
+    [
+     "Edge_X_Top_Front/edge_3M",
+     "edge_x/M",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.8660254037844386,
+       0.5000000000000001,
+       0.0
+      ],
+      [
+       -0.5000000000000001,
+       -0.8660254037844386,
+       0.0
+      ]
+     ],
+     [
+      192.6,
+      197.6217782649107,
+      382.2909606369362
+     ]
+    ],
+    [
+     "Edge_X_Top_Front/edge_4F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.8660254037844386,
+       0.5000000000000001,
+       0.0
+      ],
+      [
+       -0.5000000000000001,
+       -0.8660254037844386,
+       0.0
+      ]
+     ],
+     [
+      227.8,
+      197.6217782649107,
+      382.2909606369362
+     ]
+    ],
+    [
+     "Edge_X_Top_Rear/edge_1S",
+     "edge_x/S",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.5000000000000001,
+       -0.8660254037844386,
+       0.0
+      ],
+      [
+       0.8660254037844386,
+       -0.5000000000000001,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      327.6217782649107,
+      157.12435565298216
+     ]
+    ],
+    [
+     "Edge_X_Top_Rear/edge_2F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.5000000000000001,
+       -0.8660254037844386,
+       0.0
+      ],
+      [
+       0.8660254037844386,
+       -0.5000000000000001,
+       0.0
+      ]
+     ],
+     [
+      48.9,
+      327.6217782649107,
+      157.12435565298216
+     ]
+    ],
+    [
+     "Edge_X_Top_Rear/edge_3M",
+     "edge_x/M",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.5000000000000001,
+       -0.8660254037844386,
+       0.0
+      ],
+      [
+       0.8660254037844386,
+       -0.5000000000000001,
+       0.0
+      ]
+     ],
+     [
+      192.6,
+      327.6217782649107,
+      157.12435565298216
+     ]
+    ],
+    [
+     "Edge_X_Top_Rear/edge_4F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.5000000000000001,
+       -0.8660254037844386,
+       0.0
+      ],
+      [
+       0.8660254037844386,
+       -0.5000000000000001,
+       0.0
+      ]
+     ],
+     [
+      227.8,
+      327.6217782649107,
+      157.12435565298216
+     ]
+    ],
+    [
+     "Edge_Y_Left_Top/edge_1F",
+     "edge_y/F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -0.8660254037844386,
+       0.5000000000000001
+      ],
+      [
+       0.0,
+       -0.5000000000000001,
+       -0.8660254037844386
+      ]
+     ],
+     [
+      0.0,
+      211.97177826491068,
+      357.43603154832283
+     ]
+    ],
+    [
+     "Edge_Y_Right_Top/edge_1F",
+     "edge_y/F",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       -0.8660254037844386,
+       0.0,
+       0.5000000000000001
+      ],
+      [
+       -0.5000000000000001,
+       0.0,
+       -0.8660254037844386
+      ]
+     ],
+     [
+      400.0,
+      211.97177826491068,
+      357.43603154832283
+     ]
+    ],
+    [
+     "Edge_Z_Front_Left_Upper/edge_1S",
+     "edge_z_upper/S",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.5000000000000001,
+       0.8660254037844386
+      ],
+      [
+       0.0,
+       -0.8660254037844386,
+       0.5000000000000001
+      ]
+     ],
+     [
+      0.0,
+      136.99999999999997,
+      347.2909606369362
+     ]
+    ],
+    [
+     "Edge_Z_Front_Left_Upper/edge_2F",
+     "edge_z_upper/F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.5000000000000001,
+       0.8660254037844386
+      ],
+      [
+       0.0,
+       -0.8660254037844386,
+       0.5000000000000001
+      ]
+     ],
+     [
+      0.0,
+      154.49371315644564,
+      357.3909606369362
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Left_Upper/edge_1S",
+     "edge_z_upper/S",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -0.5000000000000001,
+       0.0,
+       0.8660254037844386
+      ],
+      [
+       0.8660254037844386,
+       0.0,
+       0.5000000000000001
+      ]
+     ],
+     [
+      0.0,
+      267.0,
+      122.12435565298216
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Left_Upper/edge_2F",
+     "edge_z_upper/F",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -0.5000000000000001,
+       0.0,
+       0.8660254037844386
+      ],
+      [
+       0.8660254037844386,
+       0.0,
+       0.5000000000000001
+      ]
+     ],
+     [
+      0.0,
+      284.49371315644566,
+      132.22435565298215
+     ]
+    ],
+    [
+     "Edge_Z_Front_Right_Upper/edge_1S",
+     "edge_z_upper/S",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.5000000000000001,
+       0.0,
+       0.8660254037844386
+      ],
+      [
+       -0.8660254037844386,
+       0.0,
+       0.5000000000000001
+      ]
+     ],
+     [
+      400.0,
+      136.99999999999997,
+      347.2909606369362
+     ]
+    ],
+    [
+     "Edge_Z_Front_Right_Upper/edge_2F",
+     "edge_z_upper/F",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.5000000000000001,
+       0.0,
+       0.8660254037844386
+      ],
+      [
+       -0.8660254037844386,
+       0.0,
+       0.5000000000000001
+      ]
+     ],
+     [
+      400.0,
+      154.49371315644564,
+      357.3909606369362
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Right_Upper/edge_1S",
+     "edge_z_upper/S",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -0.5000000000000001,
+       0.8660254037844386
+      ],
+      [
+       0.0,
+       0.8660254037844386,
+       0.5000000000000001
+      ]
+     ],
+     [
+      400.0,
+      267.0,
+      122.12435565298216
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Right_Upper/edge_2F",
+     "edge_z_upper/F",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -0.5000000000000001,
+       0.8660254037844386
+      ],
+      [
+       0.0,
+       0.8660254037844386,
+       0.5000000000000001
+      ]
+     ],
+     [
+      400.0,
+      284.49371315644566,
+      132.22435565298215
+     ]
+    ],
+    [
+     "Latch_Left_lid",
+     "latch_lid",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.8660254037844386,
+       -0.5000000000000001
+      ],
+      [
+       0.0,
+       0.5000000000000001,
+       0.8660254037844386
+      ]
+     ],
+     [
+      133.33333333333331,
+      127.16820693123825,
+      349.12012576153506
+     ]
+    ],
+    [
+     "Latch_Right_lid",
+     "latch_lid",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.8660254037844386,
+       -0.5000000000000001
+      ],
+      [
+       0.0,
+       0.5000000000000001,
+       0.8660254037844386
+      ]
+     ],
+     [
+      266.6666666666667,
+      127.16820693123825,
+      349.12012576153506
+     ]
+    ]
+   ]
+  },
+  {
+   "values": {
+    "split_height": "20"
+   },
+   "failed": [
+    "the split is inside the bottom corners: raise split_height",
+    "the base is too short for the hinge leaves: raise split_height or lower hinge_side",
+    "the base is too short for the T hinge"
+   ],
+   "parts": {},
+   "print": [],
+   "placed": []
+  },
+  {
+   "values": {
+    "rail_on": "0"
+   },
+   "failed": [],
+   "parts": {
+    "corner": {
+     "size": "40.0",
+     "drill_rows": "2.0",
+     "drill_spacing": "12.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/F": {
+     "length": "292.6",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/F": {
+     "length": "202.6",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/F": {
+     "length": "81.3",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/F": {
+     "length": "41.3",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "rail_end": {
+     "size": "27.0",
+     "notch": "3.85",
+     "corner_size": "40.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screws": "1.0",
+     "base_depth": "2.0",
+     "drop_on": "15.0",
+     "taper": "10.0",
+     "drop_clear": "0.5",
+     "drop_chamfer": "1.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "rail_plain": {
+     "length": "38.7",
+     "size": "27.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "rail_notch": {
+     "length": "31.4",
+     "size": "27.0",
+     "relief": "3.85",
+     "holes_x": "0.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "sections/S": {
+     "length": "20.0",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "2.0",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "sections/M": {
+     "length": "35.0",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "2.0",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "sections/L": {
+     "length": "50.0",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "2.0",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "sections/F": {
+     "length": "292.6",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "2.0",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "hinges/S": {
+     "length": "20.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/S_lid": {
+     "length": "20.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/M": {
+     "length": "35.0",
+     "rings": "4.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/M_lid": {
+     "length": "35.0",
+     "rings": "4.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/L": {
+     "length": "50.0",
+     "rings": "5.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/L_lid": {
+     "length": "50.0",
+     "rings": "5.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/F": {
+     "length": "292.2",
+     "rings": "29.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/F_lid": {
+     "length": "292.2",
+     "rings": "29.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/T": {
+     "length": "13.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/T_lid": {
+     "length": "13.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "latch_base": {},
+    "latch_knob": {},
+    "latch_cap": {},
+    "latch_lid": {},
+    "panel_floor": {
+     "length": "344.0",
+     "width": "254.0",
+     "thickness": "6.5"
+    },
+    "panel_side_lower": {
+     "length": "107.0",
+     "width": "254.0",
+     "thickness": "6.5"
+    },
+    "panel_side_upper": {
+     "length": "67.0",
+     "width": "254.0",
+     "thickness": "6.5"
+    },
+    "panel_front_lower": {
+     "length": "344.0",
+     "width": "107.0",
+     "thickness": "6.5"
+    },
+    "panel_front_upper": {
+     "length": "344.0",
+     "width": "67.0",
+     "thickness": "6.5"
+    }
+   },
+   "print": [
+    "corner",
+    "edge_x/F",
+    "edge_x/L",
+    "edge_x/M",
+    "edge_x/S",
+    "edge_y/F",
+    "edge_y/L",
+    "edge_y/M",
+    "edge_y/S",
+    "edge_z_lower/F",
+    "edge_z_lower/L",
+    "edge_z_lower/M",
+    "edge_z_lower/S",
+    "edge_z_upper/F",
+    "edge_z_upper/L",
+    "edge_z_upper/M",
+    "edge_z_upper/S",
+    "latch_base",
+    "latch_cap",
+    "latch_knob",
+    "latch_lid",
+    "rail_end",
+    "rail_notch",
+    "rail_plain",
+    "sections/F",
+    "sections/L",
+    "sections/M",
+    "sections/S"
+   ],
+   "placed": [
+    [
+     "Corner_Left_Front_Bottom",
+     "corner",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "Corner_Right_Front_Bottom",
+     "corner",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "Corner_Left_Rear_Bottom",
+     "corner",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      260.0,
+      0.0
+     ]
+    ],
+    [
+     "Corner_Right_Rear_Bottom",
+     "corner",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      260.0,
+      0.0
+     ]
+    ],
+    [
+     "Panel_Bottom",
+     "panel_floor",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      3.0,
+      3.0,
+      -6.5
+     ]
+    ],
+    [
+     "Panel_Left_Lower",
+     "panel_side_lower",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      3.0,
+      3.0
+     ]
+    ],
+    [
+     "Panel_Right_Lower",
+     "panel_side_lower",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      356.5,
+      3.0,
+      3.0
+     ]
+    ],
+    [
+     "Panel_Front_Lower",
+     "panel_front_lower",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      3.0,
+      0.0,
+      3.0
+     ]
+    ],
+    [
+     "Panel_Rear_Lower",
+     "panel_front_lower",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      3.0,
+      266.5,
+      3.0
+     ]
+    ],
+    [
+     "Edge_X_Bottom_Front/edge_1F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "Edge_X_Bottom_Rear/edge_1F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      260.0,
+      0.0
+     ]
+    ],
+    [
+     "Edge_Z_Front_Left_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      28.7
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Left_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      260.0,
+      28.7
+     ]
+    ],
+    [
+     "Edge_Z_Front_Right_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      0.0,
+      28.7
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Right_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      260.0,
+      28.7
+     ]
+    ],
+    [
+     "Edge_Y_Left_Bottom/edge_1F",
+     "edge_y/F",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      28.7,
+      0.0
+     ]
+    ],
+    [
+     "Edge_Y_Right_Bottom/edge_1F",
+     "edge_y/F",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      350.0,
+      28.7,
+      0.0
+     ]
+    ],
+    [
+     "Hinge/hinge_1T",
+     "hinges/T",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      15.7,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/hinge_2F",
+     "hinges/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      28.9,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/hinge_3T",
+     "hinges/T",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      321.29999999999995,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/lidhinge_1T",
+     "hinges/T_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      15.7,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/lidhinge_2F",
+     "hinges/F_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      28.9,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/lidhinge_3T",
+     "hinges/T_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      321.29999999999995,
+      274.0,
+      110.0
+     ]
+    ],
+    [
+     "Latch_Left_base",
+     "latch_base",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      116.66666666666666,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Left_knob",
+     "latch_knob",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      116.66666666666666,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Left_cap",
+     "latch_cap",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      116.66666666666666,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_base",
+     "latch_base",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      233.33333333333334,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_knob",
+     "latch_knob",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      233.33333333333334,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_cap",
+     "latch_cap",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      233.33333333333334,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Corner_Left_Front_Top",
+     "corner",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      180.0
+     ]
+    ],
+    [
+     "Corner_Right_Front_Top",
+     "corner",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ]
+     ],
+     [
+      350.0,
+      0.0,
+      180.0
+     ]
+    ],
+    [
+     "Corner_Left_Rear_Top",
+     "corner",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ]
+     ],
+     [
+      0.0,
+      260.0,
+      180.0
+     ]
+    ],
+    [
+     "Corner_Right_Rear_Top",
+     "corner",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ]
+     ],
+     [
+      350.0,
+      260.0,
+      180.0
+     ]
+    ],
+    [
+     "Panel_Top",
+     "panel_floor",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      3.0,
+      3.0,
+      180.0
+     ]
+    ],
+    [
+     "Panel_Left_Upper",
+     "panel_side_upper",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      3.0,
+      110.0
+     ]
+    ],
+    [
+     "Panel_Right_Upper",
+     "panel_side_upper",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      356.5,
+      3.0,
+      110.0
+     ]
+    ],
+    [
+     "Panel_Front_Upper",
+     "panel_front_upper",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      3.0,
+      0.0,
+      110.0
+     ]
+    ],
+    [
+     "Panel_Rear_Upper",
+     "panel_front_upper",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      3.0,
+      266.5,
+      110.0
+     ]
+    ],
+    [
+     "Edge_X_Top_Front/edge_1F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      0.0,
+      180.0
+     ]
+    ],
+    [
+     "Edge_X_Top_Rear/edge_1F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      260.0,
+      180.0
+     ]
+    ],
+    [
+     "Edge_Y_Left_Top/edge_1F",
+     "edge_y/F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      28.7,
+      180.0
+     ]
+    ],
+    [
+     "Edge_Y_Right_Top/edge_1F",
+     "edge_y/F",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      350.0,
+      28.7,
+      180.0
+     ]
+    ],
+    [
+     "Edge_Z_Front_Left_Upper/edge_1F",
+     "edge_z_upper/F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      110.0
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Left_Upper/edge_1F",
+     "edge_z_upper/F",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      260.0,
+      110.0
+     ]
+    ],
+    [
+     "Edge_Z_Front_Right_Upper/edge_1F",
+     "edge_z_upper/F",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      0.0,
+      110.0
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Right_Upper/edge_1F",
+     "edge_z_upper/F",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      260.0,
+      110.0
+     ]
+    ],
+    [
+     "Latch_Left_lid",
+     "latch_lid",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      116.66666666666666,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_lid",
+     "latch_lid",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      233.33333333333334,
+      -6.5,
+      102.4
+     ]
+    ]
+   ]
+  },
+  {
+   "values": {
+    "width": "180"
+   },
+   "failed": [],
+   "parts": {
+    "corner": {
+     "size": "40.0",
+     "drill_rows": "2.0",
+     "drill_spacing": "12.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/F": {
+     "length": "292.6",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/F": {
+     "length": "122.6",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/F": {
+     "length": "81.3",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/F": {
+     "length": "41.3",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "rail_end": {
+     "size": "27.0",
+     "notch": "0.0",
+     "corner_size": "40.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screws": "1.0",
+     "base_depth": "5.85",
+     "drop_on": "15.0",
+     "taper": "10.0",
+     "drop_clear": "0.5",
+     "drop_chamfer": "1.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "rail_plain": {
+     "length": "30.299999999999994",
+     "size": "27.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "rail_notch": {
+     "length": "10.0",
+     "size": "27.0",
+     "relief": "0.0",
+     "holes_x": "0.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "sections/S": {
+     "length": "20.0",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "5.85",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "sections/M": {
+     "length": "35.0",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "5.85",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "sections/L": {
+     "length": "50.0",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "5.85",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "sections/F": {
+     "length": "284.98679656440356",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "5.85",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "hinges/S": {
+     "length": "20.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/S_lid": {
+     "length": "20.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/M": {
+     "length": "35.0",
+     "rings": "4.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/M_lid": {
+     "length": "35.0",
+     "rings": "4.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/L": {
+     "length": "50.0",
+     "rings": "5.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/L_lid": {
+     "length": "50.0",
+     "rings": "5.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/F": {
+     "length": "292.2",
+     "rings": "29.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/F_lid": {
+     "length": "292.2",
+     "rings": "29.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/T": {
+     "length": "13.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/T_lid": {
+     "length": "13.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "latch_base": {},
+    "latch_knob": {},
+    "latch_cap": {},
+    "latch_lid": {},
+    "panel_floor": {
+     "length": "344.0",
+     "width": "174.0",
+     "thickness": "6.5"
+    },
+    "panel_side_lower": {
+     "length": "107.0",
+     "width": "174.0",
+     "thickness": "6.5"
+    },
+    "panel_side_upper": {
+     "length": "67.0",
+     "width": "174.0",
+     "thickness": "6.5"
+    },
+    "panel_front_lower": {
+     "length": "344.0",
+     "width": "107.0",
+     "thickness": "6.5"
+    },
+    "panel_front_upper": {
+     "length": "344.0",
+     "width": "67.0",
+     "thickness": "6.5"
+    }
+   },
+   "print": [
+    "corner",
+    "edge_x/F",
+    "edge_x/L",
+    "edge_x/M",
+    "edge_x/S",
+    "edge_y/F",
+    "edge_y/L",
+    "edge_y/M",
+    "edge_y/S",
+    "edge_z_lower/F",
+    "edge_z_lower/L",
+    "edge_z_lower/M",
+    "edge_z_lower/S",
+    "edge_z_upper/F",
+    "edge_z_upper/L",
+    "edge_z_upper/M",
+    "edge_z_upper/S",
+    "latch_base",
+    "latch_cap",
+    "latch_knob",
+    "latch_lid",
+    "rail_end",
+    "rail_notch",
+    "rail_plain",
+    "sections/F",
+    "sections/L",
+    "sections/M",
+    "sections/S"
+   ],
+   "placed": [
+    [
+     "Corner_Left_Front_Bottom",
+     "corner",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "Corner_Right_Front_Bottom",
+     "corner",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "Corner_Left_Rear_Bottom",
+     "corner",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      180.0,
+      0.0
+     ]
+    ],
+    [
+     "Corner_Right_Rear_Bottom",
+     "corner",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      180.0,
+      0.0
+     ]
+    ],
+    [
+     "Panel_Bottom",
+     "panel_floor",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      3.0,
+      3.0,
+      -6.5
+     ]
+    ],
+    [
+     "Panel_Left_Lower",
+     "panel_side_lower",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      3.0,
+      3.0
+     ]
+    ],
+    [
+     "Panel_Right_Lower",
+     "panel_side_lower",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      356.5,
+      3.0,
+      3.0
+     ]
+    ],
+    [
+     "Panel_Front_Lower",
+     "panel_front_lower",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      3.0,
+      0.0,
+      3.0
+     ]
+    ],
+    [
+     "Panel_Rear_Lower",
+     "panel_front_lower",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      3.0,
+      186.5,
+      3.0
+     ]
+    ],
+    [
+     "Edge_X_Bottom_Front/edge_1F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "Edge_X_Bottom_Rear/edge_1F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      180.0,
+      0.0
+     ]
+    ],
+    [
+     "Edge_Z_Front_Left_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      28.7
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Left_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      180.0,
+      28.7
+     ]
+    ],
+    [
+     "Edge_Z_Front_Right_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      0.0,
+      28.7
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Right_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      180.0,
+      28.7
+     ]
+    ],
+    [
+     "Rail/rail_1F",
+     "sections/F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      32.50660171779822,
+      90.0,
+      -12.35
+     ]
+    ],
+    [
+     "Rail_Left_PlainFront",
+     "rail_plain",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      28.7,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Left_End",
+     "rail_end",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      90.0,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Left_PlainRear",
+     "rail_plain",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      121.0,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Right_PlainRear",
+     "rail_plain",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      350.0,
+      151.3,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Right_End",
+     "rail_end",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      90.0,
+      0.0
+     ]
+    ],
+    [
+     "Rail_Right_PlainFront",
+     "rail_plain",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      350.0,
+      59.0,
+      0.0
+     ]
+    ],
+    [
+     "Hinge/hinge_1T",
+     "hinges/T",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      15.7,
+      194.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/hinge_2F",
+     "hinges/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      28.9,
+      194.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/hinge_3T",
+     "hinges/T",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      321.29999999999995,
+      194.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/lidhinge_1T",
+     "hinges/T_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      15.7,
+      194.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/lidhinge_2F",
+     "hinges/F_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      28.9,
+      194.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/lidhinge_3T",
+     "hinges/T_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      321.29999999999995,
+      194.0,
+      110.0
+     ]
+    ],
+    [
+     "Latch_Left_base",
+     "latch_base",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      116.66666666666666,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Left_knob",
+     "latch_knob",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      116.66666666666666,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Left_cap",
+     "latch_cap",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      116.66666666666666,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_base",
+     "latch_base",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      233.33333333333334,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_knob",
+     "latch_knob",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      233.33333333333334,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_cap",
+     "latch_cap",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      233.33333333333334,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Corner_Left_Front_Top",
+     "corner",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      180.0
+     ]
+    ],
+    [
+     "Corner_Right_Front_Top",
+     "corner",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ]
+     ],
+     [
+      350.0,
+      0.0,
+      180.0
+     ]
+    ],
+    [
+     "Corner_Left_Rear_Top",
+     "corner",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ]
+     ],
+     [
+      0.0,
+      180.0,
+      180.0
+     ]
+    ],
+    [
+     "Corner_Right_Rear_Top",
+     "corner",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ]
+     ],
+     [
+      350.0,
+      180.0,
+      180.0
+     ]
+    ],
+    [
+     "Panel_Top",
+     "panel_floor",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      3.0,
+      3.0,
+      180.0
+     ]
+    ],
+    [
+     "Panel_Left_Upper",
+     "panel_side_upper",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      3.0,
+      110.0
+     ]
+    ],
+    [
+     "Panel_Right_Upper",
+     "panel_side_upper",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      356.5,
+      3.0,
+      110.0
+     ]
+    ],
+    [
+     "Panel_Front_Upper",
+     "panel_front_upper",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      3.0,
+      0.0,
+      110.0
+     ]
+    ],
+    [
+     "Panel_Rear_Upper",
+     "panel_front_upper",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      3.0,
+      186.5,
+      110.0
+     ]
+    ],
+    [
+     "Edge_X_Top_Front/edge_1F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      0.0,
+      180.0
+     ]
+    ],
+    [
+     "Edge_X_Top_Rear/edge_1F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      180.0,
+      180.0
+     ]
+    ],
+    [
+     "Edge_Y_Left_Top/edge_1F",
+     "edge_y/F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      28.7,
+      180.0
+     ]
+    ],
+    [
+     "Edge_Y_Right_Top/edge_1F",
+     "edge_y/F",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      350.0,
+      28.7,
+      180.0
+     ]
+    ],
+    [
+     "Edge_Z_Front_Left_Upper/edge_1F",
+     "edge_z_upper/F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      110.0
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Left_Upper/edge_1F",
+     "edge_z_upper/F",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      180.0,
+      110.0
+     ]
+    ],
+    [
+     "Edge_Z_Front_Right_Upper/edge_1F",
+     "edge_z_upper/F",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      0.0,
+      110.0
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Right_Upper/edge_1F",
+     "edge_z_upper/F",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      180.0,
+      110.0
+     ]
+    ],
+    [
+     "Latch_Left_lid",
+     "latch_lid",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      116.66666666666666,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_lid",
+     "latch_lid",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      233.33333333333334,
+      -6.5,
+      102.4
+     ]
+    ]
+   ]
+  },
+  {
+   "values": {
+    "width": "120"
+   },
+   "failed": [],
+   "parts": {
+    "corner": {
+     "size": "40.0",
+     "drill_rows": "2.0",
+     "drill_spacing": "12.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_x/F": {
+     "length": "292.6",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_y/F": {
+     "length": "62.6",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_lower/F": {
+     "length": "81.3",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/S": {
+     "length": "20.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/M": {
+     "length": "35.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/L": {
+     "length": "50.0",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "edge_z_upper/F": {
+     "length": "41.3",
+     "size": "27.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "rail_end": {
+     "size": "27.0",
+     "notch": "0.0",
+     "corner_size": "40.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screws": "1.0",
+     "base_depth": "5.85",
+     "drop_on": "15.0",
+     "taper": "10.0",
+     "drop_clear": "0.5",
+     "drop_chamfer": "1.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "rail_plain": {
+     "length": "10.0",
+     "size": "27.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "rail_notch": {
+     "length": "10.0",
+     "size": "27.0",
+     "relief": "0.0",
+     "holes_x": "0.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "panel_t": "6.5",
+     "skin": "5.0",
+     "panel_gap": "3.0",
+     "bevel": "15.0",
+     "chamfer": "0.5",
+     "glue": "0.0",
+     "glue_ridge": "0.6",
+     "drill_inset": "6.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7",
+     "screw_len": "20.0"
+    },
+    "sections/S": {
+     "length": "20.0",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "5.85",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "sections/M": {
+     "length": "35.0",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "5.85",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "sections/L": {
+     "length": "50.0",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "5.85",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "sections/F": {
+     "length": "284.98679656440356",
+     "base_width": "-1.0",
+     "end_taper": "0.0",
+     "base_depth": "5.85",
+     "printer_width_offset": "0.2",
+     "screws": "1.0",
+     "screw_y": "18.376656081756483",
+     "drill_inset": "6.0",
+     "nominal_spacing": "30.0",
+     "min_spacing": "7.0",
+     "screw_r": "1.4",
+     "head_r": "2.75",
+     "head_h": "2.7"
+    },
+    "hinges/S": {
+     "length": "20.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/S_lid": {
+     "length": "20.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/M": {
+     "length": "35.0",
+     "rings": "4.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/M_lid": {
+     "length": "35.0",
+     "rings": "4.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/L": {
+     "length": "50.0",
+     "rings": "5.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/L_lid": {
+     "length": "50.0",
+     "rings": "5.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/F": {
+     "length": "292.2",
+     "rings": "29.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/F_lid": {
+     "length": "292.2",
+     "rings": "29.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/T": {
+     "length": "13.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "hinges/T_lid": {
+     "length": "13.0",
+     "rings": "2.0",
+     "side_a": "18.0",
+     "side_b": "18.0"
+    },
+    "latch_base": {},
+    "latch_knob": {},
+    "latch_cap": {},
+    "latch_lid": {},
+    "panel_floor": {
+     "length": "344.0",
+     "width": "114.0",
+     "thickness": "6.5"
+    },
+    "panel_side_lower": {
+     "length": "107.0",
+     "width": "114.0",
+     "thickness": "6.5"
+    },
+    "panel_side_upper": {
+     "length": "67.0",
+     "width": "114.0",
+     "thickness": "6.5"
+    },
+    "panel_front_lower": {
+     "length": "344.0",
+     "width": "107.0",
+     "thickness": "6.5"
+    },
+    "panel_front_upper": {
+     "length": "344.0",
+     "width": "67.0",
+     "thickness": "6.5"
+    }
+   },
+   "print": [
+    "corner",
+    "edge_x/F",
+    "edge_x/L",
+    "edge_x/M",
+    "edge_x/S",
+    "edge_y/F",
+    "edge_y/L",
+    "edge_y/M",
+    "edge_y/S",
+    "edge_z_lower/F",
+    "edge_z_lower/L",
+    "edge_z_lower/M",
+    "edge_z_lower/S",
+    "edge_z_upper/F",
+    "edge_z_upper/L",
+    "edge_z_upper/M",
+    "edge_z_upper/S",
+    "latch_base",
+    "latch_cap",
+    "latch_knob",
+    "latch_lid",
+    "rail_end",
+    "rail_notch",
+    "rail_plain",
+    "sections/F",
+    "sections/L",
+    "sections/M",
+    "sections/S"
+   ],
+   "placed": [
+    [
+     "Corner_Left_Front_Bottom",
+     "corner",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "Corner_Right_Front_Bottom",
+     "corner",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "Corner_Left_Rear_Bottom",
+     "corner",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      120.0,
+      0.0
+     ]
+    ],
+    [
+     "Corner_Right_Rear_Bottom",
+     "corner",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      120.0,
+      0.0
+     ]
+    ],
+    [
+     "Panel_Bottom",
+     "panel_floor",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      3.0,
+      3.0,
+      -6.5
+     ]
+    ],
+    [
+     "Panel_Left_Lower",
+     "panel_side_lower",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      3.0,
+      3.0
+     ]
+    ],
+    [
+     "Panel_Right_Lower",
+     "panel_side_lower",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      356.5,
+      3.0,
+      3.0
+     ]
+    ],
+    [
+     "Panel_Front_Lower",
+     "panel_front_lower",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      3.0,
+      0.0,
+      3.0
+     ]
+    ],
+    [
+     "Panel_Rear_Lower",
+     "panel_front_lower",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      3.0,
+      126.5,
+      3.0
+     ]
+    ],
+    [
+     "Edge_X_Bottom_Front/edge_1F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      0.0,
+      0.0
+     ]
+    ],
+    [
+     "Edge_X_Bottom_Rear/edge_1F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      120.0,
+      0.0
+     ]
+    ],
+    [
+     "Edge_Z_Front_Left_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      28.7
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Left_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      120.0,
+      28.7
+     ]
+    ],
+    [
+     "Edge_Z_Front_Right_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      0.0,
+      28.7
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Right_Lower/edge_1F",
+     "edge_z_lower/F",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      120.0,
+      28.7
+     ]
+    ],
+    [
+     "Edge_Y_Left_Bottom/edge_1F",
+     "edge_y/F",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      28.7,
+      0.0
+     ]
+    ],
+    [
+     "Edge_Y_Right_Bottom/edge_1F",
+     "edge_y/F",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      350.0,
+      28.7,
+      0.0
+     ]
+    ],
+    [
+     "Hinge/hinge_1T",
+     "hinges/T",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      15.7,
+      134.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/hinge_2F",
+     "hinges/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      28.9,
+      134.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/hinge_3T",
+     "hinges/T",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      321.29999999999995,
+      134.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/lidhinge_1T",
+     "hinges/T_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      15.7,
+      134.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/lidhinge_2F",
+     "hinges/F_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      28.9,
+      134.0,
+      110.0
+     ]
+    ],
+    [
+     "Hinge/lidhinge_3T",
+     "hinges/T_lid",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      321.29999999999995,
+      134.0,
+      110.0
+     ]
+    ],
+    [
+     "Latch_Left_base",
+     "latch_base",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      116.66666666666666,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Left_knob",
+     "latch_knob",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      116.66666666666666,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Left_cap",
+     "latch_cap",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      116.66666666666666,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_base",
+     "latch_base",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      233.33333333333334,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_knob",
+     "latch_knob",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      233.33333333333334,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_cap",
+     "latch_cap",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      233.33333333333334,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Corner_Left_Front_Top",
+     "corner",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      180.0
+     ]
+    ],
+    [
+     "Corner_Right_Front_Top",
+     "corner",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ]
+     ],
+     [
+      350.0,
+      0.0,
+      180.0
+     ]
+    ],
+    [
+     "Corner_Left_Rear_Top",
+     "corner",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ]
+     ],
+     [
+      0.0,
+      120.0,
+      180.0
+     ]
+    ],
+    [
+     "Corner_Right_Rear_Top",
+     "corner",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ]
+     ],
+     [
+      350.0,
+      120.0,
+      180.0
+     ]
+    ],
+    [
+     "Panel_Top",
+     "panel_floor",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      3.0,
+      3.0,
+      180.0
+     ]
+    ],
+    [
+     "Panel_Left_Upper",
+     "panel_side_upper",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      3.0,
+      110.0
+     ]
+    ],
+    [
+     "Panel_Right_Upper",
+     "panel_side_upper",
+     [
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      356.5,
+      3.0,
+      110.0
+     ]
+    ],
+    [
+     "Panel_Front_Upper",
+     "panel_front_upper",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      3.0,
+      0.0,
+      110.0
+     ]
+    ],
+    [
+     "Panel_Rear_Upper",
+     "panel_front_upper",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      3.0,
+      126.5,
+      110.0
+     ]
+    ],
+    [
+     "Edge_X_Top_Front/edge_1F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      0.0,
+      180.0
+     ]
+    ],
+    [
+     "Edge_X_Top_Rear/edge_1F",
+     "edge_x/F",
+     [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ]
+     ],
+     [
+      28.7,
+      120.0,
+      180.0
+     ]
+    ],
+    [
+     "Edge_Y_Left_Top/edge_1F",
+     "edge_y/F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ]
+     ],
+     [
+      0.0,
+      28.7,
+      180.0
+     ]
+    ],
+    [
+     "Edge_Y_Right_Top/edge_1F",
+     "edge_y/F",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      350.0,
+      28.7,
+      180.0
+     ]
+    ],
+    [
+     "Edge_Z_Front_Left_Upper/edge_1F",
+     "edge_z_upper/F",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      0.0,
+      110.0
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Left_Upper/edge_1F",
+     "edge_z_upper/F",
+     [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      0.0,
+      120.0,
+      110.0
+     ]
+    ],
+    [
+     "Edge_Z_Front_Right_Upper/edge_1F",
+     "edge_z_upper/F",
+     [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      0.0,
+      110.0
+     ]
+    ],
+    [
+     "Edge_Z_Rear_Right_Upper/edge_1F",
+     "edge_z_upper/F",
+     [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     [
+      350.0,
+      120.0,
+      110.0
+     ]
+    ],
+    [
+     "Latch_Left_lid",
+     "latch_lid",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      116.66666666666666,
+      -6.5,
+      102.4
+     ]
+    ],
+    [
+     "Latch_Right_lid",
+     "latch_lid",
+     [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      233.33333333333334,
+      -6.5,
+      102.4
+     ]
+    ]
+   ]
+  }
+ ]
+}

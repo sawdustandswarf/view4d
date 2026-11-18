@@ -1,0 +1,15 @@
+{
+  "format": "primlib.prim",
+  "version": 1,
+  "primitive": "panel",
+  "title": "Panel",
+  "params": [{"name": "length", "default": "300", "note": "size along x", "group": null}, {"name": "width", "default": "200", "note": "size along y", "group": null}, {"name": "thickness", "default": "6.5", "note": "the sheet's thickness, along z", "group": null}],
+  "fixed": [],
+  "derived": [],
+  "checks": [{"expr": "length", "message": "length must be positive"}, {"expr": "width", "message": "width must be positive"}, {"expr": "thickness", "message": "thickness must be positive"}],
+  "result": 0,
+  "motion": [],
+  "ops": [
+    {"id": 0, "op": "box", "name": "sheet", "x": ["0", "length"], "y": ["0", "width"], "z": ["0", "thickness"]}
+  ]
+}

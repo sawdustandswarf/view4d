@@ -1,0 +1,9082 @@
+{
+ "files": {
+  "box_corner.prim": [
+   {
+    "values": {},
+    "names": {
+     "panel_t": 6.5,
+     "skin": 5.0,
+     "panel_gap": 3.0,
+     "size": 40.0,
+     "bevel": 15.0,
+     "chamfer": 0.5,
+     "glue": 0.0,
+     "glue_ridge": 0.6,
+     "drill_inset": 6.0,
+     "drill_spacing": 12.0,
+     "drill_rows": 2.0,
+     "screw_r": 1.4,
+     "head_r": 2.75,
+     "head_h": 2.7,
+     "screw_len": 20.0,
+     "reach": 28.5,
+     "inset": 9.0,
+     "leg": 10.606601717596424,
+     "facet": -13.286796564807151
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "((((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (0)) * (-1.0000000000) - ((panel_t + skin) - (0)) * (-0.7071067812)) / (-0.7071067812)",
+      null,
+      28.0
+     ],
+     [
+      "((((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (0)) * (1.0000000000) - (((size) - (panel_t + skin)) - (0)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      -10.999999999999998
+     ],
+     [
+      "((((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (chamfer)) * (-1.0000000000) - ((panel_t + skin) - (chamfer)) * (-0.7071067812)) / (-0.7071067812)",
+      null,
+      27.792893218826908
+     ],
+     [
+      "((((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (chamfer)) * (1.0000000000) - (((size) - (panel_t + skin)) - (chamfer)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      -10.792893218826906
+     ],
+     [
+      "((((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (0)) * (0.0000000000) - (((size) - (panel_t + skin)) - (0)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      28.5
+     ],
+     [
+      "((((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (0)) * (0.0000000000) - ((-panel_t) - (0)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      -6.499999999999999
+     ],
+     [
+      "((((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (chamfer)) * (0.0000000000) - (((size) - (panel_t + skin)) - (chamfer)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      28.0
+     ],
+     [
+      "((((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (chamfer)) * (0.0000000000) - ((-panel_t) - (chamfer)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      -7.0
+     ],
+     [
+      "((((2 * (panel_t + skin) - (bevel / 1.4142135624)) * 0.7071067812) - (0)) * (0.0000000000) - ((panel_t + skin) - (0)) * (-0.7071067812)) / (-0.7071067812)",
+      null,
+      -11.500000000000002
+     ],
+     [
+      "((((2 * (panel_t + skin) - (bevel / 1.4142135624)) * 0.7071067812) - (chamfer)) * (0.0000000000) - ((panel_t + skin) - (chamfer)) * (-0.7071067812)) / (-0.7071067812)",
+      null,
+      -11.0
+     ],
+     [
+      "((((panel_gap - chamfer) * 0.7071067812) - (0)) * (0.0000000000) - (0 - (0)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      -0.0
+     ],
+     [
+      "((((panel_gap - chamfer) * 0.7071067812) - (0)) * (0.0000000000) - (panel_gap - (0)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      2.9999999999999996
+     ],
+     [
+      "((((panel_gap - chamfer) * 0.7071067812) - (chamfer)) * (0.0000000000) - (0 - (chamfer)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      -0.5
+     ],
+     [
+      "((((panel_gap - chamfer) * 0.7071067812) - (chamfer)) * (0.0000000000) - (panel_gap - (chamfer)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      2.5
+     ],
+     [
+      "((((size) - (panel_t + skin)) - (0)) * (-0.7071067812) - (((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (0)) * (0.0000000000)) / (-0.7071067812)",
+      null,
+      28.5
+     ],
+     [
+      "((((size) - (panel_t + skin)) - (0)) * (0.7071067812) - (((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (0)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      -7.000000000000002
+     ],
+     [
+      "((((size) - (panel_t + skin)) - (chamfer)) * (-0.7071067812) - (((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (chamfer)) * (0.0000000000)) / (-0.7071067812)",
+      null,
+      28.0
+     ],
+     [
+      "((((size) - (panel_t + skin)) - (chamfer)) * (0.7071067812) - (((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (chamfer)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      -7.207106781173095
+     ],
+     [
+      "(((-panel_t) - (0)) * (0.7071067812) - (((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (0)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      28.0
+     ],
+     [
+      "(((-panel_t) - (0)) * (1.0000000000) - (panel_gap - (0)) * (0.0000000000)) / (1.0000000000)",
+      null,
+      -6.5
+     ],
+     [
+      "(((-panel_t) - (chamfer)) * (0.7071067812) - (((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (chamfer)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      27.7928932188269
+     ],
+     [
+      "(((-panel_t) - (chamfer)) * (1.0000000000) - (panel_gap - (chamfer)) * (0.0000000000)) / (1.0000000000)",
+      null,
+      -7.0
+     ],
+     [
+      "(((panel_t + skin) - (0)) * (-0.7071067812) - (((2 * (panel_t + skin) - (bevel / 1.4142135624)) * 0.7071067812) - (0)) * (-1.0000000000)) / (-0.7071067812)",
+      null,
+      -0.8933982824035733
+     ],
+     [
+      "(((panel_t + skin) - (0)) * (0.7071067812) - (((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (0)) * (0.0000000000)) / (-0.7071067812)",
+      null,
+      -11.500000000000002
+     ],
+     [
+      "(((panel_t + skin) - (chamfer)) * (-0.7071067812) - (((2 * (panel_t + skin) - (bevel / 1.4142135624)) * 0.7071067812) - (chamfer)) * (-1.0000000000)) / (-0.7071067812)",
+      null,
+      -0.6862915012304798
+     ],
+     [
+      "(((panel_t + skin) - (chamfer)) * (0.7071067812) - (((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (chamfer)) * (0.0000000000)) / (-0.7071067812)",
+      null,
+      -11.0
+     ],
+     [
+      "((-panel_t) + (glue > 0 ? 0 : 1000))",
+      null,
+      993.5
+     ],
+     [
+      "((-panel_t) + (glue > 0 ? 0 : 1000)) - (glue > 0 ? glue : 0.01)",
+      null,
+      993.49
+     ],
+     [
+      "((0 - (0)) * (0.7071067812) - (((panel_gap - chamfer) * 0.7071067812) - (0)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      2.5
+     ],
+     [
+      "((0 - (0)) * (1.0000000000) - (0 - (0)) * (0.0000000000)) / (1.0000000000)",
+      null,
+      0.0
+     ],
+     [
+      "((0 - (chamfer)) * (0.7071067812) - (((panel_gap - chamfer) * 0.7071067812) - (chamfer)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      2.2928932188269053
+     ],
+     [
+      "((0 - (chamfer)) * (1.0000000000) - (0 - (chamfer)) * (0.0000000000)) / (1.0000000000)",
+      null,
+      -0.5
+     ],
+     [
+      "((panel_gap - (0)) * (0.7071067812) - (((panel_gap - chamfer) * 0.7071067812) - (0)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      -0.49999999999999956
+     ],
+     [
+      "((panel_gap - (0)) * (1.0000000000) - ((-panel_t) - (0)) * (0.0000000000)) / (1.0000000000)",
+      null,
+      3.0
+     ],
+     [
+      "((panel_gap - (chamfer)) * (0.7071067812) - (((panel_gap - chamfer) * 0.7071067812) - (chamfer)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      -0.707106781173095
+     ],
+     [
+      "((panel_gap - (chamfer)) * (1.0000000000) - ((-panel_t) - (chamfer)) * (0.0000000000)) / (1.0000000000)",
+      null,
+      2.5
+     ],
+     [
+      "((panel_gap) + (glue > 0 ? 0 : 1000))",
+      null,
+      1003.0
+     ],
+     [
+      "((panel_gap) + (glue > 0 ? 0 : 1000)) - (glue > 0 ? glue : 0.01)",
+      null,
+      1002.99
+     ],
+     [
+      "((panel_t + skin) - leg / 2) + (reach - chamfer) * 0.7071067812",
+      null,
+      25.995689014801787
+     ],
+     [
+      "(-(facet)) * 0.5773502692",
+      null,
+      7.671135573497044
+     ],
+     [
+      "(-(panel_t + skin) + leg + 1)",
+      null,
+      0.10660171759642445
+     ],
+     [
+      "(-(panel_t + skin) - 1)",
+      null,
+      -12.5
+     ],
+     [
+      "(-chamfer - glue_ridge)",
+      null,
+      -1.1
+     ],
+     [
+      "(-chamfer - glue_ridge) - (glue > 0 ? glue : 0.01)",
+      null,
+      -1.11
+     ],
+     [
+      "(-panel_t + glue_ridge)",
+      null,
+      -5.9
+     ],
+     [
+      "(-panel_t + glue_ridge) + (glue > 0 ? glue : 0.01)",
+      null,
+      -5.890000000000001
+     ],
+     [
+      "(panel_gap + glue_ridge)",
+      null,
+      3.6
+     ],
+     [
+      "(panel_gap + glue_ridge) + (glue > 0 ? glue : 0.01)",
+      null,
+      3.61
+     ],
+     [
+      "(reach - chamfer - glue_ridge)",
+      null,
+      27.4
+     ],
+     [
+      "(reach - chamfer - glue_ridge) - (glue > 0 ? glue : 0.01)",
+      null,
+      27.389999999999997
+     ],
+     [
+      "(reach) - chamfer",
+      null,
+      28.0
+     ],
+     [
+      "-(panel_t + skin)",
+      null,
+      -11.5
+     ],
+     [
+      "-(panel_t + skin) + head_h",
+      null,
+      -8.8
+     ],
+     [
+      "-(panel_t + skin) + screw_len",
+      null,
+      8.5
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "500",
+      null,
+      500.0
+     ],
+     [
+      "drill_rows",
+      null,
+      2.0
+     ],
+     [
+      "drill_spacing",
+      null,
+      12.0
+     ],
+     [
+      "head_r",
+      null,
+      2.75
+     ],
+     [
+      "inset",
+      null,
+      9.0
+     ],
+     [
+      "panel_gap",
+      null,
+      3.0
+     ],
+     [
+      "reach",
+      null,
+      28.5
+     ],
+     [
+      "reach + 1",
+      null,
+      29.5
+     ],
+     [
+      "screw_r",
+      null,
+      1.4
+     ],
+     [
+      "chamfer",
+      null,
+      0.5
+     ],
+     [
+      "skin - 2 * chamfer",
+      null,
+      4.0
+     ],
+     [
+      "panel_gap - 2 * chamfer",
+      null,
+      2.0
+     ],
+     [
+      "reach - inset - (drill_rows - 1) * drill_spacing - head_r",
+      null,
+      4.75
+     ],
+     [
+      "drill_spacing - 2 * head_r",
+      null,
+      6.5
+     ],
+     [
+      "2 * (panel_t + skin) - leg - 2 * chamfer",
+      null,
+      11.393398282403576
+     ],
+     [
+      "glue >= 0 ? 1 : 0",
+      null,
+      1.0
+     ],
+     [
+      "glue_ridge",
+      null,
+      0.6
+     ],
+     [
+      "skin - glue - 2 * chamfer",
+      null,
+      4.0
+     ],
+     [
+      "panel_gap - glue - 2 * chamfer",
+      null,
+      2.0
+     ],
+     [
+      "panel_t - chamfer - 2 * glue_ridge - 2 * glue",
+      null,
+      4.8
+     ],
+     [
+      "reach - chamfer - panel_gap - 2 * glue_ridge - 2 * glue",
+      null,
+      23.8
+     ]
+    ]
+   }
+  ],
+  "box_edge.prim": [
+   {
+    "values": {},
+    "names": {
+     "length": 100.0,
+     "panel_t": 6.5,
+     "skin": 5.0,
+     "panel_gap": 3.0,
+     "size": 27.0,
+     "bevel": 15.0,
+     "chamfer": 0.5,
+     "glue": 0.0,
+     "glue_ridge": 0.6,
+     "relief": 0.0,
+     "drill_inset": 6.0,
+     "nominal_spacing": 30.0,
+     "min_spacing": 7.0,
+     "screw_r": 1.4,
+     "head_r": 2.75,
+     "head_h": 2.7,
+     "screw_len": 20.0,
+     "holes_x": 1.0,
+     "holes_y": 1.0,
+     "reach": 15.5,
+     "inset": 9.0,
+     "span": 88.0,
+     "holes": 4.0
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "((((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (0)) * (-1.0000000000) - ((panel_t + skin) - (0)) * (-0.7071067812)) / (-0.7071067812)",
+      null,
+      15.0
+     ],
+     [
+      "((((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (0)) * (1.0000000000) - (((size) - (panel_t + skin)) - (0)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      -11.000000000000002
+     ],
+     [
+      "((((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (chamfer)) * (-1.0000000000) - ((panel_t + skin) - (chamfer)) * (-0.7071067812)) / (-0.7071067812)",
+      null,
+      14.792893218826908
+     ],
+     [
+      "((((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (chamfer)) * (1.0000000000) - (((size) - (panel_t + skin)) - (chamfer)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      -10.792893218826906
+     ],
+     [
+      "((((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (0)) * (0.0000000000) - (((size) - (panel_t + skin)) - (0)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      15.5
+     ],
+     [
+      "((((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (0)) * (0.0000000000) - ((-panel_t) - (0)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      -6.499999999999999
+     ],
+     [
+      "((((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (chamfer)) * (0.0000000000) - (((size) - (panel_t + skin)) - (chamfer)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      15.0
+     ],
+     [
+      "((((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (chamfer)) * (0.0000000000) - ((-panel_t) - (chamfer)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      -7.0
+     ],
+     [
+      "((((2 * (panel_t + skin) - (bevel / 1.4142135624)) * 0.7071067812) - (0)) * (0.0000000000) - ((panel_t + skin) - (0)) * (-0.7071067812)) / (-0.7071067812)",
+      null,
+      -11.500000000000002
+     ],
+     [
+      "((((2 * (panel_t + skin) - (bevel / 1.4142135624)) * 0.7071067812) - (chamfer)) * (0.0000000000) - ((panel_t + skin) - (chamfer)) * (-0.7071067812)) / (-0.7071067812)",
+      null,
+      -11.0
+     ],
+     [
+      "((((panel_gap - chamfer) * 0.7071067812) - (0)) * (0.0000000000) - (0 - (0)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      -0.0
+     ],
+     [
+      "((((panel_gap - chamfer) * 0.7071067812) - (0)) * (0.0000000000) - (panel_gap - (0)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      2.9999999999999996
+     ],
+     [
+      "((((panel_gap - chamfer) * 0.7071067812) - (chamfer)) * (0.0000000000) - (0 - (chamfer)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      -0.5
+     ],
+     [
+      "((((panel_gap - chamfer) * 0.7071067812) - (chamfer)) * (0.0000000000) - (panel_gap - (chamfer)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      2.5
+     ],
+     [
+      "((((panel_t + skin) - relief + (relief > 0 ? 0 : 1000))) - chamfer + length) * 0.7071067812",
+      null,
+      785.5956339132
+     ],
+     [
+      "((((panel_t + skin) - relief + (relief > 0 ? 0 : 1000))) - chamfer + reach) * 0.7071067812",
+      null,
+      725.8451109018
+     ],
+     [
+      "((((panel_t + skin) - relief + (relief > 0 ? 0 : 1000))) - chamfer) * 0.7071067812",
+      null,
+      714.8849557932
+     ],
+     [
+      "((((size) - (panel_t + skin)) - (0)) * (-0.7071067812) - (((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (0)) * (0.0000000000)) / (-0.7071067812)",
+      null,
+      15.5
+     ],
+     [
+      "((((size) - (panel_t + skin)) - (0)) * (0.7071067812) - (((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (0)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      -7.0
+     ],
+     [
+      "((((size) - (panel_t + skin)) - (chamfer)) * (-0.7071067812) - (((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (chamfer)) * (0.0000000000)) / (-0.7071067812)",
+      null,
+      15.0
+     ],
+     [
+      "((((size) - (panel_t + skin)) - (chamfer)) * (0.7071067812) - (((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (chamfer)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      -7.207106781173095
+     ],
+     [
+      "(((-panel_t) - (0)) * (0.7071067812) - (((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (0)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      15.0
+     ],
+     [
+      "(((-panel_t) - (0)) * (1.0000000000) - (panel_gap - (0)) * (0.0000000000)) / (1.0000000000)",
+      null,
+      -6.5
+     ],
+     [
+      "(((-panel_t) - (chamfer)) * (0.7071067812) - (((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (chamfer)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      14.792893218826904
+     ],
+     [
+      "(((-panel_t) - (chamfer)) * (1.0000000000) - (panel_gap - (chamfer)) * (0.0000000000)) / (1.0000000000)",
+      null,
+      -7.0
+     ],
+     [
+      "(((panel_t + skin) - (0)) * (-0.7071067812) - (((2 * (panel_t + skin) - (bevel / 1.4142135624)) * 0.7071067812) - (0)) * (-1.0000000000)) / (-0.7071067812)",
+      null,
+      -0.8933982824035733
+     ],
+     [
+      "(((panel_t + skin) - (0)) * (0.7071067812) - (((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (0)) * (0.0000000000)) / (-0.7071067812)",
+      null,
+      -11.500000000000002
+     ],
+     [
+      "(((panel_t + skin) - (chamfer)) * (-0.7071067812) - (((2 * (panel_t + skin) - (bevel / 1.4142135624)) * 0.7071067812) - (chamfer)) * (-1.0000000000)) / (-0.7071067812)",
+      null,
+      -0.6862915012304798
+     ],
+     [
+      "(((panel_t + skin) - (chamfer)) * (0.7071067812) - (((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (chamfer)) * (0.0000000000)) / (-0.7071067812)",
+      null,
+      -11.0
+     ],
+     [
+      "((-panel_t) + (glue > 0 ? 0 : 1000))",
+      null,
+      993.5
+     ],
+     [
+      "((-panel_t) + (glue > 0 ? 0 : 1000)) - (glue > 0 ? glue : 0.01)",
+      null,
+      993.49
+     ],
+     [
+      "((0 - (0)) * (0.7071067812) - (((panel_gap - chamfer) * 0.7071067812) - (0)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      2.5
+     ],
+     [
+      "((0 - (0)) * (1.0000000000) - (0 - (0)) * (0.0000000000)) / (1.0000000000)",
+      null,
+      0.0
+     ],
+     [
+      "((0 - (chamfer)) * (0.7071067812) - (((panel_gap - chamfer) * 0.7071067812) - (chamfer)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      2.2928932188269053
+     ],
+     [
+      "((0 - (chamfer)) * (1.0000000000) - (0 - (chamfer)) * (0.0000000000)) / (1.0000000000)",
+      null,
+      -0.5
+     ],
+     [
+      "((panel_gap - (0)) * (0.7071067812) - (((panel_gap - chamfer) * 0.7071067812) - (0)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      -0.49999999999999956
+     ],
+     [
+      "((panel_gap - (0)) * (1.0000000000) - ((-panel_t) - (0)) * (0.0000000000)) / (1.0000000000)",
+      null,
+      3.0
+     ],
+     [
+      "((panel_gap - (chamfer)) * (0.7071067812) - (((panel_gap - chamfer) * 0.7071067812) - (chamfer)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      -0.707106781173095
+     ],
+     [
+      "((panel_gap - (chamfer)) * (1.0000000000) - ((-panel_t) - (chamfer)) * (0.0000000000)) / (1.0000000000)",
+      null,
+      2.5
+     ],
+     [
+      "((panel_gap) + (glue > 0 ? 0 : 1000))",
+      null,
+      1003.0
+     ],
+     [
+      "((panel_gap) + (glue > 0 ? 0 : 1000)) - (glue > 0 ? glue : 0.01)",
+      null,
+      1002.99
+     ],
+     [
+      "((panel_t + skin) - relief + (relief > 0 ? 0 : 1000))",
+      null,
+      1011.5
+     ],
+     [
+      "(-chamfer - glue_ridge)",
+      null,
+      -1.1
+     ],
+     [
+      "(-chamfer - glue_ridge) - (glue > 0 ? glue : 0.01)",
+      null,
+      -1.11
+     ],
+     [
+      "(-panel_t + glue_ridge)",
+      null,
+      -5.9
+     ],
+     [
+      "(-panel_t + glue_ridge) + (glue > 0 ? glue : 0.01)",
+      null,
+      -5.890000000000001
+     ],
+     [
+      "(0) + chamfer",
+      null,
+      0.5
+     ],
+     [
+      "(2 * length + 2 * size + 100)",
+      null,
+      354.0
+     ],
+     [
+      "(length) - chamfer",
+      null,
+      99.5
+     ],
+     [
+      "(panel_gap + glue_ridge)",
+      null,
+      3.6
+     ],
+     [
+      "(panel_gap + glue_ridge) + (glue > 0 ? glue : 0.01)",
+      null,
+      3.61
+     ],
+     [
+      "(reach - chamfer - glue_ridge)",
+      null,
+      14.4
+     ],
+     [
+      "(reach - chamfer - glue_ridge) - (glue > 0 ? glue : 0.01)",
+      null,
+      14.39
+     ],
+     [
+      "-(panel_t + skin)",
+      null,
+      -11.5
+     ],
+     [
+      "-(panel_t + skin) + head_h",
+      null,
+      -8.8
+     ],
+     [
+      "-(panel_t + skin) + screw_len",
+      null,
+      8.5
+     ],
+     [
+      "-1",
+      null,
+      -1.0
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "head_r",
+      null,
+      2.75
+     ],
+     [
+      "holes",
+      null,
+      4.0
+     ],
+     [
+      "holes > 1 ? drill_inset : length / 2",
+      null,
+      6.0
+     ],
+     [
+      "holes > 1 ? span / (holes - 1) : 0",
+      null,
+      29.333333333333332
+     ],
+     [
+      "inset + (holes_x > 0 ? 0 : 1000)",
+      null,
+      9.0
+     ],
+     [
+      "inset + (holes_y > 0 ? 0 : 1000)",
+      null,
+      9.0
+     ],
+     [
+      "length",
+      null,
+      100.0
+     ],
+     [
+      "length + 1",
+      null,
+      101.0
+     ],
+     [
+      "screw_r",
+      null,
+      1.4
+     ],
+     [
+      "length - 2 * chamfer",
+      null,
+      99.0
+     ],
+     [
+      "chamfer",
+      null,
+      0.5
+     ],
+     [
+      "skin - 2 * chamfer",
+      null,
+      4.0
+     ],
+     [
+      "panel_gap - 2 * chamfer",
+      null,
+      2.0
+     ],
+     [
+      "reach - panel_gap - 2 * chamfer",
+      null,
+      11.5
+     ],
+     [
+      "reach - inset - head_r",
+      null,
+      3.75
+     ],
+     [
+      "2 * (panel_t + skin) - bevel / 1.4142135624 - 2 * chamfer",
+      null,
+      11.393398282403576
+     ],
+     [
+      "glue >= 0 ? 1 : 0",
+      null,
+      1.0
+     ],
+     [
+      "glue_ridge",
+      null,
+      0.6
+     ],
+     [
+      "skin - glue - 2 * chamfer",
+      null,
+      4.0
+     ],
+     [
+      "panel_gap - glue - 2 * chamfer",
+      null,
+      2.0
+     ],
+     [
+      "panel_t - chamfer - 2 * glue_ridge - 2 * glue",
+      null,
+      4.8
+     ],
+     [
+      "relief >= 0 ? 1 : 0",
+      null,
+      1.0
+     ],
+     [
+      "skin - relief - 2 * chamfer",
+      null,
+      4.0
+     ],
+     [
+      "bevel / 1.4142135624 - relief - chamfer",
+      null,
+      10.106601717596424
+     ],
+     [
+      "reach - chamfer - panel_gap - 2 * glue_ridge - 2 * glue",
+      null,
+      10.8
+     ]
+    ]
+   }
+  ],
+  "hinge.prim": [
+   {
+    "values": {},
+    "names": {
+     "length": 40.0,
+     "rings": 4.0,
+     "side_a": 18.0,
+     "side_b": 18.0,
+     "pin_d": 6.0,
+     "pin_gap": 0.5,
+     "ring_wall": 3.0,
+     "ring_gap": 0.1,
+     "shear": 0.05,
+     "plate": 14.0,
+     "plate_t": 5.0,
+     "plate_gap": 1.0,
+     "backset": 1.0,
+     "chamfer": 0.5,
+     "head_r": 3.05,
+     "screw_r": 1.7,
+     "screw_len": 20.0,
+     "pitch": 10.0,
+     "r_pin": 3.0,
+     "r_in": 3.5,
+     "r_out": 6.5,
+     "face": 7.5
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "(((pitch) - ring_gap) + pin_gap)",
+      null,
+      10.4
+     ],
+     [
+      "(((pitch) - ring_gap) + pin_gap) - (((r_out) + pin_gap) - ((r_in) + ring_wall / 2) + shear / 2)",
+      null,
+      8.375
+     ],
+     [
+      "((-1) * (-(plate / 2 + side_b)) + (-1) * (0) - chamfer) * 0.7071067812",
+      null,
+      17.3241161394
+     ],
+     [
+      "((-1) * (-(plate / 2 + side_b)) + (-1) * (face - plate_t) - chamfer) * 0.7071067812",
+      null,
+      15.5563491864
+     ],
+     [
+      "((-1) * (-(plate / 2 + side_b)) + (1) * (face) - chamfer) * 0.7071067812",
+      null,
+      22.6274169984
+     ],
+     [
+      "((-1) * (-(plate / 2 + side_b)) + (1) * (length) - chamfer) * 0.7071067812",
+      null,
+      45.6083873874
+     ],
+     [
+      "((-1) * (face - plate_t) + (-1) * (0) - chamfer) * 0.7071067812",
+      null,
+      -2.1213203436
+     ],
+     [
+      "((-1) * (face - plate_t) + (1) * (length) - chamfer) * 0.7071067812",
+      null,
+      26.162950904400002
+     ],
+     [
+      "((-1) * (plate_gap / 2) + (-1) * (0) - chamfer) * 0.7071067812",
+      null,
+      -0.7071067812
+     ],
+     [
+      "((-1) * (plate_gap / 2) + (-1) * (face - plate_t) - chamfer) * 0.7071067812",
+      null,
+      -2.4748737342
+     ],
+     [
+      "((-1) * (plate_gap / 2) + (1) * (face) - chamfer) * 0.7071067812",
+      null,
+      4.5961940778
+     ],
+     [
+      "((-1) * (plate_gap / 2) + (1) * (length) - chamfer) * 0.7071067812",
+      null,
+      27.577164466800003
+     ],
+     [
+      "((1) * ((plate / 2 + side_a)) + (-1) * (0) - chamfer) * 0.7071067812",
+      null,
+      17.3241161394
+     ],
+     [
+      "((1) * ((plate / 2 + side_a)) + (-1) * (face - plate_t) - chamfer) * 0.7071067812",
+      null,
+      15.5563491864
+     ],
+     [
+      "((1) * ((plate / 2 + side_a)) + (1) * (face) - chamfer) * 0.7071067812",
+      null,
+      22.6274169984
+     ],
+     [
+      "((1) * ((plate / 2 + side_a)) + (1) * (length) - chamfer) * 0.7071067812",
+      null,
+      45.6083873874
+     ],
+     [
+      "((1) * (-plate_gap / 2) + (-1) * (0) - chamfer) * 0.7071067812",
+      null,
+      -0.7071067812
+     ],
+     [
+      "((1) * (-plate_gap / 2) + (-1) * (face - plate_t) - chamfer) * 0.7071067812",
+      null,
+      -2.4748737342
+     ],
+     [
+      "((1) * (-plate_gap / 2) + (1) * (face) - chamfer) * 0.7071067812",
+      null,
+      4.5961940778
+     ],
+     [
+      "((1) * (-plate_gap / 2) + (1) * (length) - chamfer) * 0.7071067812",
+      null,
+      27.577164466800003
+     ],
+     [
+      "((1) * (face) + (-1) * (0) - chamfer) * 0.7071067812",
+      null,
+      4.9497474684
+     ],
+     [
+      "((1) * (face) + (1) * (length) - chamfer) * 0.7071067812",
+      null,
+      33.2340187164
+     ],
+     [
+      "((pitch) - ring_gap)",
+      null,
+      9.9
+     ],
+     [
+      "((pitch) - ring_gap) - (ring_wall / 2) + shear / 2",
+      null,
+      8.425
+     ],
+     [
+      "((r_in) + ring_wall / 2)",
+      null,
+      5.0
+     ],
+     [
+      "((r_in) + ring_wall / 2) + shear / 2",
+      null,
+      5.025
+     ],
+     [
+      "((r_in) + ring_wall / 2) - shear / 2",
+      null,
+      4.975
+     ],
+     [
+      "((r_out) + pin_gap)",
+      null,
+      7.0
+     ],
+     [
+      "((r_pin) + ring_wall / 2)",
+      null,
+      4.5
+     ],
+     [
+      "(-pin_gap)",
+      null,
+      -0.5
+     ],
+     [
+      "(-pin_gap) + (((r_out) + pin_gap) - ((r_in) + ring_wall / 2) + shear / 2)",
+      null,
+      1.525
+     ],
+     [
+      "(face - plate_t)",
+      null,
+      2.5
+     ],
+     [
+      "(face - plate_t) + head_r",
+      null,
+      5.55
+     ],
+     [
+      "(face - plate_t) + screw_len",
+      null,
+      22.5
+     ],
+     [
+      "(pitch)",
+      null,
+      10.0
+     ],
+     [
+      "(pitch) - (ring_wall / 2)",
+      null,
+      8.5
+     ],
+     [
+      "(pitch) / 2",
+      null,
+      5.0
+     ],
+     [
+      "(plate / 2 + side_a / 2)",
+      null,
+      16.0
+     ],
+     [
+      "(plate / 2 + side_a)",
+      null,
+      25.0
+     ],
+     [
+      "(r_in)",
+      null,
+      3.5
+     ],
+     [
+      "(r_out)",
+      null,
+      6.5
+     ],
+     [
+      "(r_pin)",
+      null,
+      3.0
+     ],
+     [
+      "(ring_wall / 2)",
+      null,
+      1.5
+     ],
+     [
+      "-(plate / 2 + side_b / 2)",
+      null,
+      -16.0
+     ],
+     [
+      "-(plate / 2 + side_b)",
+      null,
+      -25.0
+     ],
+     [
+      "-90",
+      null,
+      -90.0
+     ],
+     [
+      "-plate_gap / 2",
+      null,
+      -0.5
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "1000",
+      null,
+      1000.0
+     ],
+     [
+      "2 * (pitch)",
+      null,
+      20.0
+     ],
+     [
+      "270",
+      null,
+      270.0
+     ],
+     [
+      "360",
+      null,
+      360.0
+     ],
+     [
+      "90",
+      null,
+      90.0
+     ],
+     [
+      "ceil(rings / 2)",
+      null,
+      2.0
+     ],
+     [
+      "face",
+      null,
+      7.5
+     ],
+     [
+      "face - plate_t",
+      null,
+      2.5
+     ],
+     [
+      "floor(rings / 2)",
+      null,
+      2.0
+     ],
+     [
+      "head_r",
+      null,
+      3.05
+     ],
+     [
+      "length",
+      null,
+      40.0
+     ],
+     [
+      "plate_gap / 2",
+      null,
+      0.5
+     ],
+     [
+      "rings",
+      null,
+      4.0
+     ],
+     [
+      "screw_r",
+      null,
+      1.7
+     ],
+     [
+      "rings - 1.5",
+      null,
+      2.5
+     ],
+     [
+      "length / rings - ring_gap - ring_wall",
+      null,
+      6.9
+     ],
+     [
+      "plate / 2 - plate_gap / 2 + side_a - 2 * chamfer",
+      null,
+      23.5
+     ],
+     [
+      "plate / 2 - plate_gap / 2 + side_b - 2 * chamfer",
+      null,
+      23.5
+     ],
+     [
+      "plate_t - 2 * chamfer",
+      null,
+      4.0
+     ]
+    ]
+   },
+   {
+    "values": {
+     "length": "60",
+     "rings": "5",
+     "side_b": "12"
+    },
+    "names": {
+     "length": 60.0,
+     "rings": 5.0,
+     "side_a": 18.0,
+     "side_b": 12.0,
+     "pin_d": 6.0,
+     "pin_gap": 0.5,
+     "ring_wall": 3.0,
+     "ring_gap": 0.1,
+     "shear": 0.05,
+     "plate": 14.0,
+     "plate_t": 5.0,
+     "plate_gap": 1.0,
+     "backset": 1.0,
+     "chamfer": 0.5,
+     "head_r": 3.05,
+     "screw_r": 1.7,
+     "screw_len": 20.0,
+     "pitch": 12.0,
+     "r_pin": 3.0,
+     "r_in": 3.5,
+     "r_out": 6.5,
+     "face": 7.5
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "(((pitch) - ring_gap) + pin_gap)",
+      null,
+      12.4
+     ],
+     [
+      "(((pitch) - ring_gap) + pin_gap) - (((r_out) + pin_gap) - ((r_in) + ring_wall / 2) + shear / 2)",
+      null,
+      10.375
+     ],
+     [
+      "((-1) * (-(plate / 2 + side_b)) + (-1) * (0) - chamfer) * 0.7071067812",
+      null,
+      13.081475452200001
+     ],
+     [
+      "((-1) * (-(plate / 2 + side_b)) + (-1) * (face - plate_t) - chamfer) * 0.7071067812",
+      null,
+      11.3137084992
+     ],
+     [
+      "((-1) * (-(plate / 2 + side_b)) + (1) * (face) - chamfer) * 0.7071067812",
+      null,
+      18.3847763112
+     ],
+     [
+      "((-1) * (-(plate / 2 + side_b)) + (1) * (length) - chamfer) * 0.7071067812",
+      null,
+      55.507882324200004
+     ],
+     [
+      "((-1) * (face - plate_t) + (-1) * (0) - chamfer) * 0.7071067812",
+      null,
+      -2.1213203436
+     ],
+     [
+      "((-1) * (face - plate_t) + (1) * (length) - chamfer) * 0.7071067812",
+      null,
+      40.305086528400004
+     ],
+     [
+      "((-1) * (plate_gap / 2) + (-1) * (0) - chamfer) * 0.7071067812",
+      null,
+      -0.7071067812
+     ],
+     [
+      "((-1) * (plate_gap / 2) + (-1) * (face - plate_t) - chamfer) * 0.7071067812",
+      null,
+      -2.4748737342
+     ],
+     [
+      "((-1) * (plate_gap / 2) + (1) * (face) - chamfer) * 0.7071067812",
+      null,
+      4.5961940778
+     ],
+     [
+      "((-1) * (plate_gap / 2) + (1) * (length) - chamfer) * 0.7071067812",
+      null,
+      41.719300090800004
+     ],
+     [
+      "((1) * ((plate / 2 + side_a)) + (-1) * (0) - chamfer) * 0.7071067812",
+      null,
+      17.3241161394
+     ],
+     [
+      "((1) * ((plate / 2 + side_a)) + (-1) * (face - plate_t) - chamfer) * 0.7071067812",
+      null,
+      15.5563491864
+     ],
+     [
+      "((1) * ((plate / 2 + side_a)) + (1) * (face) - chamfer) * 0.7071067812",
+      null,
+      22.6274169984
+     ],
+     [
+      "((1) * ((plate / 2 + side_a)) + (1) * (length) - chamfer) * 0.7071067812",
+      null,
+      59.750523011400006
+     ],
+     [
+      "((1) * (-plate_gap / 2) + (-1) * (0) - chamfer) * 0.7071067812",
+      null,
+      -0.7071067812
+     ],
+     [
+      "((1) * (-plate_gap / 2) + (-1) * (face - plate_t) - chamfer) * 0.7071067812",
+      null,
+      -2.4748737342
+     ],
+     [
+      "((1) * (-plate_gap / 2) + (1) * (face) - chamfer) * 0.7071067812",
+      null,
+      4.5961940778
+     ],
+     [
+      "((1) * (-plate_gap / 2) + (1) * (length) - chamfer) * 0.7071067812",
+      null,
+      41.719300090800004
+     ],
+     [
+      "((1) * (face) + (-1) * (0) - chamfer) * 0.7071067812",
+      null,
+      4.9497474684
+     ],
+     [
+      "((1) * (face) + (1) * (length) - chamfer) * 0.7071067812",
+      null,
+      47.3761543404
+     ],
+     [
+      "((pitch) - ring_gap)",
+      null,
+      11.9
+     ],
+     [
+      "((pitch) - ring_gap) - (ring_wall / 2) + shear / 2",
+      null,
+      10.425
+     ],
+     [
+      "((r_in) + ring_wall / 2)",
+      null,
+      5.0
+     ],
+     [
+      "((r_in) + ring_wall / 2) + shear / 2",
+      null,
+      5.025
+     ],
+     [
+      "((r_in) + ring_wall / 2) - shear / 2",
+      null,
+      4.975
+     ],
+     [
+      "((r_out) + pin_gap)",
+      null,
+      7.0
+     ],
+     [
+      "((r_pin) + ring_wall / 2)",
+      null,
+      4.5
+     ],
+     [
+      "(-pin_gap)",
+      null,
+      -0.5
+     ],
+     [
+      "(-pin_gap) + (((r_out) + pin_gap) - ((r_in) + ring_wall / 2) + shear / 2)",
+      null,
+      1.525
+     ],
+     [
+      "(face - plate_t)",
+      null,
+      2.5
+     ],
+     [
+      "(face - plate_t) + head_r",
+      null,
+      5.55
+     ],
+     [
+      "(face - plate_t) + screw_len",
+      null,
+      22.5
+     ],
+     [
+      "(pitch)",
+      null,
+      12.0
+     ],
+     [
+      "(pitch) - (ring_wall / 2)",
+      null,
+      10.5
+     ],
+     [
+      "(pitch) / 2",
+      null,
+      6.0
+     ],
+     [
+      "(plate / 2 + side_a / 2)",
+      null,
+      16.0
+     ],
+     [
+      "(plate / 2 + side_a)",
+      null,
+      25.0
+     ],
+     [
+      "(r_in)",
+      null,
+      3.5
+     ],
+     [
+      "(r_out)",
+      null,
+      6.5
+     ],
+     [
+      "(r_pin)",
+      null,
+      3.0
+     ],
+     [
+      "(ring_wall / 2)",
+      null,
+      1.5
+     ],
+     [
+      "-(plate / 2 + side_b / 2)",
+      null,
+      -13.0
+     ],
+     [
+      "-(plate / 2 + side_b)",
+      null,
+      -19.0
+     ],
+     [
+      "-90",
+      null,
+      -90.0
+     ],
+     [
+      "-plate_gap / 2",
+      null,
+      -0.5
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "1000",
+      null,
+      1000.0
+     ],
+     [
+      "2 * (pitch)",
+      null,
+      24.0
+     ],
+     [
+      "270",
+      null,
+      270.0
+     ],
+     [
+      "360",
+      null,
+      360.0
+     ],
+     [
+      "90",
+      null,
+      90.0
+     ],
+     [
+      "ceil(rings / 2)",
+      null,
+      3.0
+     ],
+     [
+      "face",
+      null,
+      7.5
+     ],
+     [
+      "face - plate_t",
+      null,
+      2.5
+     ],
+     [
+      "floor(rings / 2)",
+      null,
+      2.0
+     ],
+     [
+      "head_r",
+      null,
+      3.05
+     ],
+     [
+      "length",
+      null,
+      60.0
+     ],
+     [
+      "plate_gap / 2",
+      null,
+      0.5
+     ],
+     [
+      "rings",
+      null,
+      5.0
+     ],
+     [
+      "screw_r",
+      null,
+      1.7
+     ],
+     [
+      "rings - 1.5",
+      null,
+      3.5
+     ],
+     [
+      "length / rings - ring_gap - ring_wall",
+      null,
+      8.9
+     ],
+     [
+      "plate / 2 - plate_gap / 2 + side_a - 2 * chamfer",
+      null,
+      23.5
+     ],
+     [
+      "plate / 2 - plate_gap / 2 + side_b - 2 * chamfer",
+      null,
+      17.5
+     ],
+     [
+      "plate_t - 2 * chamfer",
+      null,
+      4.0
+     ]
+    ]
+   },
+   {
+    "values": {
+     "rings": "1"
+    },
+    "names": {
+     "length": 40.0,
+     "rings": 1.0,
+     "side_a": 18.0,
+     "side_b": 18.0,
+     "pin_d": 6.0,
+     "pin_gap": 0.5,
+     "ring_wall": 3.0,
+     "ring_gap": 0.1,
+     "shear": 0.05,
+     "plate": 14.0,
+     "plate_t": 5.0,
+     "plate_gap": 1.0,
+     "backset": 1.0,
+     "chamfer": 0.5,
+     "head_r": 3.05,
+     "screw_r": 1.7,
+     "screw_len": 20.0,
+     "pitch": 40.0,
+     "r_pin": 3.0,
+     "r_in": 3.5,
+     "r_out": 6.5,
+     "face": 7.5
+    },
+    "failed": [
+     "a hinge needs at least two rings"
+    ],
+    "exprs": [
+     [
+      "(((pitch) - ring_gap) + pin_gap)",
+      null,
+      40.4
+     ],
+     [
+      "(((pitch) - ring_gap) + pin_gap) - (((r_out) + pin_gap) - ((r_in) + ring_wall / 2) + shear / 2)",
+      null,
+      38.375
+     ],
+     [
+      "((-1) * (-(plate / 2 + side_b)) + (-1) * (0) - chamfer) * 0.7071067812",
+      null,
+      17.3241161394
+     ],
+     [
+      "((-1) * (-(plate / 2 + side_b)) + (-1) * (face - plate_t) - chamfer) * 0.7071067812",
+      null,
+      15.5563491864
+     ],
+     [
+      "((-1) * (-(plate / 2 + side_b)) + (1) * (face) - chamfer) * 0.7071067812",
+      null,
+      22.6274169984
+     ],
+     [
+      "((-1) * (-(plate / 2 + side_b)) + (1) * (length) - chamfer) * 0.7071067812",
+      null,
+      45.6083873874
+     ],
+     [
+      "((-1) * (face - plate_t) + (-1) * (0) - chamfer) * 0.7071067812",
+      null,
+      -2.1213203436
+     ],
+     [
+      "((-1) * (face - plate_t) + (1) * (length) - chamfer) * 0.7071067812",
+      null,
+      26.162950904400002
+     ],
+     [
+      "((-1) * (plate_gap / 2) + (-1) * (0) - chamfer) * 0.7071067812",
+      null,
+      -0.7071067812
+     ],
+     [
+      "((-1) * (plate_gap / 2) + (-1) * (face - plate_t) - chamfer) * 0.7071067812",
+      null,
+      -2.4748737342
+     ],
+     [
+      "((-1) * (plate_gap / 2) + (1) * (face) - chamfer) * 0.7071067812",
+      null,
+      4.5961940778
+     ],
+     [
+      "((-1) * (plate_gap / 2) + (1) * (length) - chamfer) * 0.7071067812",
+      null,
+      27.577164466800003
+     ],
+     [
+      "((1) * ((plate / 2 + side_a)) + (-1) * (0) - chamfer) * 0.7071067812",
+      null,
+      17.3241161394
+     ],
+     [
+      "((1) * ((plate / 2 + side_a)) + (-1) * (face - plate_t) - chamfer) * 0.7071067812",
+      null,
+      15.5563491864
+     ],
+     [
+      "((1) * ((plate / 2 + side_a)) + (1) * (face) - chamfer) * 0.7071067812",
+      null,
+      22.6274169984
+     ],
+     [
+      "((1) * ((plate / 2 + side_a)) + (1) * (length) - chamfer) * 0.7071067812",
+      null,
+      45.6083873874
+     ],
+     [
+      "((1) * (-plate_gap / 2) + (-1) * (0) - chamfer) * 0.7071067812",
+      null,
+      -0.7071067812
+     ],
+     [
+      "((1) * (-plate_gap / 2) + (-1) * (face - plate_t) - chamfer) * 0.7071067812",
+      null,
+      -2.4748737342
+     ],
+     [
+      "((1) * (-plate_gap / 2) + (1) * (face) - chamfer) * 0.7071067812",
+      null,
+      4.5961940778
+     ],
+     [
+      "((1) * (-plate_gap / 2) + (1) * (length) - chamfer) * 0.7071067812",
+      null,
+      27.577164466800003
+     ],
+     [
+      "((1) * (face) + (-1) * (0) - chamfer) * 0.7071067812",
+      null,
+      4.9497474684
+     ],
+     [
+      "((1) * (face) + (1) * (length) - chamfer) * 0.7071067812",
+      null,
+      33.2340187164
+     ],
+     [
+      "((pitch) - ring_gap)",
+      null,
+      39.9
+     ],
+     [
+      "((pitch) - ring_gap) - (ring_wall / 2) + shear / 2",
+      null,
+      38.425
+     ],
+     [
+      "((r_in) + ring_wall / 2)",
+      null,
+      5.0
+     ],
+     [
+      "((r_in) + ring_wall / 2) + shear / 2",
+      null,
+      5.025
+     ],
+     [
+      "((r_in) + ring_wall / 2) - shear / 2",
+      null,
+      4.975
+     ],
+     [
+      "((r_out) + pin_gap)",
+      null,
+      7.0
+     ],
+     [
+      "((r_pin) + ring_wall / 2)",
+      null,
+      4.5
+     ],
+     [
+      "(-pin_gap)",
+      null,
+      -0.5
+     ],
+     [
+      "(-pin_gap) + (((r_out) + pin_gap) - ((r_in) + ring_wall / 2) + shear / 2)",
+      null,
+      1.525
+     ],
+     [
+      "(face - plate_t)",
+      null,
+      2.5
+     ],
+     [
+      "(face - plate_t) + head_r",
+      null,
+      5.55
+     ],
+     [
+      "(face - plate_t) + screw_len",
+      null,
+      22.5
+     ],
+     [
+      "(pitch)",
+      null,
+      40.0
+     ],
+     [
+      "(pitch) - (ring_wall / 2)",
+      null,
+      38.5
+     ],
+     [
+      "(pitch) / 2",
+      null,
+      20.0
+     ],
+     [
+      "(plate / 2 + side_a / 2)",
+      null,
+      16.0
+     ],
+     [
+      "(plate / 2 + side_a)",
+      null,
+      25.0
+     ],
+     [
+      "(r_in)",
+      null,
+      3.5
+     ],
+     [
+      "(r_out)",
+      null,
+      6.5
+     ],
+     [
+      "(r_pin)",
+      null,
+      3.0
+     ],
+     [
+      "(ring_wall / 2)",
+      null,
+      1.5
+     ],
+     [
+      "-(plate / 2 + side_b / 2)",
+      null,
+      -16.0
+     ],
+     [
+      "-(plate / 2 + side_b)",
+      null,
+      -25.0
+     ],
+     [
+      "-90",
+      null,
+      -90.0
+     ],
+     [
+      "-plate_gap / 2",
+      null,
+      -0.5
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "1000",
+      null,
+      1000.0
+     ],
+     [
+      "2 * (pitch)",
+      null,
+      80.0
+     ],
+     [
+      "270",
+      null,
+      270.0
+     ],
+     [
+      "360",
+      null,
+      360.0
+     ],
+     [
+      "90",
+      null,
+      90.0
+     ],
+     [
+      "ceil(rings / 2)",
+      null,
+      1.0
+     ],
+     [
+      "face",
+      null,
+      7.5
+     ],
+     [
+      "face - plate_t",
+      null,
+      2.5
+     ],
+     [
+      "floor(rings / 2)",
+      null,
+      0.0
+     ],
+     [
+      "head_r",
+      null,
+      3.05
+     ],
+     [
+      "length",
+      null,
+      40.0
+     ],
+     [
+      "plate_gap / 2",
+      null,
+      0.5
+     ],
+     [
+      "rings",
+      null,
+      1.0
+     ],
+     [
+      "screw_r",
+      null,
+      1.7
+     ],
+     [
+      "rings - 1.5",
+      null,
+      -0.5
+     ],
+     [
+      "length / rings - ring_gap - ring_wall",
+      null,
+      36.9
+     ],
+     [
+      "plate / 2 - plate_gap / 2 + side_a - 2 * chamfer",
+      null,
+      23.5
+     ],
+     [
+      "plate / 2 - plate_gap / 2 + side_b - 2 * chamfer",
+      null,
+      23.5
+     ],
+     [
+      "plate_t - 2 * chamfer",
+      null,
+      4.0
+     ]
+    ]
+   }
+  ],
+  "hole.prim": [
+   {
+    "values": {},
+    "names": {
+     "hole_type": 2.0,
+     "thickness": 5.0,
+     "screw_diam": 3.0,
+     "head_diam": 6.0,
+     "head_angle": 90.0,
+     "head_height": 3.0,
+     "tolerance": 0.1,
+     "over": 0.5,
+     "r_s": 1.6,
+     "alpha": 45.0,
+     "cs_r": 3.1414213562373097,
+     "cs_depth": 1.5414213562373094,
+     "cb_r": 3.1,
+     "cb_depth": 3.1,
+     "r_b": 3.1414213562373097,
+     "z_a": 3.4585786437626904,
+     "z_b": 5.0
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "(r_b)",
+      null,
+      3.1414213562373097
+     ],
+     [
+      "(r_s)",
+      null,
+      1.6
+     ],
+     [
+      "(thickness) + (over)",
+      null,
+      5.5
+     ],
+     [
+      "(z_a)",
+      null,
+      3.4585786437626904
+     ],
+     [
+      "(z_b)",
+      null,
+      5.0
+     ],
+     [
+      "-(over)",
+      null,
+      -0.5
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "360",
+      null,
+      360.0
+     ],
+     [
+      "hole_type < 0 ? 0 : (hole_type > 3 ? 0 : 1)",
+      null,
+      1.0
+     ],
+     [
+      "thickness",
+      null,
+      5.0
+     ],
+     [
+      "screw_diam",
+      null,
+      3.0
+     ],
+     [
+      "head_diam - screw_diam",
+      null,
+      3.0
+     ],
+     [
+      "hole_type == 2 ? thickness - cs_depth : 1",
+      null,
+      3.4585786437626904
+     ],
+     [
+      "hole_type == 3 ? thickness - cb_depth : 1",
+      null,
+      1.0
+     ]
+    ]
+   }
+  ],
+  "panel.prim": [
+   {
+    "values": {},
+    "names": {
+     "length": 300.0,
+     "width": 200.0,
+     "thickness": 6.5
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "length",
+      null,
+      300.0
+     ],
+     [
+      "thickness",
+      null,
+      6.5
+     ],
+     [
+      "width",
+      null,
+      200.0
+     ],
+     [
+      "length",
+      null,
+      300.0
+     ],
+     [
+      "width",
+      null,
+      200.0
+     ],
+     [
+      "thickness",
+      null,
+      6.5
+     ]
+    ]
+   }
+  ],
+  "pin.prim": [
+   {
+    "values": {},
+    "names": {
+     "height": 10.0,
+     "diam": 6.0,
+     "diam_end": 10.0,
+     "angle": 45.0,
+     "clearance": 0.0,
+     "shaft_r": 3.0,
+     "flare_r": 5.0,
+     "cone": 1.9999999999999998,
+     "bottom": -0.0,
+     "top": 10.0
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "(bottom)",
+      null,
+      -0.0
+     ],
+     [
+      "(bottom) + (cone)",
+      null,
+      1.9999999999999998
+     ],
+     [
+      "(flare_r)",
+      null,
+      5.0
+     ],
+     [
+      "(shaft_r)",
+      null,
+      3.0
+     ],
+     [
+      "(top)",
+      null,
+      10.0
+     ],
+     [
+      "(top) - (cone)",
+      null,
+      8.0
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "360",
+      null,
+      360.0
+     ],
+     [
+      "diam",
+      null,
+      6.0
+     ],
+     [
+      "diam_end - diam",
+      null,
+      4.0
+     ],
+     [
+      "top - bottom - 2 * cone",
+      null,
+      6.0
+     ]
+    ]
+   },
+   {
+    "values": {
+     "diam": "0",
+     "height": "1"
+    },
+    "names": {
+     "height": 1.0,
+     "diam": 0.0,
+     "diam_end": 10.0,
+     "angle": 45.0,
+     "clearance": 0.0,
+     "shaft_r": 0.0,
+     "flare_r": 5.0,
+     "cone": 4.999999999999999,
+     "bottom": -0.0,
+     "top": 1.0
+    },
+    "failed": [
+     "diam must be positive",
+     "height is too small for the flares"
+    ],
+    "exprs": [
+     [
+      "(bottom)",
+      null,
+      -0.0
+     ],
+     [
+      "(bottom) + (cone)",
+      null,
+      4.999999999999999
+     ],
+     [
+      "(flare_r)",
+      null,
+      5.0
+     ],
+     [
+      "(shaft_r)",
+      null,
+      0.0
+     ],
+     [
+      "(top)",
+      null,
+      1.0
+     ],
+     [
+      "(top) - (cone)",
+      null,
+      -3.999999999999999
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "360",
+      null,
+      360.0
+     ],
+     [
+      "diam",
+      null,
+      0.0
+     ],
+     [
+      "diam_end - diam",
+      null,
+      10.0
+     ],
+     [
+      "top - bottom - 2 * cone",
+      null,
+      -8.999999999999998
+     ]
+    ]
+   }
+  ],
+  "plate.prim": [
+   {
+    "values": {},
+    "names": {
+     "length": 40.0,
+     "width": 20.0,
+     "thickness": 5.0,
+     "screws_x": 3.0,
+     "screws_y": 2.0,
+     "edge_margin": 5.0,
+     "hole_type": 2.0,
+     "screw_diam": 3.0,
+     "head_diam": 6.0,
+     "head_angle": 90.0,
+     "head_height": 3.0,
+     "tolerance": 0.1,
+     "over": 0.5,
+     "r_s": 1.6,
+     "alpha": 45.0,
+     "cs_r": 3.1414213562373097,
+     "cs_depth": 1.5414213562373094,
+     "cb_r": 3.1,
+     "cb_depth": 3.1,
+     "r_b": 3.1414213562373097,
+     "z_a": 3.4585786437626904,
+     "z_b": 5.0,
+     "pitch_x": 15.0,
+     "pitch_y": 10.0,
+     "x0": 5.0,
+     "y0": 5.0,
+     "drop": 0.0
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "(((hole_type)) == 2 ? (((head_diam)) / 2 + ((tolerance)) / sin((90 deg - ((head_angle)) / 2))) : (((hole_type)) == 3 ? (((head_diam)) / 2 + ((tolerance))) : (((screw_diam)) / 2 + ((tolerance)))))",
+      null,
+      3.1414213562373097
+     ],
+     [
+      "(((hole_type)) == 2 ? ((thickness)) - (((((head_diam)) / 2 + ((tolerance)) / sin((90 deg - ((head_angle)) / 2))) - (((screw_diam)) / 2 + ((tolerance)))) * tan((90 deg - ((head_angle)) / 2))) : (((hole_type)) == 3 ? ((thickness)) - (((head_height)) + ((tolerance))) : ((thickness)) / 3))",
+      null,
+      3.4585786437626904
+     ],
+     [
+      "(((hole_type)) == 2 ? ((thickness)) : (((hole_type)) == 3 ? ((thickness)) - (((head_height)) + ((tolerance))) : 2 * ((thickness)) / 3))",
+      null,
+      5.0
+     ],
+     [
+      "(((screw_diam)) / 2 + ((tolerance)))",
+      null,
+      1.6
+     ],
+     [
+      "((thickness)) + (0.5)",
+      null,
+      5.5
+     ],
+     [
+      "-(0.5)",
+      null,
+      -0.5
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "360",
+      null,
+      360.0
+     ],
+     [
+      "drop",
+      null,
+      0.0
+     ],
+     [
+      "length",
+      null,
+      40.0
+     ],
+     [
+      "pitch_x",
+      null,
+      15.0
+     ],
+     [
+      "pitch_y",
+      null,
+      10.0
+     ],
+     [
+      "screws_x",
+      null,
+      3.0
+     ],
+     [
+      "screws_y",
+      null,
+      2.0
+     ],
+     [
+      "thickness",
+      null,
+      5.0
+     ],
+     [
+      "width",
+      null,
+      20.0
+     ],
+     [
+      "x0",
+      null,
+      5.0
+     ],
+     [
+      "y0",
+      null,
+      5.0
+     ],
+     [
+      "hole_type < 0 ? 0 : (hole_type > 3 ? 0 : 1)",
+      null,
+      1.0
+     ],
+     [
+      "thickness",
+      null,
+      5.0
+     ],
+     [
+      "screw_diam",
+      null,
+      3.0
+     ],
+     [
+      "head_diam - screw_diam",
+      null,
+      3.0
+     ],
+     [
+      "hole_type == 2 ? thickness - cs_depth : 1",
+      null,
+      3.4585786437626904
+     ],
+     [
+      "hole_type == 3 ? thickness - cb_depth : 1",
+      null,
+      1.0
+     ],
+     [
+      "screws_x",
+      null,
+      3.0
+     ],
+     [
+      "screws_y",
+      null,
+      2.0
+     ],
+     [
+      "length - 2 * edge_margin",
+      null,
+      30.0
+     ],
+     [
+      "width - 2 * edge_margin",
+      null,
+      10.0
+     ],
+     [
+      "hole_type == 0 ? 1 : edge_margin - r_b",
+      null,
+      1.8585786437626903
+     ],
+     [
+      "hole_type == 0 ? 1 : (screws_x > 1 ? pitch_x - 2 * r_b : 1)",
+      null,
+      8.717157287525382
+     ],
+     [
+      "hole_type == 0 ? 1 : (screws_y > 1 ? pitch_y - 2 * r_b : 1)",
+      null,
+      3.7171572875253807
+     ]
+    ]
+   }
+  ],
+  "rail15.prim": [
+   {
+    "values": {},
+    "names": {
+     "length": 20.0,
+     "depth": 4.0,
+     "base_depth": 1.0,
+     "base_width": -1.0,
+     "end_taper": 0.0,
+     "printer_width_offset": 0.0,
+     "width": 15.0,
+     "angle": 60.0,
+     "tip_radius": 1.0,
+     "root_radius": 0.2,
+     "t_tip": 1.7320508075688774,
+     "t_root": 0.3464101615137755,
+     "tip_hw": 8.232050807568877,
+     "root_hw": 5.922649730810373,
+     "width_check": 14.999999999999998,
+     "base_hw": 6.269059892324148
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "(base_hw + 1) + printer_width_offset / 2",
+      null,
+      7.269059892324148
+     ],
+     [
+      "(base_hw + 2) + printer_width_offset / 2",
+      null,
+      8.269059892324147
+     ],
+     [
+      "(base_hw) + printer_width_offset / 2",
+      null,
+      6.269059892324148
+     ],
+     [
+      "(root_hw - (0) / sin(angle)) + printer_width_offset / 2",
+      null,
+      5.922649730810373
+     ],
+     [
+      "(root_hw - (end_taper) / sin(angle)) + printer_width_offset / 2",
+      null,
+      5.922649730810373
+     ],
+     [
+      "(tip_hw - (0) / tan(angle / 2)) + printer_width_offset / 2",
+      null,
+      8.232050807568877
+     ],
+     [
+      "(tip_hw - (end_taper) / tan(angle / 2)) + printer_width_offset / 2",
+      null,
+      8.232050807568877
+     ],
+     [
+      "-((base_hw + 1) + printer_width_offset / 2)",
+      null,
+      -7.269059892324148
+     ],
+     [
+      "-((base_hw + 2) + printer_width_offset / 2)",
+      null,
+      -8.269059892324147
+     ],
+     [
+      "-((base_hw) + printer_width_offset / 2)",
+      null,
+      -6.269059892324148
+     ],
+     [
+      "-((root_hw - (0) / sin(angle)) + printer_width_offset / 2)",
+      null,
+      -5.922649730810373
+     ],
+     [
+      "-((root_hw - (end_taper) / sin(angle)) + printer_width_offset / 2)",
+      null,
+      -5.922649730810373
+     ],
+     [
+      "-((tip_hw - (0) / tan(angle / 2)) + printer_width_offset / 2)",
+      null,
+      -8.232050807568877
+     ],
+     [
+      "-((tip_hw - (end_taper) / tan(angle / 2)) + printer_width_offset / 2)",
+      null,
+      -8.232050807568877
+     ],
+     [
+      "-1",
+      null,
+      -1.0
+     ],
+     [
+      "-depth + (0)",
+      null,
+      -4.0
+     ],
+     [
+      "-depth + (end_taper)",
+      null,
+      -4.0
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "base_depth",
+      null,
+      1.0
+     ],
+     [
+      "base_depth + 1",
+      null,
+      2.0
+     ],
+     [
+      "base_width >= 0",
+      null,
+      0.0
+     ],
+     [
+      "end_taper",
+      null,
+      0.0
+     ],
+     [
+      "end_taper > 0",
+      null,
+      0.0
+     ],
+     [
+      "length",
+      null,
+      20.0
+     ],
+     [
+      "length + 1",
+      null,
+      21.0
+     ],
+     [
+      "length - end_taper",
+      null,
+      20.0
+     ],
+     [
+      "root_radius",
+      null,
+      0.2
+     ],
+     [
+      "tip_radius - (0)",
+      null,
+      1.0
+     ],
+     [
+      "tip_radius - (end_taper)",
+      null,
+      1.0
+     ],
+     [
+      "length",
+      null,
+      20.0
+     ],
+     [
+      "0.000001 - abs(width_check - width)",
+      null,
+      9.999999982236431e-07
+     ],
+     [
+      "root_hw + printer_width_offset / 2",
+      null,
+      5.922649730810373
+     ],
+     [
+      "end_taper >= end_taper * 0 ? 1 : 0",
+      null,
+      1.0
+     ],
+     [
+      "tip_radius - end_taper",
+      null,
+      1.0
+     ],
+     [
+      "length - 2 * end_taper",
+      null,
+      20.0
+     ],
+     [
+      "(depth - end_taper) / sin(angle) - (tip_radius - end_taper) / tan(angle / 2) - t_root",
+      null,
+      2.5403411844343537
+     ],
+     [
+      "depth / sin(angle) - t_tip - t_root",
+      null,
+      2.5403411844343537
+     ],
+     [
+      "base_depth",
+      null,
+      1.0
+     ],
+     [
+      "base_width < base_width * 0 ? 1 : base_width / 2 - root_hw - t_root",
+      null,
+      1.0
+     ]
+    ]
+   },
+   {
+    "values": {
+     "base_width": "30",
+     "end_taper": "0.3"
+    },
+    "names": {
+     "length": 20.0,
+     "depth": 4.0,
+     "base_depth": 1.0,
+     "base_width": 30.0,
+     "end_taper": 0.3,
+     "printer_width_offset": 0.0,
+     "width": 15.0,
+     "angle": 60.0,
+     "tip_radius": 1.0,
+     "root_radius": 0.2,
+     "t_tip": 1.7320508075688774,
+     "t_root": 0.3464101615137755,
+     "tip_hw": 8.232050807568877,
+     "root_hw": 5.922649730810373,
+     "width_check": 14.999999999999998,
+     "base_hw": 15.0
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "(base_hw + 1) + printer_width_offset / 2",
+      null,
+      16.0
+     ],
+     [
+      "(base_hw + 2) + printer_width_offset / 2",
+      null,
+      17.0
+     ],
+     [
+      "(base_hw) + printer_width_offset / 2",
+      null,
+      15.0
+     ],
+     [
+      "(root_hw - (0) / sin(angle)) + printer_width_offset / 2",
+      null,
+      5.922649730810373
+     ],
+     [
+      "(root_hw - (end_taper) / sin(angle)) + printer_width_offset / 2",
+      null,
+      5.576239569296598
+     ],
+     [
+      "(tip_hw - (0) / tan(angle / 2)) + printer_width_offset / 2",
+      null,
+      8.232050807568877
+     ],
+     [
+      "(tip_hw - (end_taper) / tan(angle / 2)) + printer_width_offset / 2",
+      null,
+      7.712435565298214
+     ],
+     [
+      "-((base_hw + 1) + printer_width_offset / 2)",
+      null,
+      -16.0
+     ],
+     [
+      "-((base_hw + 2) + printer_width_offset / 2)",
+      null,
+      -17.0
+     ],
+     [
+      "-((base_hw) + printer_width_offset / 2)",
+      null,
+      -15.0
+     ],
+     [
+      "-((root_hw - (0) / sin(angle)) + printer_width_offset / 2)",
+      null,
+      -5.922649730810373
+     ],
+     [
+      "-((root_hw - (end_taper) / sin(angle)) + printer_width_offset / 2)",
+      null,
+      -5.576239569296598
+     ],
+     [
+      "-((tip_hw - (0) / tan(angle / 2)) + printer_width_offset / 2)",
+      null,
+      -8.232050807568877
+     ],
+     [
+      "-((tip_hw - (end_taper) / tan(angle / 2)) + printer_width_offset / 2)",
+      null,
+      -7.712435565298214
+     ],
+     [
+      "-1",
+      null,
+      -1.0
+     ],
+     [
+      "-depth + (0)",
+      null,
+      -4.0
+     ],
+     [
+      "-depth + (end_taper)",
+      null,
+      -3.7
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "base_depth",
+      null,
+      1.0
+     ],
+     [
+      "base_depth + 1",
+      null,
+      2.0
+     ],
+     [
+      "base_width >= 0",
+      null,
+      1.0
+     ],
+     [
+      "end_taper",
+      null,
+      0.3
+     ],
+     [
+      "end_taper > 0",
+      null,
+      1.0
+     ],
+     [
+      "length",
+      null,
+      20.0
+     ],
+     [
+      "length + 1",
+      null,
+      21.0
+     ],
+     [
+      "length - end_taper",
+      null,
+      19.7
+     ],
+     [
+      "root_radius",
+      null,
+      0.2
+     ],
+     [
+      "tip_radius - (0)",
+      null,
+      1.0
+     ],
+     [
+      "tip_radius - (end_taper)",
+      null,
+      0.7
+     ],
+     [
+      "length",
+      null,
+      20.0
+     ],
+     [
+      "0.000001 - abs(width_check - width)",
+      null,
+      9.999999982236431e-07
+     ],
+     [
+      "root_hw + printer_width_offset / 2",
+      null,
+      5.922649730810373
+     ],
+     [
+      "end_taper >= end_taper * 0 ? 1 : 0",
+      null,
+      1.0
+     ],
+     [
+      "tip_radius - end_taper",
+      null,
+      0.7
+     ],
+     [
+      "length - 2 * end_taper",
+      null,
+      19.4
+     ],
+     [
+      "(depth - end_taper) / sin(angle) - (tip_radius - end_taper) / tan(angle / 2) - t_root",
+      null,
+      2.713546265191242
+     ],
+     [
+      "depth / sin(angle) - t_tip - t_root",
+      null,
+      2.5403411844343537
+     ],
+     [
+      "base_depth",
+      null,
+      1.0
+     ],
+     [
+      "base_width < base_width * 0 ? 1 : base_width / 2 - root_hw - t_root",
+      null,
+      8.73094010767585
+     ]
+    ]
+   }
+  ],
+  "rail15_housing.prim": [
+   {
+    "values": {},
+    "names": {
+     "clearance": 0.2,
+     "length": 20.0,
+     "depth": 4.0,
+     "block_width": 25.0,
+     "block_depth": 6.0,
+     "end_taper": 0.0,
+     "printer_width_offset": 0.0,
+     "width": 15.0,
+     "angle": 60.0,
+     "tip_radius": 1.0,
+     "root_radius": 0.2,
+     "t_tip": 1.7320508075688774,
+     "t_root": 0.3464101615137755,
+     "tip_hw": 8.232050807568877,
+     "root_hw": 5.922649730810373,
+     "width_check": 14.999999999999998,
+     "grow": 0.3464101615137755,
+     "floor_hw": 8.578460969082652,
+     "mouth_hw": 6.269059892324148,
+     "lip_end": 9.615470053837925
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "(floor_hw + (0) / tan(angle / 2)) + printer_width_offset / 2",
+      null,
+      8.578460969082652
+     ],
+     [
+      "(floor_hw + (end_taper + 0.2) / tan(angle / 2)) + printer_width_offset / 2",
+      null,
+      8.924871130596427
+     ],
+     [
+      "(lip_end) + printer_width_offset / 2",
+      null,
+      9.615470053837925
+     ],
+     [
+      "(mouth_hw + (0) / sin(angle)) + printer_width_offset / 2",
+      null,
+      6.269059892324148
+     ],
+     [
+      "(mouth_hw + (end_taper + 0.2) / sin(angle)) + printer_width_offset / 2",
+      null,
+      6.499999999999998
+     ],
+     [
+      "-((floor_hw + (0) / tan(angle / 2)) + printer_width_offset / 2)",
+      null,
+      -8.578460969082652
+     ],
+     [
+      "-((floor_hw + (end_taper + 0.2) / tan(angle / 2)) + printer_width_offset / 2)",
+      null,
+      -8.924871130596427
+     ],
+     [
+      "-((lip_end) + printer_width_offset / 2)",
+      null,
+      -9.615470053837925
+     ],
+     [
+      "-((mouth_hw + (0) / sin(angle)) + printer_width_offset / 2)",
+      null,
+      -6.269059892324148
+     ],
+     [
+      "-((mouth_hw + (end_taper + 0.2) / sin(angle)) + printer_width_offset / 2)",
+      null,
+      -6.499999999999998
+     ],
+     [
+      "-(1)",
+      null,
+      -1.0
+     ],
+     [
+      "-0.2",
+      null,
+      -0.2
+     ],
+     [
+      "-block_width / 2",
+      null,
+      -12.5
+     ],
+     [
+      "-clearance",
+      null,
+      -0.2
+     ],
+     [
+      "-clearance + 1",
+      null,
+      0.8
+     ],
+     [
+      "-clearance - block_depth",
+      null,
+      -6.2
+     ],
+     [
+      "-depth - clearance - (0)",
+      null,
+      -4.2
+     ],
+     [
+      "-depth - clearance - (end_taper + 0.2)",
+      null,
+      -4.4
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "block_width / 2",
+      null,
+      12.5
+     ],
+     [
+      "end_taper",
+      null,
+      0.0
+     ],
+     [
+      "end_taper > 0",
+      null,
+      0.0
+     ],
+     [
+      "length",
+      null,
+      20.0
+     ],
+     [
+      "length + 0.2",
+      null,
+      20.2
+     ],
+     [
+      "length + 1",
+      null,
+      21.0
+     ],
+     [
+      "length - end_taper",
+      null,
+      20.0
+     ],
+     [
+      "root_radius - clearance",
+      null,
+      0.0
+     ],
+     [
+      "tip_radius + clearance + (0)",
+      null,
+      1.2
+     ],
+     [
+      "tip_radius + clearance + (end_taper + 0.2)",
+      null,
+      1.4
+     ],
+     [
+      "length",
+      null,
+      20.0
+     ],
+     [
+      "0.000001 - abs(width_check - width)",
+      null,
+      9.999999982236431e-07
+     ],
+     [
+      "root_hw + printer_width_offset / 2",
+      null,
+      5.922649730810373
+     ],
+     [
+      "end_taper >= end_taper * 0 ? 1 : 0",
+      null,
+      1.0
+     ],
+     [
+      "tip_radius - end_taper",
+      null,
+      1.0
+     ],
+     [
+      "length - 2 * end_taper",
+      null,
+      20.0
+     ],
+     [
+      "clearance",
+      null,
+      0.2
+     ],
+     [
+      "block_depth - depth - end_taper",
+      null,
+      2.0
+     ],
+     [
+      "depth / sin(angle) - t_tip - t_root",
+      null,
+      2.5403411844343537
+     ],
+     [
+      "block_width / 2 - floor_hw - end_taper / tan(angle / 2) - printer_width_offset / 2",
+      null,
+      3.921539030917348
+     ],
+     [
+      "block_depth - depth",
+      null,
+      2.0
+     ]
+    ]
+   },
+   {
+    "values": {
+     "end_taper": "0.3",
+     "clearance": "0.1"
+    },
+    "names": {
+     "clearance": 0.1,
+     "length": 20.0,
+     "depth": 4.0,
+     "block_width": 25.0,
+     "block_depth": 6.0,
+     "end_taper": 0.3,
+     "printer_width_offset": 0.0,
+     "width": 15.0,
+     "angle": 60.0,
+     "tip_radius": 1.0,
+     "root_radius": 0.2,
+     "t_tip": 1.7320508075688774,
+     "t_root": 0.3464101615137755,
+     "tip_hw": 8.232050807568877,
+     "root_hw": 5.922649730810373,
+     "width_check": 14.999999999999998,
+     "grow": 0.17320508075688776,
+     "floor_hw": 8.405255888325765,
+     "mouth_hw": 6.095854811567261,
+     "lip_end": 9.442264973081036
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "(floor_hw + (0) / tan(angle / 2)) + printer_width_offset / 2",
+      null,
+      8.405255888325765
+     ],
+     [
+      "(floor_hw + (end_taper + 0.2) / tan(angle / 2)) + printer_width_offset / 2",
+      null,
+      9.271281292110205
+     ],
+     [
+      "(lip_end) + printer_width_offset / 2",
+      null,
+      9.442264973081036
+     ],
+     [
+      "(mouth_hw + (0) / sin(angle)) + printer_width_offset / 2",
+      null,
+      6.095854811567261
+     ],
+     [
+      "(mouth_hw + (end_taper + 0.2) / sin(angle)) + printer_width_offset / 2",
+      null,
+      6.673205080756887
+     ],
+     [
+      "-((floor_hw + (0) / tan(angle / 2)) + printer_width_offset / 2)",
+      null,
+      -8.405255888325765
+     ],
+     [
+      "-((floor_hw + (end_taper + 0.2) / tan(angle / 2)) + printer_width_offset / 2)",
+      null,
+      -9.271281292110205
+     ],
+     [
+      "-((lip_end) + printer_width_offset / 2)",
+      null,
+      -9.442264973081036
+     ],
+     [
+      "-((mouth_hw + (0) / sin(angle)) + printer_width_offset / 2)",
+      null,
+      -6.095854811567261
+     ],
+     [
+      "-((mouth_hw + (end_taper + 0.2) / sin(angle)) + printer_width_offset / 2)",
+      null,
+      -6.673205080756887
+     ],
+     [
+      "-(1)",
+      null,
+      -1.0
+     ],
+     [
+      "-0.2",
+      null,
+      -0.2
+     ],
+     [
+      "-block_width / 2",
+      null,
+      -12.5
+     ],
+     [
+      "-clearance",
+      null,
+      -0.1
+     ],
+     [
+      "-clearance + 1",
+      null,
+      0.9
+     ],
+     [
+      "-clearance - block_depth",
+      null,
+      -6.1
+     ],
+     [
+      "-depth - clearance - (0)",
+      null,
+      -4.1
+     ],
+     [
+      "-depth - clearance - (end_taper + 0.2)",
+      null,
+      -4.6
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "block_width / 2",
+      null,
+      12.5
+     ],
+     [
+      "end_taper",
+      null,
+      0.3
+     ],
+     [
+      "end_taper > 0",
+      null,
+      1.0
+     ],
+     [
+      "length",
+      null,
+      20.0
+     ],
+     [
+      "length + 0.2",
+      null,
+      20.2
+     ],
+     [
+      "length + 1",
+      null,
+      21.0
+     ],
+     [
+      "length - end_taper",
+      null,
+      19.7
+     ],
+     [
+      "root_radius - clearance",
+      null,
+      0.1
+     ],
+     [
+      "tip_radius + clearance + (0)",
+      null,
+      1.1
+     ],
+     [
+      "tip_radius + clearance + (end_taper + 0.2)",
+      null,
+      1.6
+     ],
+     [
+      "length",
+      null,
+      20.0
+     ],
+     [
+      "0.000001 - abs(width_check - width)",
+      null,
+      9.999999982236431e-07
+     ],
+     [
+      "root_hw + printer_width_offset / 2",
+      null,
+      5.922649730810373
+     ],
+     [
+      "end_taper >= end_taper * 0 ? 1 : 0",
+      null,
+      1.0
+     ],
+     [
+      "tip_radius - end_taper",
+      null,
+      0.7
+     ],
+     [
+      "length - 2 * end_taper",
+      null,
+      19.4
+     ],
+     [
+      "clearance",
+      null,
+      0.1
+     ],
+     [
+      "block_depth - depth - end_taper",
+      null,
+      1.7
+     ],
+     [
+      "depth / sin(angle) - t_tip - t_root",
+      null,
+      2.5403411844343537
+     ],
+     [
+      "block_width / 2 - floor_hw - end_taper / tan(angle / 2) - printer_width_offset / 2",
+      null,
+      3.5751288694035717
+     ],
+     [
+      "block_depth - depth",
+      null,
+      2.0
+     ]
+    ]
+   }
+  ],
+  "rail_end.prim": [
+   {
+    "values": {},
+    "names": {
+     "size": 27.0,
+     "panel_t": 6.5,
+     "skin": 5.0,
+     "panel_gap": 3.0,
+     "bevel": 15.0,
+     "chamfer": 0.5,
+     "glue": 0.0,
+     "glue_ridge": 0.6,
+     "notch": 3.85,
+     "corner_size": 40.0,
+     "drill_inset": 6.0,
+     "nominal_spacing": 30.0,
+     "min_spacing": 7.0,
+     "screw_r": 1.4,
+     "head_r": 2.75,
+     "head_h": 2.7,
+     "screw_len": 20.0,
+     "screws": 1.0,
+     "base_depth": 2.0,
+     "printer_width_offset": 0.2,
+     "drop_on": 15.0,
+     "taper": 10.0,
+     "drop_clear": 0.5,
+     "drop_chamfer": 1.0,
+     "width": 61.4,
+     "angle": 60.0,
+     "depth": 6.35,
+     "tip_radius": 0.7,
+     "root_radius": 1.0,
+     "groove_width": 19.95,
+     "groove_depth": 1.2,
+     "groove_angle": 45.0,
+     "t_tip": 1.2124355652982142,
+     "t_root": 1.7320508075688774,
+     "tip_hw": 31.212435565298215,
+     "root_hw": 27.54626135594409,
+     "width_check": 61.4,
+     "key_hw": 28.278312163512968,
+     "widest": 31.312435565298216,
+     "rail_w": 61.6,
+     "screw_y": 18.376656081756483,
+     "end_length": 40.0,
+     "end_inset": 17.706601717798215,
+     "end_span": 4.586796564403571,
+     "end_holes": 1.0,
+     "x0": -11.5,
+     "face": -8.5,
+     "tip": -14.85,
+     "z0": -0.8933982822017867,
+     "foot": 2.456601717798213,
+     "x1": 17.456601717798215,
+     "x2": 27.456601717798215,
+     "key": 27.778312163512968,
+     "out": 32.312435565298216
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "((((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (0)) * (-1.0000000000) - ((panel_t + skin) - (0)) * (-0.7071067812)) / (-0.7071067812)",
+      null,
+      15.0
+     ],
+     [
+      "((((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (0)) * (1.0000000000) - (((size) - (panel_t + skin)) - (0)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      -11.000000000000002
+     ],
+     [
+      "((((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (chamfer)) * (-1.0000000000) - ((panel_t + skin) - (chamfer)) * (-0.7071067812)) / (-0.7071067812)",
+      null,
+      14.792893218826908
+     ],
+     [
+      "((((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (chamfer)) * (1.0000000000) - (((size) - (panel_t + skin)) - (chamfer)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      -10.792893218826906
+     ],
+     [
+      "((((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (0)) * (0.0000000000) - (((size) - (panel_t + skin)) - (0)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      15.5
+     ],
+     [
+      "((((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (0)) * (0.0000000000) - ((-panel_t) - (0)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      -6.499999999999999
+     ],
+     [
+      "((((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (chamfer)) * (0.0000000000) - (((size) - (panel_t + skin)) - (chamfer)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      15.0
+     ],
+     [
+      "((((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (chamfer)) * (0.0000000000) - ((-panel_t) - (chamfer)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      -7.0
+     ],
+     [
+      "((((2 * (panel_t + skin) - (bevel / 1.4142135624)) * 0.7071067812) - (0)) * (0.0000000000) - ((panel_t + skin) - (0)) * (-0.7071067812)) / (-0.7071067812)",
+      null,
+      -11.500000000000002
+     ],
+     [
+      "((((2 * (panel_t + skin) - (bevel / 1.4142135624)) * 0.7071067812) - (chamfer)) * (0.0000000000) - ((panel_t + skin) - (chamfer)) * (-0.7071067812)) / (-0.7071067812)",
+      null,
+      -11.0
+     ],
+     [
+      "((((61.4) / 2 + ((0.7) / tan((60) / 2)) - (0.7)) - (6.35) / tan((60))) - ((0)) / sin((60))) + printer_width_offset / 2",
+      null,
+      27.64626135594409
+     ],
+     [
+      "((((61.4) / 2 + ((0.7) / tan((60) / 2)) - (0.7)) - (6.35) / tan((60))) - (0) / sin((60))) + printer_width_offset / 2",
+      null,
+      27.64626135594409
+     ],
+     [
+      "((((panel_gap - chamfer) * 0.7071067812) - (0)) * (0.0000000000) - (0 - (0)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      -0.0
+     ],
+     [
+      "((((panel_gap - chamfer) * 0.7071067812) - (0)) * (0.0000000000) - (panel_gap - (0)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      2.9999999999999996
+     ],
+     [
+      "((((panel_gap - chamfer) * 0.7071067812) - (chamfer)) * (0.0000000000) - (0 - (chamfer)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      -0.5
+     ],
+     [
+      "((((panel_gap - chamfer) * 0.7071067812) - (chamfer)) * (0.0000000000) - (panel_gap - (chamfer)) * (0.7071067812)) / (-0.7071067812)",
+      null,
+      2.5
+     ],
+     [
+      "((((panel_t + skin) - ((notch)) + (((notch)) > 0 ? 0 : 1000))) - chamfer + (((size)) - (((panel_t)) + ((skin))))) * 0.7071067812",
+      null,
+      16.01596859418
+     ],
+     [
+      "((((panel_t + skin) - ((notch)) + (((notch)) > 0 ? 0 : 1000))) - chamfer + ((rail_w))) * 0.7071067812",
+      null,
+      48.6135912075
+     ],
+     [
+      "((((panel_t + skin) - ((notch)) + (((notch)) > 0 ? 0 : 1000))) - chamfer) * 0.7071067812",
+      null,
+      5.055813485580001
+     ],
+     [
+      "((((size) - (panel_t + skin)) - (0)) * (-0.7071067812) - (((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (0)) * (0.0000000000)) / (-0.7071067812)",
+      null,
+      15.5
+     ],
+     [
+      "((((size) - (panel_t + skin)) - (0)) * (0.7071067812) - (((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (0)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      -7.0
+     ],
+     [
+      "((((size) - (panel_t + skin)) - (chamfer)) * (-0.7071067812) - (((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (chamfer)) * (0.0000000000)) / (-0.7071067812)",
+      null,
+      15.0
+     ],
+     [
+      "((((size) - (panel_t + skin)) - (chamfer)) * (0.7071067812) - (((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (chamfer)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      -7.207106781173095
+     ],
+     [
+      "((((size)) - (((panel_t)) + ((skin)))) - chamfer - glue_ridge)",
+      null,
+      14.4
+     ],
+     [
+      "((((size)) - (((panel_t)) + ((skin)))) - chamfer - glue_ridge) - (glue > 0 ? glue : 0.01)",
+      null,
+      14.39
+     ],
+     [
+      "(((-panel_t) - (0)) * (0.7071067812) - (((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (0)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      15.0
+     ],
+     [
+      "(((-panel_t) - (0)) * (1.0000000000) - (panel_gap - (0)) * (0.0000000000)) / (1.0000000000)",
+      null,
+      -6.5
+     ],
+     [
+      "(((-panel_t) - (chamfer)) * (0.7071067812) - (((((size) - (panel_t + skin)) - panel_t - chamfer) * 0.7071067812) - (chamfer)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      14.792893218826904
+     ],
+     [
+      "(((-panel_t) - (chamfer)) * (1.0000000000) - (panel_gap - (chamfer)) * (0.0000000000)) / (1.0000000000)",
+      null,
+      -7.0
+     ],
+     [
+      "(((61.4) / 2 + ((0.7) / tan((60) / 2)) - (0.7)) - ((0)) / tan((60) / 2)) + printer_width_offset / 2",
+      null,
+      31.312435565298216
+     ],
+     [
+      "(((61.4) / 2 + ((0.7) / tan((60) / 2)) - (0.7)) - (0) / tan((60) / 2)) + printer_width_offset / 2",
+      null,
+      31.312435565298216
+     ],
+     [
+      "(((panel_gap)) + ((drill_inset))) + ((0) > 0 ? 0 : 1000)",
+      null,
+      1009.0
+     ],
+     [
+      "(((panel_gap)) + ((drill_inset))) + ((1) > 0 ? 0 : 1000)",
+      null,
+      9.0
+     ],
+     [
+      "(((panel_t + skin) - (0)) * (-0.7071067812) - (((2 * (panel_t + skin) - (bevel / 1.4142135624)) * 0.7071067812) - (0)) * (-1.0000000000)) / (-0.7071067812)",
+      null,
+      -0.8933982824035733
+     ],
+     [
+      "(((panel_t + skin) - (0)) * (0.7071067812) - (((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (0)) * (0.0000000000)) / (-0.7071067812)",
+      null,
+      -11.500000000000002
+     ],
+     [
+      "(((panel_t + skin) - (chamfer)) * (-0.7071067812) - (((2 * (panel_t + skin) - (bevel / 1.4142135624)) * 0.7071067812) - (chamfer)) * (-1.0000000000)) / (-0.7071067812)",
+      null,
+      -0.6862915012304798
+     ],
+     [
+      "(((panel_t + skin) - (chamfer)) * (0.7071067812) - (((((size) - (panel_t + skin)) + (panel_t + skin) - chamfer) * 0.7071067812) - (chamfer)) * (0.0000000000)) / (-0.7071067812)",
+      null,
+      -11.0
+     ],
+     [
+      "(((rail_w))) - chamfer",
+      null,
+      61.1
+     ],
+     [
+      "((-panel_t) + (glue > 0 ? 0 : 1000))",
+      null,
+      993.5
+     ],
+     [
+      "((-panel_t) + (glue > 0 ? 0 : 1000)) - (glue > 0 ? glue : 0.01)",
+      null,
+      993.49
+     ],
+     [
+      "((0 - (0)) * (0.7071067812) - (((panel_gap - chamfer) * 0.7071067812) - (0)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      2.5
+     ],
+     [
+      "((0 - (0)) * (1.0000000000) - (0 - (0)) * (0.0000000000)) / (1.0000000000)",
+      null,
+      0.0
+     ],
+     [
+      "((0 - (chamfer)) * (0.7071067812) - (((panel_gap - chamfer) * 0.7071067812) - (chamfer)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      2.2928932188269053
+     ],
+     [
+      "((0 - (chamfer)) * (1.0000000000) - (0 - (chamfer)) * (0.0000000000)) / (1.0000000000)",
+      null,
+      -0.5
+     ],
+     [
+      "((end_length))",
+      null,
+      40.0
+     ],
+     [
+      "((end_length)) + 1",
+      null,
+      41.0
+     ],
+     [
+      "((end_length)) - (0)",
+      null,
+      40.0
+     ],
+     [
+      "((panel_gap - (0)) * (0.7071067812) - (((panel_gap - chamfer) * 0.7071067812) - (0)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      -0.49999999999999956
+     ],
+     [
+      "((panel_gap - (0)) * (1.0000000000) - ((-panel_t) - (0)) * (0.0000000000)) / (1.0000000000)",
+      null,
+      3.0
+     ],
+     [
+      "((panel_gap - (chamfer)) * (0.7071067812) - (((panel_gap - chamfer) * 0.7071067812) - (chamfer)) * (1.0000000000)) / (-0.7071067812)",
+      null,
+      -0.707106781173095
+     ],
+     [
+      "((panel_gap - (chamfer)) * (1.0000000000) - ((-panel_t) - (chamfer)) * (0.0000000000)) / (1.0000000000)",
+      null,
+      2.5
+     ],
+     [
+      "((panel_gap) + (glue > 0 ? 0 : 1000))",
+      null,
+      1003.0
+     ],
+     [
+      "((panel_gap) + (glue > 0 ? 0 : 1000)) - (glue > 0 ? glue : 0.01)",
+      null,
+      1002.99
+     ],
+     [
+      "((panel_t + skin) - ((notch)) + (((notch)) > 0 ? 0 : 1000))",
+      null,
+      7.65
+     ],
+     [
+      "((rail_w))",
+      null,
+      61.6
+     ],
+     [
+      "((rail_w)) + 1",
+      null,
+      62.6
+     ],
+     [
+      "(+((-1) < (-1) * 0 ? (((61.4) / 2 + ((0.7) / tan((60) / 2)) - (0.7)) - (6.35) / tan((60))) + ((1) / tan((60) / 2)) : (-1) / 2) + 1) + printer_width_offset / 2",
+      null,
+      30.37831216351297
+     ],
+     [
+      "(+((-1) < (-1) * 0 ? (((61.4) / 2 + ((0.7) / tan((60) / 2)) - (0.7)) - (6.35) / tan((60))) + ((1) / tan((60) / 2)) : (-1) / 2) + 2) + printer_width_offset / 2",
+      null,
+      31.37831216351297
+     ],
+     [
+      "(+((-1) < (-1) * 0 ? (((61.4) / 2 + ((0.7) / tan((60) / 2)) - (0.7)) - (6.35) / tan((60))) + ((1) / tan((60) / 2)) : (-1) / 2)) + printer_width_offset / 2",
+      null,
+      29.37831216351297
+     ],
+     [
+      "(-1) >= 0",
+      null,
+      0.0
+     ],
+     [
+      "(-chamfer - glue_ridge)",
+      null,
+      -1.1
+     ],
+     [
+      "(-chamfer - glue_ridge) - (glue > 0 ? glue : 0.01)",
+      null,
+      -1.11
+     ],
+     [
+      "(-panel_t + glue_ridge)",
+      null,
+      -5.9
+     ],
+     [
+      "(-panel_t + glue_ridge) + (glue > 0 ? glue : 0.01)",
+      null,
+      -5.890000000000001
+     ],
+     [
+      "(0)",
+      null,
+      0.0
+     ],
+     [
+      "(0) + chamfer",
+      null,
+      0.5
+     ],
+     [
+      "(0) > 0",
+      null,
+      0.0
+     ],
+     [
+      "(0.7) - ((0))",
+      null,
+      0.7
+     ],
+     [
+      "(0.7) - (0)",
+      null,
+      0.7
+     ],
+     [
+      "(1)",
+      null,
+      1.0
+     ],
+     [
+      "(19.95) / 2 + (-((0))) / tan((45)) - (-((0))) / sin((45))",
+      null,
+      9.975
+     ],
+     [
+      "(19.95) / 2 + (-(0)) / tan((45)) - (-(0)) / sin((45))",
+      null,
+      9.975
+     ],
+     [
+      "(19.95) / 2 - ((1.2) - (-((0)))) / tan((45)) - (-((0))) / sin((45))",
+      null,
+      8.774999999999999
+     ],
+     [
+      "(19.95) / 2 - ((1.2) - (-(0))) / tan((45)) - (-(0)) / sin((45))",
+      null,
+      8.774999999999999
+     ],
+     [
+      "(2 * ((rail_w)) + 2 * size + 100)",
+      null,
+      277.2
+     ],
+     [
+      "(key - drop_chamfer - 1)",
+      null,
+      25.778312163512968
+     ],
+     [
+      "(key)",
+      null,
+      27.778312163512968
+     ],
+     [
+      "(out)",
+      null,
+      32.312435565298216
+     ],
+     [
+      "(panel_gap + glue_ridge)",
+      null,
+      3.6
+     ],
+     [
+      "(panel_gap + glue_ridge) + (glue > 0 ? glue : 0.01)",
+      null,
+      3.61
+     ],
+     [
+      "(widest)",
+      null,
+      31.312435565298216
+     ],
+     [
+      "+((((end_length)) - 2 * ((end_inset))) < ((min_spacing)) ? 1 : ceil((((end_length)) - 2 * ((end_inset))) / ((nominal_spacing))) + 1)",
+      null,
+      1.0
+     ],
+     [
+      "+((((end_length)) - 2 * ((end_inset))) < ((min_spacing)) ? 1 : ceil((((end_length)) - 2 * ((end_inset))) / ((nominal_spacing))) + 1) > 1 ? (((end_length)) - 2 * ((end_inset))) / (+((((end_length)) - 2 * ((end_inset))) < ((min_spacing)) ? 1 : ceil((((end_length)) - 2 * ((end_inset))) / ((nominal_spacing))) + 1) - 1) : 0",
+      null,
+      0.0
+     ],
+     [
+      "+((((end_length)) - 2 * ((end_inset))) < ((min_spacing)) ? 1 : ceil((((end_length)) - 2 * ((end_inset))) / ((nominal_spacing))) + 1) > 1 ? ((end_inset)) : ((end_length)) / 2",
+      null,
+      20.0
+     ],
+     [
+      "+((((rail_w)) - 2 * ((drill_inset))) < ((min_spacing)) ? 1 : ceil((((rail_w)) - 2 * ((drill_inset))) / ((nominal_spacing))) + 1)",
+      null,
+      3.0
+     ],
+     [
+      "+((((rail_w)) - 2 * ((drill_inset))) < ((min_spacing)) ? 1 : ceil((((rail_w)) - 2 * ((drill_inset))) / ((nominal_spacing))) + 1) > 1 ? (((rail_w)) - 2 * ((drill_inset))) / (+((((rail_w)) - 2 * ((drill_inset))) < ((min_spacing)) ? 1 : ceil((((rail_w)) - 2 * ((drill_inset))) / ((nominal_spacing))) + 1) - 1) : 0",
+      null,
+      24.8
+     ],
+     [
+      "+((((rail_w)) - 2 * ((drill_inset))) < ((min_spacing)) ? 1 : ceil((((rail_w)) - 2 * ((drill_inset))) / ((nominal_spacing))) + 1) > 1 ? drill_inset : ((rail_w)) / 2",
+      null,
+      6.0
+     ],
+     [
+      "-(((((61.4) / 2 + ((0.7) / tan((60) / 2)) - (0.7)) - (6.35) / tan((60))) - ((0)) / sin((60))) + printer_width_offset / 2)",
+      null,
+      -27.64626135594409
+     ],
+     [
+      "-(((((61.4) / 2 + ((0.7) / tan((60) / 2)) - (0.7)) - (6.35) / tan((60))) - (0) / sin((60))) + printer_width_offset / 2)",
+      null,
+      -27.64626135594409
+     ],
+     [
+      "-((((61.4) / 2 + ((0.7) / tan((60) / 2)) - (0.7)) - ((0)) / tan((60) / 2)) + printer_width_offset / 2)",
+      null,
+      -31.312435565298216
+     ],
+     [
+      "-((((61.4) / 2 + ((0.7) / tan((60) / 2)) - (0.7)) - (0) / tan((60) / 2)) + printer_width_offset / 2)",
+      null,
+      -31.312435565298216
+     ],
+     [
+      "-((+((-1) < (-1) * 0 ? (((61.4) / 2 + ((0.7) / tan((60) / 2)) - (0.7)) - (6.35) / tan((60))) + ((1) / tan((60) / 2)) : (-1) / 2) + 1) + printer_width_offset / 2)",
+      null,
+      -30.37831216351297
+     ],
+     [
+      "-((+((-1) < (-1) * 0 ? (((61.4) / 2 + ((0.7) / tan((60) / 2)) - (0.7)) - (6.35) / tan((60))) + ((1) / tan((60) / 2)) : (-1) / 2) + 2) + printer_width_offset / 2)",
+      null,
+      -31.37831216351297
+     ],
+     [
+      "-((+((-1) < (-1) * 0 ? (((61.4) / 2 + ((0.7) / tan((60) / 2)) - (0.7)) - (6.35) / tan((60))) + ((1) / tan((60) / 2)) : (-1) / 2)) + printer_width_offset / 2)",
+      null,
+      -29.37831216351297
+     ],
+     [
+      "-((19.95) / 2 + (-((0))) / tan((45)) - (-((0))) / sin((45)))",
+      null,
+      -9.975
+     ],
+     [
+      "-((19.95) / 2 + (-(0)) / tan((45)) - (-(0)) / sin((45)))",
+      null,
+      -9.975
+     ],
+     [
+      "-((19.95) / 2 - ((1.2) - (-((0)))) / tan((45)) - (-((0))) / sin((45)))",
+      null,
+      -8.774999999999999
+     ],
+     [
+      "-((19.95) / 2 - ((1.2) - (-(0))) / tan((45)) - (-(0)) / sin((45)))",
+      null,
+      -8.774999999999999
+     ],
+     [
+      "-(6.35)",
+      null,
+      -6.35
+     ],
+     [
+      "-(6.35) + ((0))",
+      null,
+      -6.35
+     ],
+     [
+      "-(6.35) + (0)",
+      null,
+      -6.35
+     ],
+     [
+      "-(6.35) + (1.2) - (-((0)))",
+      null,
+      -5.1499999999999995
+     ],
+     [
+      "-(6.35) + (1.2) - (-(0))",
+      null,
+      -5.1499999999999995
+     ],
+     [
+      "-(6.35) + head_h",
+      null,
+      -3.6499999999999995
+     ],
+     [
+      "-(6.35) - (-((0)))",
+      null,
+      -6.35
+     ],
+     [
+      "-(6.35) - (-(0))",
+      null,
+      -6.35
+     ],
+     [
+      "-(6.35) - 1",
+      null,
+      -7.35
+     ],
+     [
+      "-(key - drop_chamfer - 1)",
+      null,
+      -25.778312163512968
+     ],
+     [
+      "-(key)",
+      null,
+      -27.778312163512968
+     ],
+     [
+      "-(out)",
+      null,
+      -32.312435565298216
+     ],
+     [
+      "-(panel_t + skin)",
+      null,
+      -11.5
+     ],
+     [
+      "-(panel_t + skin) + head_h",
+      null,
+      -8.8
+     ],
+     [
+      "-(panel_t + skin) + screw_len",
+      null,
+      8.5
+     ],
+     [
+      "-(screw_y + (screws > 0 ? 0 : 1000))",
+      null,
+      -18.376656081756483
+     ],
+     [
+      "-(widest)",
+      null,
+      -31.312435565298216
+     ],
+     [
+      "-1",
+      null,
+      -1.0
+     ],
+     [
+      "-90",
+      null,
+      -90.0
+     ],
+     [
+      "-depth",
+      null,
+      -6.35
+     ],
+     [
+      "-depth + head_h",
+      null,
+      -3.6499999999999995
+     ],
+     [
+      "-depth - 1",
+      null,
+      -7.35
+     ],
+     [
+      "-out",
+      null,
+      -32.312435565298216
+     ],
+     [
+      "-rail_w / 2",
+      null,
+      -30.8
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "base_depth",
+      null,
+      2.0
+     ],
+     [
+      "base_depth + 1",
+      null,
+      3.0
+     ],
+     [
+      "end_holes",
+      null,
+      1.0
+     ],
+     [
+      "end_holes > 1 ? end_inset : end_length / 2",
+      null,
+      20.0
+     ],
+     [
+      "end_holes > 1 ? end_span / (end_holes - 1) : 0",
+      null,
+      0.0
+     ],
+     [
+      "face",
+      null,
+      -8.5
+     ],
+     [
+      "foot + 1",
+      null,
+      3.456601717798213
+     ],
+     [
+      "head_r",
+      null,
+      2.75
+     ],
+     [
+      "out",
+      null,
+      32.312435565298216
+     ],
+     [
+      "screw_r",
+      null,
+      1.4
+     ],
+     [
+      "screw_y + (screws > 0 ? 0 : 1000)",
+      null,
+      18.376656081756483
+     ],
+     [
+      "tip + drop_chamfer",
+      null,
+      -13.85
+     ],
+     [
+      "tip - 1",
+      null,
+      -15.85
+     ],
+     [
+      "x0",
+      null,
+      -11.5
+     ],
+     [
+      "x0 - 1",
+      null,
+      -12.5
+     ],
+     [
+      "x1",
+      null,
+      17.456601717798215
+     ],
+     [
+      "x2",
+      null,
+      27.456601717798215
+     ],
+     [
+      "z0 + 1",
+      null,
+      0.10660171779821326
+     ],
+     [
+      "notch >= 0 ? 1 : 0",
+      null,
+      1.0
+     ],
+     [
+      "end_span",
+      null,
+      4.586796564403571
+     ],
+     [
+      "drop_on",
+      null,
+      15.0
+     ],
+     [
+      "taper",
+      null,
+      10.0
+     ]
+    ]
+   }
+  ],
+  "rotary_latch.prim": [
+   {
+    "values": {},
+    "names": {
+     "knob_af": 56.0,
+     "knob_len": 11.0,
+     "rail_r": 15.0,
+     "rail_span": 60.0,
+     "turn": 90.0,
+     "pull_down": 1.0,
+     "preload": 0.5,
+     "joint_y": 7.6,
+     "clearance": 0.2,
+     "plate_t": 3.0,
+     "plate_w": 80.0,
+     "plate_bot": -27.0,
+     "screw_x": 36.0,
+     "screw_y1": 0.0,
+     "screw_y2": -20.0,
+     "screw_d": 3.4,
+     "head_d": 6.0,
+     "root_r": 1.0,
+     "wall_in": 1.5,
+     "pilot_d": 2.5,
+     "pilot_l": 6.0,
+     "ring_r1": 7.0,
+     "ring_r2": 23.5,
+     "ring_h": 1.0,
+     "tip_w": 0.2,
+     "cap_d": 15.0,
+     "cap_t": 2.0,
+     "depth": 4.0,
+     "base_depth": 1.0,
+     "ramp_a": 20.0,
+     "lid_h": 24.0,
+     "lid_screw_in": 5.0,
+     "bridge_t": 0.2,
+     "bridge_lap": 1.0,
+     "width": 15.0,
+     "angle": 60.0,
+     "tip_radius": 1.0,
+     "root_radius": 0.2,
+     "printer_width_offset": 0.0,
+     "t_tip": 1.7320508075688774,
+     "t_root": 0.3464101615137755,
+     "tip_hw": 8.232050807568877,
+     "root_hw": 5.922649730810373,
+     "width_check": 14.999999999999998,
+     "base_hw": 6.269059892324148,
+     "pin_d": 11.2,
+     "knob_rc": 32.33161507461904,
+     "gap_r": 0.28284271247461906,
+     "z_body": 4.0,
+     "z_front": 14.0,
+     "z_pin_top": 12.0,
+     "z_shoulder": 11.91715728752538,
+     "bore_r": 5.8,
+     "cap_wall": 1.7000000000000002,
+     "grow": 0.3464101615137755,
+     "floor_hw": 8.578460969082652,
+     "mouth_hw": 6.269059892324148,
+     "root_z": 3.8,
+     "z_floor": 8.0,
+     "groove_in": 7.3,
+     "groove_out": 22.7,
+     "mouth_in": 8.730940107675853,
+     "mouth_out": 21.269059892324147,
+     "notch_x": 11.449999999999998,
+     "notch_a": 32.570752500118424,
+     "ecc": 2.9238044001630876,
+     "ecc_a": -37.429247499881576,
+     "margin": 7.429247499881576,
+     "spare": 0.5,
+     "base_top": 7.1499999999999995,
+     "lid_bot": 8.05,
+     "rail_low": 8.06121593216773
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "(plate_t) + 1",
+      null,
+      4.0
+     ],
+     [
+      "(plate_t) - (head_d - screw_d) / 2",
+      null,
+      1.7
+     ],
+     [
+      "(root_z) + 1",
+      null,
+      4.8
+     ],
+     [
+      "(root_z) - (head_d - screw_d) / 2",
+      null,
+      2.5
+     ],
+     [
+      "(z_front) + 1",
+      null,
+      15.0
+     ],
+     [
+      "(z_front) - (head_d - screw_d) / 2",
+      null,
+      12.7
+     ],
+     [
+      "-1",
+      null,
+      -1.0
+     ],
+     [
+      "-ecc * sin(ecc_a)",
+      null,
+      1.7770335853833386
+     ],
+     [
+      "-knob_af",
+      null,
+      -56.0
+     ],
+     [
+      "-notch_x",
+      null,
+      -11.449999999999998
+     ],
+     [
+      "-plate_w",
+      null,
+      -80.0
+     ],
+     [
+      "-plate_w / 2",
+      null,
+      -40.0
+     ],
+     [
+      "-screw_x",
+      null,
+      -36.0
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "360",
+      null,
+      360.0
+     ],
+     [
+      "90 + notch_a - 5",
+      null,
+      117.57075250011843
+     ],
+     [
+      "90 + rail_span / 2",
+      null,
+      120.0
+     ],
+     [
+      "90 - notch_a - ramp_a",
+      null,
+      37.429247499881576
+     ],
+     [
+      "90 - rail_span / 2",
+      null,
+      60.0
+     ],
+     [
+      "base_top",
+      null,
+      7.1499999999999995
+     ],
+     [
+      "base_top - bridge_lap",
+      null,
+      6.1499999999999995
+     ],
+     [
+      "bore_r",
+      null,
+      5.8
+     ],
+     [
+      "bore_r - 0.5",
+      null,
+      5.3
+     ],
+     [
+      "bridge_t",
+      null,
+      0.2
+     ],
+     [
+      "cap_d / 2",
+      null,
+      7.5
+     ],
+     [
+      "cap_d / 2 + clearance",
+      null,
+      7.7
+     ],
+     [
+      "ecc * cos(ecc_a)",
+      null,
+      2.321806151863818
+     ],
+     [
+      "ecc * sin(ecc_a)",
+      null,
+      -1.7770335853833386
+     ],
+     [
+      "head_d / 2 + 1",
+      null,
+      4.0
+     ],
+     [
+      "knob_af",
+      null,
+      56.0
+     ],
+     [
+      "knob_rc",
+      null,
+      32.33161507461904
+     ],
+     [
+      "knob_rc + 2",
+      null,
+      34.33161507461904
+     ],
+     [
+      "lid_bot",
+      null,
+      8.05
+     ],
+     [
+      "lid_bot + bridge_lap",
+      null,
+      9.05
+     ],
+     [
+      "lid_bot + lid_h",
+      null,
+      32.05
+     ],
+     [
+      "lid_bot + lid_h - lid_screw_in",
+      null,
+      27.049999999999997
+     ],
+     [
+      "lid_bot + lid_screw_in",
+      null,
+      13.05
+     ],
+     [
+      "mouth_in",
+      null,
+      8.730940107675853
+     ],
+     [
+      "notch_x",
+      null,
+      11.449999999999998
+     ],
+     [
+      "pilot_d / 2",
+      null,
+      1.25
+     ],
+     [
+      "pin_d / 2",
+      null,
+      5.6
+     ],
+     [
+      "pin_d / 2 + gap_r",
+      null,
+      5.882842712474619
+     ],
+     [
+      "pin_d / 2 + root_r + 0.5",
+      null,
+      7.1
+     ],
+     [
+      "pin_d / 2 + root_r + gap_r + 1",
+      null,
+      7.882842712474619
+     ],
+     [
+      "plate_bot",
+      null,
+      -27.0
+     ],
+     [
+      "plate_t",
+      null,
+      3.0
+     ],
+     [
+      "plate_t + root_r",
+      null,
+      4.0
+     ],
+     [
+      "plate_t - 0.01",
+      null,
+      2.99
+     ],
+     [
+      "plate_t - 0.5",
+      null,
+      2.5
+     ],
+     [
+      "plate_t - 1",
+      null,
+      2.0
+     ],
+     [
+      "plate_w",
+      null,
+      80.0
+     ],
+     [
+      "plate_w / 2",
+      null,
+      40.0
+     ],
+     [
+      "preload",
+      null,
+      0.5
+     ],
+     [
+      "rail_r",
+      null,
+      15.0
+     ],
+     [
+      "rail_r + ((base_hw + 1) + printer_width_offset / 2)",
+      null,
+      22.269059892324147
+     ],
+     [
+      "rail_r + ((floor_hw) + printer_width_offset / 2)",
+      null,
+      23.578460969082652
+     ],
+     [
+      "rail_r + ((mouth_hw + t_root + 1) + printer_width_offset / 2)",
+      null,
+      22.615470053837925
+     ],
+     [
+      "rail_r + ((mouth_hw) + printer_width_offset / 2)",
+      null,
+      21.269059892324147
+     ],
+     [
+      "rail_r + ((root_hw - (0) / sin(angle)) + printer_width_offset / 2)",
+      null,
+      20.922649730810374
+     ],
+     [
+      "rail_r + ((tip_hw - (0) / tan(angle / 2)) + printer_width_offset / 2)",
+      null,
+      23.232050807568875
+     ],
+     [
+      "rail_r + (-((base_hw + 1) + printer_width_offset / 2))",
+      null,
+      7.730940107675852
+     ],
+     [
+      "rail_r + (-((floor_hw) + printer_width_offset / 2))",
+      null,
+      6.421539030917348
+     ],
+     [
+      "rail_r + (-((mouth_hw + t_root + 1) + printer_width_offset / 2))",
+      null,
+      7.384529946162076
+     ],
+     [
+      "rail_r + (-((mouth_hw) + printer_width_offset / 2))",
+      null,
+      8.730940107675853
+     ],
+     [
+      "rail_r + (-((root_hw - (0) / sin(angle)) + printer_width_offset / 2))",
+      null,
+      9.077350269189626
+     ],
+     [
+      "rail_r + (-((tip_hw - (0) / tan(angle / 2)) + printer_width_offset / 2))",
+      null,
+      6.767949192431123
+     ],
+     [
+      "ramp_a + 5",
+      null,
+      25.0
+     ],
+     [
+      "ring_r1 + tip_w / 2",
+      null,
+      7.1
+     ],
+     [
+      "ring_r1 + tip_w / 2 + ring_h + 0.01",
+      null,
+      8.11
+     ],
+     [
+      "ring_r1 - tip_w / 2",
+      null,
+      6.9
+     ],
+     [
+      "ring_r1 - tip_w / 2 - ring_h - 0.01",
+      null,
+      5.890000000000001
+     ],
+     [
+      "ring_r2 + tip_w / 2",
+      null,
+      23.6
+     ],
+     [
+      "ring_r2 + tip_w / 2 + ring_h + 0.01",
+      null,
+      24.610000000000003
+     ],
+     [
+      "ring_r2 - tip_w / 2",
+      null,
+      23.4
+     ],
+     [
+      "ring_r2 - tip_w / 2 - ring_h - 0.01",
+      null,
+      22.389999999999997
+     ],
+     [
+      "root_radius",
+      null,
+      0.2
+     ],
+     [
+      "root_radius - clearance",
+      null,
+      0.0
+     ],
+     [
+      "root_z",
+      null,
+      3.8
+     ],
+     [
+      "root_z - (-clearance + 1)",
+      null,
+      3.0
+     ],
+     [
+      "root_z - (-clearance)",
+      null,
+      4.0
+     ],
+     [
+      "root_z - (-depth + (0))",
+      null,
+      7.8
+     ],
+     [
+      "root_z - (-depth - clearance)",
+      null,
+      8.0
+     ],
+     [
+      "root_z - (0)",
+      null,
+      3.8
+     ],
+     [
+      "root_z - (base_depth)",
+      null,
+      2.8
+     ],
+     [
+      "screw_d / 2",
+      null,
+      1.7
+     ],
+     [
+      "screw_x",
+      null,
+      36.0
+     ],
+     [
+      "screw_y1",
+      null,
+      0.0
+     ],
+     [
+      "screw_y2",
+      null,
+      -20.0
+     ],
+     [
+      "tip_radius + clearance",
+      null,
+      1.2
+     ],
+     [
+      "tip_radius - (0)",
+      null,
+      1.0
+     ],
+     [
+      "z_body",
+      null,
+      4.0
+     ],
+     [
+      "z_body + 1",
+      null,
+      5.0
+     ],
+     [
+      "z_body - 1",
+      null,
+      3.0
+     ],
+     [
+      "z_body - 2",
+      null,
+      2.0
+     ],
+     [
+      "z_floor",
+      null,
+      8.0
+     ],
+     [
+      "z_floor + 0.5",
+      null,
+      8.5
+     ],
+     [
+      "z_floor + 2",
+      null,
+      10.0
+     ],
+     [
+      "z_front",
+      null,
+      14.0
+     ],
+     [
+      "z_front + 1",
+      null,
+      15.0
+     ],
+     [
+      "z_pin_top",
+      null,
+      12.0
+     ],
+     [
+      "z_pin_top + 1",
+      null,
+      13.0
+     ],
+     [
+      "z_pin_top - pilot_l",
+      null,
+      6.0
+     ],
+     [
+      "z_shoulder",
+      null,
+      11.91715728752538
+     ],
+     [
+      "z_shoulder - (cap_d / 2 + clearance - bore_r) - 0.5",
+      null,
+      9.51715728752538
+     ],
+     [
+      "knob_af / 2 - 0.3 - ring_r2 - tip_w / 2",
+      null,
+      4.1
+     ],
+     [
+      "ring_r2 - tip_w / 2 - mouth_out - 0.3",
+      null,
+      1.8309401076758511
+     ],
+     [
+      "mouth_in - 0.3 - ring_r1 - tip_w / 2",
+      null,
+      1.3309401076758518
+     ],
+     [
+      "ring_r1 - tip_w / 2 - pin_d / 2 - gap_r - 0.5",
+      null,
+      0.5171572875253816
+     ],
+     [
+      "cap_wall - 1.5 + 0.000001",
+      null,
+      0.20000100000000018
+     ],
+     [
+      "z_pin_top - plate_t - pilot_l",
+      null,
+      3.0
+     ],
+     [
+      "wall_in",
+      null,
+      1.5
+     ],
+     [
+      "knob_af / 2 - groove_out - pull_down - 2.5 + 0.000001",
+      null,
+      1.8000010000000006
+     ],
+     [
+      "z_front - z_floor - 2 + 0.000001",
+      null,
+      4.000001
+     ],
+     [
+      "rail_low - lid_bot + 0.000001",
+      null,
+      0.011216932167729647
+     ],
+     [
+      "base_top - pin_d / 2 - root_r - 0.5 + 0.000001",
+      null,
+      0.05000099999999982
+     ],
+     [
+      "margin - 3 + 0.000001",
+      null,
+      4.429248499881576
+     ],
+     [
+      "screw_x - head_d / 2 - knob_rc",
+      null,
+      0.6683849253809626
+     ],
+     [
+      "-plate_bot - ring_r2 - tip_w / 2 - ring_h - 0.5 + 0.000001",
+      null,
+      1.9000009999999998
+     ],
+     [
+      "screw_y2 - head_d / 2 - plate_bot",
+      null,
+      4.0
+     ],
+     [
+      "base_top - screw_y1 - head_d / 2",
+      null,
+      4.1499999999999995
+     ],
+     [
+      "lid_h - 2 * lid_screw_in - head_d",
+      null,
+      8.0
+     ],
+     [
+      "lid_screw_in - head_d / 2",
+      null,
+      2.0
+     ],
+     [
+      "spare",
+      null,
+      0.5
+     ],
+     [
+      "preload + 0.000001",
+      null,
+      0.500001
+     ],
+     [
+      "bridge_t",
+      null,
+      0.2
+     ]
+    ]
+   },
+   {
+    "values": {
+     "clearance": "0.15"
+    },
+    "names": {
+     "knob_af": 56.0,
+     "knob_len": 11.0,
+     "rail_r": 15.0,
+     "rail_span": 60.0,
+     "turn": 90.0,
+     "pull_down": 1.0,
+     "preload": 0.5,
+     "joint_y": 7.6,
+     "clearance": 0.15,
+     "plate_t": 3.0,
+     "plate_w": 80.0,
+     "plate_bot": -27.0,
+     "screw_x": 36.0,
+     "screw_y1": 0.0,
+     "screw_y2": -20.0,
+     "screw_d": 3.4,
+     "head_d": 6.0,
+     "root_r": 1.0,
+     "wall_in": 1.5,
+     "pilot_d": 2.5,
+     "pilot_l": 6.0,
+     "ring_r1": 7.0,
+     "ring_r2": 23.5,
+     "ring_h": 1.0,
+     "tip_w": 0.2,
+     "cap_d": 15.0,
+     "cap_t": 2.0,
+     "depth": 4.0,
+     "base_depth": 1.0,
+     "ramp_a": 20.0,
+     "lid_h": 24.0,
+     "lid_screw_in": 5.0,
+     "bridge_t": 0.2,
+     "bridge_lap": 1.0,
+     "width": 15.0,
+     "angle": 60.0,
+     "tip_radius": 1.0,
+     "root_radius": 0.2,
+     "printer_width_offset": 0.0,
+     "t_tip": 1.7320508075688774,
+     "t_root": 0.3464101615137755,
+     "tip_hw": 8.232050807568877,
+     "root_hw": 5.922649730810373,
+     "width_check": 14.999999999999998,
+     "base_hw": 6.269059892324148,
+     "pin_d": 11.399999999999999,
+     "knob_rc": 32.33161507461904,
+     "gap_r": 0.21213203435596426,
+     "z_body": 4.0,
+     "z_front": 14.0,
+     "z_pin_top": 12.0,
+     "z_shoulder": 11.937867965644037,
+     "bore_r": 5.85,
+     "cap_wall": 1.6500000000000004,
+     "grow": 0.2598076211353316,
+     "floor_hw": 8.491858428704209,
+     "mouth_hw": 6.182457351945705,
+     "root_z": 3.85,
+     "z_floor": 8.0,
+     "groove_in": 7.35,
+     "groove_out": 22.65,
+     "mouth_in": 8.817542648054296,
+     "mouth_out": 21.182457351945704,
+     "notch_x": 11.399999999999999,
+     "notch_a": 32.5599098593058,
+     "ecc": 2.9238044001630876,
+     "ecc_a": -37.4400901406942,
+     "margin": 7.440090140694203,
+     "spare": 0.5,
+     "base_top": 7.199999999999999,
+     "lid_bot": 8.0,
+     "rail_low": 8.06121593216773
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "(plate_t) + 1",
+      null,
+      4.0
+     ],
+     [
+      "(plate_t) - (head_d - screw_d) / 2",
+      null,
+      1.7
+     ],
+     [
+      "(root_z) + 1",
+      null,
+      4.85
+     ],
+     [
+      "(root_z) - (head_d - screw_d) / 2",
+      null,
+      2.55
+     ],
+     [
+      "(z_front) + 1",
+      null,
+      15.0
+     ],
+     [
+      "(z_front) - (head_d - screw_d) / 2",
+      null,
+      12.7
+     ],
+     [
+      "-1",
+      null,
+      -1.0
+     ],
+     [
+      "-ecc * sin(ecc_a)",
+      null,
+      1.7774729316509643
+     ],
+     [
+      "-knob_af",
+      null,
+      -56.0
+     ],
+     [
+      "-notch_x",
+      null,
+      -11.399999999999999
+     ],
+     [
+      "-plate_w",
+      null,
+      -80.0
+     ],
+     [
+      "-plate_w / 2",
+      null,
+      -40.0
+     ],
+     [
+      "-screw_x",
+      null,
+      -36.0
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "360",
+      null,
+      360.0
+     ],
+     [
+      "90 + notch_a - 5",
+      null,
+      117.5599098593058
+     ],
+     [
+      "90 + rail_span / 2",
+      null,
+      120.0
+     ],
+     [
+      "90 - notch_a - ramp_a",
+      null,
+      37.4400901406942
+     ],
+     [
+      "90 - rail_span / 2",
+      null,
+      60.0
+     ],
+     [
+      "base_top",
+      null,
+      7.199999999999999
+     ],
+     [
+      "base_top - bridge_lap",
+      null,
+      6.199999999999999
+     ],
+     [
+      "bore_r",
+      null,
+      5.85
+     ],
+     [
+      "bore_r - 0.5",
+      null,
+      5.35
+     ],
+     [
+      "bridge_t",
+      null,
+      0.2
+     ],
+     [
+      "cap_d / 2",
+      null,
+      7.5
+     ],
+     [
+      "cap_d / 2 + clearance",
+      null,
+      7.65
+     ],
+     [
+      "ecc * cos(ecc_a)",
+      null,
+      2.3214698248439842
+     ],
+     [
+      "ecc * sin(ecc_a)",
+      null,
+      -1.7774729316509643
+     ],
+     [
+      "head_d / 2 + 1",
+      null,
+      4.0
+     ],
+     [
+      "knob_af",
+      null,
+      56.0
+     ],
+     [
+      "knob_rc",
+      null,
+      32.33161507461904
+     ],
+     [
+      "knob_rc + 2",
+      null,
+      34.33161507461904
+     ],
+     [
+      "lid_bot",
+      null,
+      8.0
+     ],
+     [
+      "lid_bot + bridge_lap",
+      null,
+      9.0
+     ],
+     [
+      "lid_bot + lid_h",
+      null,
+      32.0
+     ],
+     [
+      "lid_bot + lid_h - lid_screw_in",
+      null,
+      27.0
+     ],
+     [
+      "lid_bot + lid_screw_in",
+      null,
+      13.0
+     ],
+     [
+      "mouth_in",
+      null,
+      8.817542648054296
+     ],
+     [
+      "notch_x",
+      null,
+      11.399999999999999
+     ],
+     [
+      "pilot_d / 2",
+      null,
+      1.25
+     ],
+     [
+      "pin_d / 2",
+      null,
+      5.699999999999999
+     ],
+     [
+      "pin_d / 2 + gap_r",
+      null,
+      5.912132034355963
+     ],
+     [
+      "pin_d / 2 + root_r + 0.5",
+      null,
+      7.199999999999999
+     ],
+     [
+      "pin_d / 2 + root_r + gap_r + 1",
+      null,
+      7.912132034355963
+     ],
+     [
+      "plate_bot",
+      null,
+      -27.0
+     ],
+     [
+      "plate_t",
+      null,
+      3.0
+     ],
+     [
+      "plate_t + root_r",
+      null,
+      4.0
+     ],
+     [
+      "plate_t - 0.01",
+      null,
+      2.99
+     ],
+     [
+      "plate_t - 0.5",
+      null,
+      2.5
+     ],
+     [
+      "plate_t - 1",
+      null,
+      2.0
+     ],
+     [
+      "plate_w",
+      null,
+      80.0
+     ],
+     [
+      "plate_w / 2",
+      null,
+      40.0
+     ],
+     [
+      "preload",
+      null,
+      0.5
+     ],
+     [
+      "rail_r",
+      null,
+      15.0
+     ],
+     [
+      "rail_r + ((base_hw + 1) + printer_width_offset / 2)",
+      null,
+      22.269059892324147
+     ],
+     [
+      "rail_r + ((floor_hw) + printer_width_offset / 2)",
+      null,
+      23.49185842870421
+     ],
+     [
+      "rail_r + ((mouth_hw + t_root + 1) + printer_width_offset / 2)",
+      null,
+      22.52886751345948
+     ],
+     [
+      "rail_r + ((mouth_hw) + printer_width_offset / 2)",
+      null,
+      21.182457351945704
+     ],
+     [
+      "rail_r + ((root_hw - (0) / sin(angle)) + printer_width_offset / 2)",
+      null,
+      20.922649730810374
+     ],
+     [
+      "rail_r + ((tip_hw - (0) / tan(angle / 2)) + printer_width_offset / 2)",
+      null,
+      23.232050807568875
+     ],
+     [
+      "rail_r + (-((base_hw + 1) + printer_width_offset / 2))",
+      null,
+      7.730940107675852
+     ],
+     [
+      "rail_r + (-((floor_hw) + printer_width_offset / 2))",
+      null,
+      6.508141571295791
+     ],
+     [
+      "rail_r + (-((mouth_hw + t_root + 1) + printer_width_offset / 2))",
+      null,
+      7.47113248654052
+     ],
+     [
+      "rail_r + (-((mouth_hw) + printer_width_offset / 2))",
+      null,
+      8.817542648054296
+     ],
+     [
+      "rail_r + (-((root_hw - (0) / sin(angle)) + printer_width_offset / 2))",
+      null,
+      9.077350269189626
+     ],
+     [
+      "rail_r + (-((tip_hw - (0) / tan(angle / 2)) + printer_width_offset / 2))",
+      null,
+      6.767949192431123
+     ],
+     [
+      "ramp_a + 5",
+      null,
+      25.0
+     ],
+     [
+      "ring_r1 + tip_w / 2",
+      null,
+      7.1
+     ],
+     [
+      "ring_r1 + tip_w / 2 + ring_h + 0.01",
+      null,
+      8.11
+     ],
+     [
+      "ring_r1 - tip_w / 2",
+      null,
+      6.9
+     ],
+     [
+      "ring_r1 - tip_w / 2 - ring_h - 0.01",
+      null,
+      5.890000000000001
+     ],
+     [
+      "ring_r2 + tip_w / 2",
+      null,
+      23.6
+     ],
+     [
+      "ring_r2 + tip_w / 2 + ring_h + 0.01",
+      null,
+      24.610000000000003
+     ],
+     [
+      "ring_r2 - tip_w / 2",
+      null,
+      23.4
+     ],
+     [
+      "ring_r2 - tip_w / 2 - ring_h - 0.01",
+      null,
+      22.389999999999997
+     ],
+     [
+      "root_radius",
+      null,
+      0.2
+     ],
+     [
+      "root_radius - clearance",
+      null,
+      0.05000000000000002
+     ],
+     [
+      "root_z",
+      null,
+      3.85
+     ],
+     [
+      "root_z - (-clearance + 1)",
+      null,
+      3.0
+     ],
+     [
+      "root_z - (-clearance)",
+      null,
+      4.0
+     ],
+     [
+      "root_z - (-depth + (0))",
+      null,
+      7.85
+     ],
+     [
+      "root_z - (-depth - clearance)",
+      null,
+      8.0
+     ],
+     [
+      "root_z - (0)",
+      null,
+      3.85
+     ],
+     [
+      "root_z - (base_depth)",
+      null,
+      2.85
+     ],
+     [
+      "screw_d / 2",
+      null,
+      1.7
+     ],
+     [
+      "screw_x",
+      null,
+      36.0
+     ],
+     [
+      "screw_y1",
+      null,
+      0.0
+     ],
+     [
+      "screw_y2",
+      null,
+      -20.0
+     ],
+     [
+      "tip_radius + clearance",
+      null,
+      1.15
+     ],
+     [
+      "tip_radius - (0)",
+      null,
+      1.0
+     ],
+     [
+      "z_body",
+      null,
+      4.0
+     ],
+     [
+      "z_body + 1",
+      null,
+      5.0
+     ],
+     [
+      "z_body - 1",
+      null,
+      3.0
+     ],
+     [
+      "z_body - 2",
+      null,
+      2.0
+     ],
+     [
+      "z_floor",
+      null,
+      8.0
+     ],
+     [
+      "z_floor + 0.5",
+      null,
+      8.5
+     ],
+     [
+      "z_floor + 2",
+      null,
+      10.0
+     ],
+     [
+      "z_front",
+      null,
+      14.0
+     ],
+     [
+      "z_front + 1",
+      null,
+      15.0
+     ],
+     [
+      "z_pin_top",
+      null,
+      12.0
+     ],
+     [
+      "z_pin_top + 1",
+      null,
+      13.0
+     ],
+     [
+      "z_pin_top - pilot_l",
+      null,
+      6.0
+     ],
+     [
+      "z_shoulder",
+      null,
+      11.937867965644037
+     ],
+     [
+      "z_shoulder - (cap_d / 2 + clearance - bore_r) - 0.5",
+      null,
+      9.637867965644036
+     ],
+     [
+      "knob_af / 2 - 0.3 - ring_r2 - tip_w / 2",
+      null,
+      4.1
+     ],
+     [
+      "ring_r2 - tip_w / 2 - mouth_out - 0.3",
+      null,
+      1.9175426480542945
+     ],
+     [
+      "mouth_in - 0.3 - ring_r1 - tip_w / 2",
+      null,
+      1.4175426480542952
+     ],
+     [
+      "ring_r1 - tip_w / 2 - pin_d / 2 - gap_r - 0.5",
+      null,
+      0.4878679656440368
+     ],
+     [
+      "cap_wall - 1.5 + 0.000001",
+      null,
+      0.15000100000000036
+     ],
+     [
+      "z_pin_top - plate_t - pilot_l",
+      null,
+      3.0
+     ],
+     [
+      "wall_in",
+      null,
+      1.5
+     ],
+     [
+      "knob_af / 2 - groove_out - pull_down - 2.5 + 0.000001",
+      null,
+      1.8500010000000013
+     ],
+     [
+      "z_front - z_floor - 2 + 0.000001",
+      null,
+      4.000001
+     ],
+     [
+      "rail_low - lid_bot + 0.000001",
+      null,
+      0.06121693216773036
+     ],
+     [
+      "base_top - pin_d / 2 - root_r - 0.5 + 0.000001",
+      null,
+      1e-06
+     ],
+     [
+      "margin - 3 + 0.000001",
+      null,
+      4.440091140694203
+     ],
+     [
+      "screw_x - head_d / 2 - knob_rc",
+      null,
+      0.6683849253809626
+     ],
+     [
+      "-plate_bot - ring_r2 - tip_w / 2 - ring_h - 0.5 + 0.000001",
+      null,
+      1.9000009999999998
+     ],
+     [
+      "screw_y2 - head_d / 2 - plate_bot",
+      null,
+      4.0
+     ],
+     [
+      "base_top - screw_y1 - head_d / 2",
+      null,
+      4.199999999999999
+     ],
+     [
+      "lid_h - 2 * lid_screw_in - head_d",
+      null,
+      8.0
+     ],
+     [
+      "lid_screw_in - head_d / 2",
+      null,
+      2.0
+     ],
+     [
+      "spare",
+      null,
+      0.5
+     ],
+     [
+      "preload + 0.000001",
+      null,
+      0.500001
+     ],
+     [
+      "bridge_t",
+      null,
+      0.2
+     ]
+    ]
+   }
+  ],
+  "sleeve.prim": [
+   {
+    "values": {},
+    "names": {
+     "height": 10.0,
+     "diam": 6.0,
+     "diam_end": 10.0,
+     "angle": 45.0,
+     "diam_outer": 13.0,
+     "tolerance": 0.1,
+     "end_gap": 0.0,
+     "outer_r": 6.5,
+     "throat_r": 3.1,
+     "flare_r": 5.24142135623731,
+     "bottom": 0.0,
+     "top": 10.0,
+     "ridge_r": 5.14142135623731,
+     "valley_z": 2.0414213562373096,
+     "rim_h": 1.3585786437626899
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "(bottom)",
+      null,
+      0.0
+     ],
+     [
+      "(bottom) + (rim_h)",
+      null,
+      1.3585786437626899
+     ],
+     [
+      "(bottom) + (valley_z)",
+      null,
+      2.0414213562373096
+     ],
+     [
+      "(outer_r)",
+      null,
+      6.5
+     ],
+     [
+      "(ridge_r)",
+      null,
+      5.14142135623731
+     ],
+     [
+      "(throat_r)",
+      null,
+      3.1
+     ],
+     [
+      "(top)",
+      null,
+      10.0
+     ],
+     [
+      "(top) - (rim_h)",
+      null,
+      8.64142135623731
+     ],
+     [
+      "(top) - (valley_z)",
+      null,
+      7.95857864376269
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "360",
+      null,
+      360.0
+     ],
+     [
+      "diam_end - diam",
+      null,
+      4.0
+     ],
+     [
+      "outer_r - ridge_r",
+      null,
+      1.3585786437626899
+     ],
+     [
+      "end_gap < 0 ? 0 : 1",
+      null,
+      1.0
+     ],
+     [
+      "valley_z",
+      null,
+      2.0414213562373096
+     ],
+     [
+      "top - bottom - 2 * rim_h",
+      null,
+      7.28284271247462
+     ],
+     [
+      "top - bottom - 2 * valley_z",
+      null,
+      5.917157287525381
+     ]
+    ]
+   }
+  ],
+  "sleeve_clearance.prim": [
+   {
+    "values": {},
+    "names": {
+     "height": 10.0,
+     "diam": 6.0,
+     "diam_end": 10.0,
+     "angle": 45.0,
+     "diam_outer": 13.0,
+     "tolerance": 0.1,
+     "end_gap": 0.0,
+     "clearance": 0.2,
+     "outer_r": 6.5,
+     "throat_r": 3.1,
+     "flare_r": 5.24142135623731,
+     "bottom": 0.0,
+     "top": 10.0,
+     "ridge_r": 5.14142135623731,
+     "valley_z": 2.0414213562373096,
+     "rim_h": 1.3585786437626899,
+     "corner": 0.08284271247461901
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "(bottom) + (rim_h) - (corner)",
+      null,
+      1.275735931288071
+     ],
+     [
+      "(bottom) - (clearance)",
+      null,
+      -0.2
+     ],
+     [
+      "(outer_r) + (clearance)",
+      null,
+      6.7
+     ],
+     [
+      "(ridge_r) + (corner)",
+      null,
+      5.224264068711929
+     ],
+     [
+      "(top) + (clearance)",
+      null,
+      10.2
+     ],
+     [
+      "(top) - (rim_h) + (corner)",
+      null,
+      8.724264068711928
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "360",
+      null,
+      360.0
+     ],
+     [
+      "diam_end - diam",
+      null,
+      4.0
+     ],
+     [
+      "outer_r - ridge_r",
+      null,
+      1.3585786437626899
+     ],
+     [
+      "end_gap < 0 ? 0 : 1",
+      null,
+      1.0
+     ],
+     [
+      "valley_z",
+      null,
+      2.0414213562373096
+     ],
+     [
+      "top - bottom - 2 * rim_h",
+      null,
+      7.28284271247462
+     ],
+     [
+      "top - bottom - 2 * valley_z",
+      null,
+      5.917157287525381
+     ]
+    ]
+   }
+  ],
+  "stencil.prim": [
+   {
+    "values": {},
+    "names": {
+     "length": 160.0,
+     "width": 120.0,
+     "thickness": 6.0,
+     "bit_d": 6.35,
+     "clearance": 0.2,
+     "fence_top": 0.0,
+     "fence_bottom": 1.0,
+     "fence_left": 1.0,
+     "fence_right": 0.0,
+     "fence_t": 3.0,
+     "fence_depth": 6.0,
+     "lines": 2.0,
+     "text_size": 40.0,
+     "font": "/usr/share/fonts/liberation/LiberationSans-Bold.ttf",
+     "line_gap": 12.0,
+     "origin_x": 0.0,
+     "origin_y": 0.0,
+     "text1": "OAK",
+     "font1": "/usr/share/fonts/liberation/LiberationSans-Bold.ttf",
+     "size1": 40.0,
+     "line1_x": 0.0,
+     "line1_y": 26.0,
+     "h1": 1.0,
+     "v1": 1.0,
+     "text2": "48",
+     "font2": "/usr/share/fonts/liberation/LiberationSans-Bold.ttf",
+     "size2": 40.0,
+     "line2_x": 0.0,
+     "line2_y": -26.0,
+     "h2": 1.0,
+     "v2": 1.0,
+     "text3": "LINE 3",
+     "font3": "/usr/share/fonts/liberation/LiberationSans-Bold.ttf",
+     "size3": 40.0,
+     "line3_x": 0.0,
+     "line3_y": -78.0,
+     "h3": 1.0,
+     "v3": 1.0,
+     "text4": "LINE 4",
+     "font4": "/usr/share/fonts/liberation/LiberationSans-Bold.ttf",
+     "size4": 40.0,
+     "line4_x": 0.0,
+     "line4_y": -130.0,
+     "h4": 1.0,
+     "v4": 1.0,
+     "text5": "LINE 5",
+     "font5": "/usr/share/fonts/liberation/LiberationSans-Bold.ttf",
+     "size5": 40.0,
+     "line5_x": 0.0,
+     "line5_y": -182.0,
+     "h5": 1.0,
+     "v5": 1.0,
+     "text6": "LINE 6",
+     "font6": "/usr/share/fonts/liberation/LiberationSans-Bold.ttf",
+     "size6": 40.0,
+     "line6_x": 0.0,
+     "line6_y": -234.0,
+     "h6": 1.0,
+     "v6": 1.0,
+     "bridges": 1.0,
+     "bridge_w": 1.5,
+     "bar_a1": 0.19,
+     "bar_a2": 0.62,
+     "bar_b1": 0.41,
+     "bar_b2": 0.82,
+     "x_lo": -76.8,
+     "x_hi": 80.0,
+     "y_lo": -56.8,
+     "y_hi": 60.0,
+     "sep": 7.999999999999998,
+     "ax1": 0.0,
+     "ay1": 26.0,
+     "az1": -1.0,
+     "zb1": -1.0,
+     "lo1": 6.0,
+     "ax2": 0.0,
+     "ay2": -26.0,
+     "az2": -1.0,
+     "zb2": -1.0,
+     "lo2": -46.0,
+     "ax3": 0.0,
+     "ay3": -78.0,
+     "az3": -1000.0,
+     "zb3": -1000.0,
+     "lo3": -98.0,
+     "ax4": 0.0,
+     "ay4": -130.0,
+     "az4": -1000.0,
+     "zb4": -1000.0,
+     "lo4": -150.0,
+     "ax5": 0.0,
+     "ay5": -182.0,
+     "az5": -1000.0,
+     "zb5": -1000.0,
+     "lo5": -202.0,
+     "ax6": 0.0,
+     "ay6": -234.0,
+     "az6": -1000.0,
+     "zb6": -1000.0,
+     "lo6": -254.0
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "-length / 2",
+      null,
+      -80.0
+     ],
+     [
+      "-length / 2 + fence_t",
+      null,
+      -77.0
+     ],
+     [
+      "-width / 2",
+      null,
+      -60.0
+     ],
+     [
+      "-width / 2 + fence_t",
+      null,
+      -57.0
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "0.01",
+      null,
+      0.01
+     ],
+     [
+      "ax1",
+      null,
+      0.0
+     ],
+     [
+      "ax2",
+      null,
+      0.0
+     ],
+     [
+      "ax3",
+      null,
+      0.0
+     ],
+     [
+      "ax4",
+      null,
+      0.0
+     ],
+     [
+      "ax5",
+      null,
+      0.0
+     ],
+     [
+      "ax6",
+      null,
+      0.0
+     ],
+     [
+      "ay1",
+      null,
+      26.0
+     ],
+     [
+      "ay2",
+      null,
+      -26.0
+     ],
+     [
+      "ay3",
+      null,
+      -78.0
+     ],
+     [
+      "ay4",
+      null,
+      -130.0
+     ],
+     [
+      "ay5",
+      null,
+      -182.0
+     ],
+     [
+      "ay6",
+      null,
+      -234.0
+     ],
+     [
+      "az1",
+      null,
+      -1.0
+     ],
+     [
+      "az2",
+      null,
+      -1.0
+     ],
+     [
+      "az3",
+      null,
+      -1000.0
+     ],
+     [
+      "az4",
+      null,
+      -1000.0
+     ],
+     [
+      "az5",
+      null,
+      -1000.0
+     ],
+     [
+      "az6",
+      null,
+      -1000.0
+     ],
+     [
+      "fence_bottom > 0.5 ? -fence_depth : 0.001",
+      null,
+      -6.0
+     ],
+     [
+      "fence_left > 0.5 ? -fence_depth : 0.001",
+      null,
+      -6.0
+     ],
+     [
+      "fence_right > 0.5 ? -fence_depth : 0.001",
+      null,
+      0.001
+     ],
+     [
+      "fence_top > 0.5 ? -fence_depth : 0.001",
+      null,
+      0.001
+     ],
+     [
+      "font1",
+      null,
+      "/usr/share/fonts/liberation/LiberationSans-Bold.ttf"
+     ],
+     [
+      "font2",
+      null,
+      "/usr/share/fonts/liberation/LiberationSans-Bold.ttf"
+     ],
+     [
+      "font3",
+      null,
+      "/usr/share/fonts/liberation/LiberationSans-Bold.ttf"
+     ],
+     [
+      "font4",
+      null,
+      "/usr/share/fonts/liberation/LiberationSans-Bold.ttf"
+     ],
+     [
+      "font5",
+      null,
+      "/usr/share/fonts/liberation/LiberationSans-Bold.ttf"
+     ],
+     [
+      "font6",
+      null,
+      "/usr/share/fonts/liberation/LiberationSans-Bold.ttf"
+     ],
+     [
+      "length / 2",
+      null,
+      80.0
+     ],
+     [
+      "length / 2 - fence_t",
+      null,
+      77.0
+     ],
+     [
+      "lo1 + bar_a1 * size1 + bridge_w / 2",
+      null,
+      14.35
+     ],
+     [
+      "lo1 + bar_a1 * size1 - bridge_w / 2",
+      null,
+      12.85
+     ],
+     [
+      "lo1 + bar_a2 * size1 + bridge_w / 2",
+      null,
+      31.55
+     ],
+     [
+      "lo1 + bar_a2 * size1 - bridge_w / 2",
+      null,
+      30.05
+     ],
+     [
+      "lo1 + bar_b1 * size1 + bridge_w / 2",
+      null,
+      23.15
+     ],
+     [
+      "lo1 + bar_b1 * size1 - bridge_w / 2",
+      null,
+      21.65
+     ],
+     [
+      "lo1 + bar_b2 * size1 + bridge_w / 2",
+      null,
+      39.55
+     ],
+     [
+      "lo1 + bar_b2 * size1 - bridge_w / 2",
+      null,
+      38.05
+     ],
+     [
+      "lo2 + bar_a1 * size2 + bridge_w / 2",
+      null,
+      -37.65
+     ],
+     [
+      "lo2 + bar_a1 * size2 - bridge_w / 2",
+      null,
+      -39.15
+     ],
+     [
+      "lo2 + bar_a2 * size2 + bridge_w / 2",
+      null,
+      -20.45
+     ],
+     [
+      "lo2 + bar_a2 * size2 - bridge_w / 2",
+      null,
+      -21.95
+     ],
+     [
+      "lo2 + bar_b1 * size2 + bridge_w / 2",
+      null,
+      -28.85
+     ],
+     [
+      "lo2 + bar_b1 * size2 - bridge_w / 2",
+      null,
+      -30.35
+     ],
+     [
+      "lo2 + bar_b2 * size2 + bridge_w / 2",
+      null,
+      -12.450000000000003
+     ],
+     [
+      "lo2 + bar_b2 * size2 - bridge_w / 2",
+      null,
+      -13.950000000000003
+     ],
+     [
+      "lo3 + bar_a1 * size3 + bridge_w / 2",
+      null,
+      -89.65
+     ],
+     [
+      "lo3 + bar_a1 * size3 - bridge_w / 2",
+      null,
+      -91.15
+     ],
+     [
+      "lo3 + bar_a2 * size3 + bridge_w / 2",
+      null,
+      -72.45
+     ],
+     [
+      "lo3 + bar_a2 * size3 - bridge_w / 2",
+      null,
+      -73.95
+     ],
+     [
+      "lo3 + bar_b1 * size3 + bridge_w / 2",
+      null,
+      -80.85
+     ],
+     [
+      "lo3 + bar_b1 * size3 - bridge_w / 2",
+      null,
+      -82.35
+     ],
+     [
+      "lo3 + bar_b2 * size3 + bridge_w / 2",
+      null,
+      -64.45
+     ],
+     [
+      "lo3 + bar_b2 * size3 - bridge_w / 2",
+      null,
+      -65.95
+     ],
+     [
+      "lo4 + bar_a1 * size4 + bridge_w / 2",
+      null,
+      -141.65
+     ],
+     [
+      "lo4 + bar_a1 * size4 - bridge_w / 2",
+      null,
+      -143.15
+     ],
+     [
+      "lo4 + bar_a2 * size4 + bridge_w / 2",
+      null,
+      -124.45
+     ],
+     [
+      "lo4 + bar_a2 * size4 - bridge_w / 2",
+      null,
+      -125.95
+     ],
+     [
+      "lo4 + bar_b1 * size4 + bridge_w / 2",
+      null,
+      -132.85
+     ],
+     [
+      "lo4 + bar_b1 * size4 - bridge_w / 2",
+      null,
+      -134.35
+     ],
+     [
+      "lo4 + bar_b2 * size4 + bridge_w / 2",
+      null,
+      -116.45
+     ],
+     [
+      "lo4 + bar_b2 * size4 - bridge_w / 2",
+      null,
+      -117.95
+     ],
+     [
+      "lo5 + bar_a1 * size5 + bridge_w / 2",
+      null,
+      -193.65
+     ],
+     [
+      "lo5 + bar_a1 * size5 - bridge_w / 2",
+      null,
+      -195.15
+     ],
+     [
+      "lo5 + bar_a2 * size5 + bridge_w / 2",
+      null,
+      -176.45
+     ],
+     [
+      "lo5 + bar_a2 * size5 - bridge_w / 2",
+      null,
+      -177.95
+     ],
+     [
+      "lo5 + bar_b1 * size5 + bridge_w / 2",
+      null,
+      -184.85
+     ],
+     [
+      "lo5 + bar_b1 * size5 - bridge_w / 2",
+      null,
+      -186.35
+     ],
+     [
+      "lo5 + bar_b2 * size5 + bridge_w / 2",
+      null,
+      -168.45
+     ],
+     [
+      "lo5 + bar_b2 * size5 - bridge_w / 2",
+      null,
+      -169.95
+     ],
+     [
+      "lo6 + bar_a1 * size6 + bridge_w / 2",
+      null,
+      -245.65
+     ],
+     [
+      "lo6 + bar_a1 * size6 - bridge_w / 2",
+      null,
+      -247.15
+     ],
+     [
+      "lo6 + bar_a2 * size6 + bridge_w / 2",
+      null,
+      -228.45
+     ],
+     [
+      "lo6 + bar_a2 * size6 - bridge_w / 2",
+      null,
+      -229.95
+     ],
+     [
+      "lo6 + bar_b1 * size6 + bridge_w / 2",
+      null,
+      -236.85
+     ],
+     [
+      "lo6 + bar_b1 * size6 - bridge_w / 2",
+      null,
+      -238.35
+     ],
+     [
+      "lo6 + bar_b2 * size6 + bridge_w / 2",
+      null,
+      -220.45
+     ],
+     [
+      "lo6 + bar_b2 * size6 - bridge_w / 2",
+      null,
+      -221.95
+     ],
+     [
+      "size1",
+      null,
+      40.0
+     ],
+     [
+      "size2",
+      null,
+      40.0
+     ],
+     [
+      "size3",
+      null,
+      40.0
+     ],
+     [
+      "size4",
+      null,
+      40.0
+     ],
+     [
+      "size5",
+      null,
+      40.0
+     ],
+     [
+      "size6",
+      null,
+      40.0
+     ],
+     [
+      "text1",
+      null,
+      "OAK"
+     ],
+     [
+      "text2",
+      null,
+      "48"
+     ],
+     [
+      "text3",
+      null,
+      "LINE 3"
+     ],
+     [
+      "text4",
+      null,
+      "LINE 4"
+     ],
+     [
+      "text5",
+      null,
+      "LINE 5"
+     ],
+     [
+      "text6",
+      null,
+      "LINE 6"
+     ],
+     [
+      "thickness",
+      null,
+      6.0
+     ],
+     [
+      "thickness + 2",
+      null,
+      8.0
+     ],
+     [
+      "v1 * 3 + h1",
+      null,
+      4.0
+     ],
+     [
+      "v2 * 3 + h2",
+      null,
+      4.0
+     ],
+     [
+      "v3 * 3 + h3",
+      null,
+      4.0
+     ],
+     [
+      "v4 * 3 + h4",
+      null,
+      4.0
+     ],
+     [
+      "v5 * 3 + h5",
+      null,
+      4.0
+     ],
+     [
+      "v6 * 3 + h6",
+      null,
+      4.0
+     ],
+     [
+      "width / 2",
+      null,
+      60.0
+     ],
+     [
+      "width / 2 - fence_t",
+      null,
+      57.0
+     ],
+     [
+      "zb1",
+      null,
+      -1.0
+     ],
+     [
+      "zb1 + thickness + 2",
+      null,
+      7.0
+     ],
+     [
+      "zb2",
+      null,
+      -1.0
+     ],
+     [
+      "zb2 + thickness + 2",
+      null,
+      7.0
+     ],
+     [
+      "zb3",
+      null,
+      -1000.0
+     ],
+     [
+      "zb3 + thickness + 2",
+      null,
+      -992.0
+     ],
+     [
+      "zb4",
+      null,
+      -1000.0
+     ],
+     [
+      "zb4 + thickness + 2",
+      null,
+      -992.0
+     ],
+     [
+      "zb5",
+      null,
+      -1000.0
+     ],
+     [
+      "zb5 + thickness + 2",
+      null,
+      -992.0
+     ],
+     [
+      "zb6",
+      null,
+      -1000.0
+     ],
+     [
+      "zb6 + thickness + 2",
+      null,
+      -992.0
+     ],
+     [
+      "(lines - 0.5) * (6 + 0.5 - lines)",
+      null,
+      6.75
+     ],
+     [
+      "sep - bridge_w - bit_d + 0.000001",
+      null,
+      0.15000099999999858
+     ],
+     [
+      "bridge_w",
+      null,
+      1.5
+     ],
+     [
+      "min(bar_a1; bar_a2; bar_b1; bar_b2) * (1 - max(bar_a1; bar_a2; bar_b1; bar_b2))",
+      null,
+      0.03420000000000001
+     ],
+     [
+      "thickness",
+      null,
+      6.0
+     ],
+     [
+      "fence_t",
+      null,
+      3.0
+     ],
+     [
+      "fence_depth",
+      null,
+      6.0
+     ],
+     [
+      "x_hi - x_lo - 2 * bit_d - 2",
+      null,
+      142.10000000000002
+     ],
+     [
+      "y_hi - y_lo - 2 * bit_d - 2",
+      null,
+      102.1
+     ],
+     [
+      "lines < 1 - 0.5 ? 1 : (lo1 - y_lo - bit_d / 2 - 1)",
+      null,
+      58.625
+     ],
+     [
+      "lines < 1 - 0.5 ? 1 : (y_hi - lo1 - size1 - bit_d / 2 - 1)",
+      null,
+      9.825
+     ],
+     [
+      "lines < 1 - 0.5 ? 1 : size1",
+      null,
+      40.0
+     ],
+     [
+      "(h1 + 0.5) * (2.5 - h1)",
+      null,
+      2.25
+     ],
+     [
+      "(v1 + 0.5) * (2.5 - v1)",
+      null,
+      2.25
+     ],
+     [
+      "lines < 2 - 0.5 ? 1 : (lo2 - y_lo - bit_d / 2 - 1)",
+      null,
+      6.624999999999997
+     ],
+     [
+      "lines < 2 - 0.5 ? 1 : (y_hi - lo2 - size2 - bit_d / 2 - 1)",
+      null,
+      61.825
+     ],
+     [
+      "lines < 2 - 0.5 ? 1 : size2",
+      null,
+      40.0
+     ],
+     [
+      "(h2 + 0.5) * (2.5 - h2)",
+      null,
+      2.25
+     ],
+     [
+      "(v2 + 0.5) * (2.5 - v2)",
+      null,
+      2.25
+     ],
+     [
+      "lines < 3 - 0.5 ? 1 : (lo3 - y_lo - bit_d / 2 - 1)",
+      null,
+      1.0
+     ],
+     [
+      "lines < 3 - 0.5 ? 1 : (y_hi - lo3 - size3 - bit_d / 2 - 1)",
+      null,
+      1.0
+     ],
+     [
+      "lines < 3 - 0.5 ? 1 : size3",
+      null,
+      1.0
+     ],
+     [
+      "(h3 + 0.5) * (2.5 - h3)",
+      null,
+      2.25
+     ],
+     [
+      "(v3 + 0.5) * (2.5 - v3)",
+      null,
+      2.25
+     ],
+     [
+      "lines < 4 - 0.5 ? 1 : (lo4 - y_lo - bit_d / 2 - 1)",
+      null,
+      1.0
+     ],
+     [
+      "lines < 4 - 0.5 ? 1 : (y_hi - lo4 - size4 - bit_d / 2 - 1)",
+      null,
+      1.0
+     ],
+     [
+      "lines < 4 - 0.5 ? 1 : size4",
+      null,
+      1.0
+     ],
+     [
+      "(h4 + 0.5) * (2.5 - h4)",
+      null,
+      2.25
+     ],
+     [
+      "(v4 + 0.5) * (2.5 - v4)",
+      null,
+      2.25
+     ],
+     [
+      "lines < 5 - 0.5 ? 1 : (lo5 - y_lo - bit_d / 2 - 1)",
+      null,
+      1.0
+     ],
+     [
+      "lines < 5 - 0.5 ? 1 : (y_hi - lo5 - size5 - bit_d / 2 - 1)",
+      null,
+      1.0
+     ],
+     [
+      "lines < 5 - 0.5 ? 1 : size5",
+      null,
+      1.0
+     ],
+     [
+      "(h5 + 0.5) * (2.5 - h5)",
+      null,
+      2.25
+     ],
+     [
+      "(v5 + 0.5) * (2.5 - v5)",
+      null,
+      2.25
+     ],
+     [
+      "lines < 6 - 0.5 ? 1 : (lo6 - y_lo - bit_d / 2 - 1)",
+      null,
+      1.0
+     ],
+     [
+      "lines < 6 - 0.5 ? 1 : (y_hi - lo6 - size6 - bit_d / 2 - 1)",
+      null,
+      1.0
+     ],
+     [
+      "lines < 6 - 0.5 ? 1 : size6",
+      null,
+      1.0
+     ],
+     [
+      "(h6 + 0.5) * (2.5 - h6)",
+      null,
+      2.25
+     ],
+     [
+      "(v6 + 0.5) * (2.5 - v6)",
+      null,
+      2.25
+     ]
+    ]
+   }
+  ],
+  "support.prim": [
+   {
+    "values": {},
+    "names": {
+     "length": 30.0,
+     "width": 1.2,
+     "thickness": 1.4,
+     "line_w": 0.44,
+     "layer_h": 0.2,
+     "neck_lines": 0.0,
+     "gap_lines": 2.0,
+     "skin_layers": 1.0,
+     "neck": 0.0,
+     "skin": 0.2,
+     "count": 34.0,
+     "pitch": 0.8823529411764706,
+     "half_w": 0.4411764705882353,
+     "hole_h": 0.8823529411764706,
+     "min_thickness": 1.2823529411764705,
+     "mid": 0.6411764705882352,
+     "hole_top": 1.0823529411764705,
+     "top_skin": 0.3176470588235294
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "-1",
+      null,
+      -1.0
+     ],
+     [
+      "-half_w",
+      null,
+      -0.4411764705882353
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "count + 1",
+      null,
+      35.0
+     ],
+     [
+      "half_w",
+      null,
+      0.4411764705882353
+     ],
+     [
+      "hole_top",
+      null,
+      1.0823529411764705
+     ],
+     [
+      "length",
+      null,
+      30.0
+     ],
+     [
+      "mid",
+      null,
+      0.6411764705882352
+     ],
+     [
+      "pitch",
+      null,
+      0.8823529411764706
+     ],
+     [
+      "skin",
+      null,
+      0.2
+     ],
+     [
+      "thickness",
+      null,
+      1.4
+     ],
+     [
+      "width",
+      null,
+      1.2
+     ],
+     [
+      "width + 1",
+      null,
+      2.2
+     ],
+     [
+      "length",
+      null,
+      30.0
+     ],
+     [
+      "width",
+      null,
+      1.2
+     ],
+     [
+      "line_w",
+      null,
+      0.44
+     ],
+     [
+      "layer_h",
+      null,
+      0.2
+     ],
+     [
+      "neck_lines + 0.000001",
+      null,
+      1e-06
+     ],
+     [
+      "gap_lines",
+      null,
+      2.0
+     ],
+     [
+      "skin_layers",
+      null,
+      1.0
+     ],
+     [
+      "count",
+      null,
+      34.0
+     ],
+     [
+      "thickness - min_thickness + 0.000001",
+      null,
+      0.11764805882352944
+     ]
+    ]
+   }
+  ],
+  "support_half.prim": [
+   {
+    "values": {},
+    "names": {
+     "radius": 5.0,
+     "height": 3.0,
+     "line_w": 0.44,
+     "layer_h": 0.2,
+     "wall_lines": 1.0,
+     "gap_lines": 4.0,
+     "interface_density": 0.33,
+     "interface_gap": 0.1,
+     "bottom_gap": 0.1,
+     "trim": -5.0,
+     "wall": 0.44,
+     "gap": 1.76,
+     "pitch": 2.2,
+     "rings": 2.0,
+     "wall_lo": 0.30000000000000004,
+     "wall_hi": 2.6999999999999997,
+     "spokes": 11.0,
+     "spoke_step": 16.363636363636363,
+     "reach": 6.0,
+     "keep_lo": -6.0
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "-1",
+      null,
+      -1.0
+     ],
+     [
+      "-line_w / 2 * cos(spoke_step / 2)",
+      null,
+      -0.2177607172138052
+     ],
+     [
+      "-line_w / 2 * sin(spoke_step / 2)",
+      null,
+      -0.03130926442012273
+     ],
+     [
+      "-radius",
+      null,
+      -5.0
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "180 deg - spoke_step",
+      null,
+      163.63636363636363
+     ],
+     [
+      "bottom_gap",
+      null,
+      0.1
+     ],
+     [
+      "height + 1",
+      null,
+      4.0
+     ],
+     [
+      "height - interface_gap",
+      null,
+      2.9
+     ],
+     [
+      "keep_lo",
+      null,
+      -6.0
+     ],
+     [
+      "line_w",
+      null,
+      0.44
+     ],
+     [
+      "line_w / 2 * cos(spoke_step / 2)",
+      null,
+      0.2177607172138052
+     ],
+     [
+      "line_w / 2 * sin(spoke_step / 2)",
+      null,
+      0.03130926442012273
+     ],
+     [
+      "max(radius - i * pitch; 2 * wall)",
+      0,
+      5.0
+     ],
+     [
+      "max(radius - i * pitch; 2 * wall)",
+      1,
+      2.8
+     ],
+     [
+      "max(radius - i * pitch; 2 * wall)",
+      2,
+      0.88
+     ],
+     [
+      "max(radius - i * pitch; 2 * wall) - wall",
+      0,
+      4.56
+     ],
+     [
+      "max(radius - i * pitch; 2 * wall) - wall",
+      1,
+      2.36
+     ],
+     [
+      "max(radius - i * pitch; 2 * wall) - wall",
+      2,
+      0.44
+     ],
+     [
+      "radius",
+      null,
+      5.0
+     ],
+     [
+      "radius + 1",
+      null,
+      6.0
+     ],
+     [
+      "radius - line_w",
+      null,
+      4.56
+     ],
+     [
+      "reach * cos(spoke_step / 2) + line_w / 2 * sin(spoke_step / 2)",
+      null,
+      5.970237915705718
+     ],
+     [
+      "reach * cos(spoke_step / 2) - line_w / 2 * sin(spoke_step / 2)",
+      null,
+      5.907619386865473
+     ],
+     [
+      "reach * sin(spoke_step / 2) + line_w / 2 * cos(spoke_step / 2)",
+      null,
+      1.071649746853516
+     ],
+     [
+      "reach * sin(spoke_step / 2) - line_w / 2 * cos(spoke_step / 2)",
+      null,
+      0.6361283124259056
+     ],
+     [
+      "rings",
+      null,
+      2.0
+     ],
+     [
+      "spokes",
+      null,
+      11.0
+     ],
+     [
+      "trim",
+      null,
+      -5.0
+     ],
+     [
+      "trim + line_w",
+      null,
+      -4.56
+     ],
+     [
+      "trim + wall",
+      null,
+      -4.56
+     ],
+     [
+      "wall",
+      null,
+      0.44
+     ],
+     [
+      "wall_hi",
+      null,
+      2.6999999999999997
+     ],
+     [
+      "wall_hi + 1",
+      null,
+      3.6999999999999997
+     ],
+     [
+      "wall_lo",
+      null,
+      0.30000000000000004
+     ],
+     [
+      "wall_lo - 1",
+      null,
+      -0.7
+     ]
+    ]
+   },
+   {
+    "values": {
+     "radius": "20",
+     "trim": "-5"
+    },
+    "names": {
+     "radius": 20.0,
+     "height": 3.0,
+     "line_w": 0.44,
+     "layer_h": 0.2,
+     "wall_lines": 1.0,
+     "gap_lines": 4.0,
+     "interface_density": 0.33,
+     "interface_gap": 0.1,
+     "bottom_gap": 0.1,
+     "trim": -5.0,
+     "wall": 0.44,
+     "gap": 1.76,
+     "pitch": 2.2,
+     "rings": 9.0,
+     "wall_lo": 0.30000000000000004,
+     "wall_hi": 2.6999999999999997,
+     "spokes": 47.0,
+     "spoke_step": 3.8297872340425534,
+     "reach": 24.0,
+     "keep_lo": -5.0
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "-1",
+      null,
+      -1.0
+     ],
+     [
+      "-line_w / 2 * cos(spoke_step / 2)",
+      null,
+      -0.21987714402065603
+     ],
+     [
+      "-line_w / 2 * sin(spoke_step / 2)",
+      null,
+      -0.007351294941688405
+     ],
+     [
+      "-radius",
+      null,
+      -20.0
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "180 deg - spoke_step",
+      null,
+      176.17021276595744
+     ],
+     [
+      "bottom_gap",
+      null,
+      0.1
+     ],
+     [
+      "height + 1",
+      null,
+      4.0
+     ],
+     [
+      "height - interface_gap",
+      null,
+      2.9
+     ],
+     [
+      "keep_lo",
+      null,
+      -5.0
+     ],
+     [
+      "line_w",
+      null,
+      0.44
+     ],
+     [
+      "line_w / 2 * cos(spoke_step / 2)",
+      null,
+      0.21987714402065603
+     ],
+     [
+      "line_w / 2 * sin(spoke_step / 2)",
+      null,
+      0.007351294941688405
+     ],
+     [
+      "max(radius - i * pitch; 2 * wall)",
+      0,
+      20.0
+     ],
+     [
+      "max(radius - i * pitch; 2 * wall)",
+      1,
+      17.8
+     ],
+     [
+      "max(radius - i * pitch; 2 * wall)",
+      2,
+      15.6
+     ],
+     [
+      "max(radius - i * pitch; 2 * wall) - wall",
+      0,
+      19.56
+     ],
+     [
+      "max(radius - i * pitch; 2 * wall) - wall",
+      1,
+      17.36
+     ],
+     [
+      "max(radius - i * pitch; 2 * wall) - wall",
+      2,
+      15.16
+     ],
+     [
+      "radius",
+      null,
+      20.0
+     ],
+     [
+      "radius + 1",
+      null,
+      21.0
+     ],
+     [
+      "radius - line_w",
+      null,
+      19.56
+     ],
+     [
+      "reach * cos(spoke_step / 2) + line_w / 2 * sin(spoke_step / 2)",
+      null,
+      23.9939488244678
+     ],
+     [
+      "reach * cos(spoke_step / 2) - line_w / 2 * sin(spoke_step / 2)",
+      null,
+      23.979246234584423
+     ],
+     [
+      "reach * sin(spoke_step / 2) + line_w / 2 * cos(spoke_step / 2)",
+      null,
+      1.0218365922048456
+     ],
+     [
+      "reach * sin(spoke_step / 2) - line_w / 2 * cos(spoke_step / 2)",
+      null,
+      0.5820823041635336
+     ],
+     [
+      "rings",
+      null,
+      9.0
+     ],
+     [
+      "spokes",
+      null,
+      47.0
+     ],
+     [
+      "trim",
+      null,
+      -5.0
+     ],
+     [
+      "trim + line_w",
+      null,
+      -4.56
+     ],
+     [
+      "trim + wall",
+      null,
+      -4.56
+     ],
+     [
+      "wall",
+      null,
+      0.44
+     ],
+     [
+      "wall_hi",
+      null,
+      2.6999999999999997
+     ],
+     [
+      "wall_hi + 1",
+      null,
+      3.6999999999999997
+     ],
+     [
+      "wall_lo",
+      null,
+      0.30000000000000004
+     ],
+     [
+      "wall_lo - 1",
+      null,
+      -0.7
+     ]
+    ]
+   }
+  ],
+  "support_rect.prim": [
+   {
+    "values": {},
+    "names": {
+     "length": 20.0,
+     "width": 10.0,
+     "height": 3.0,
+     "line_w": 0.44,
+     "layer_h": 0.2,
+     "wall_lines": 1.0,
+     "gap_lines": 4.0,
+     "interface_density": 0.33,
+     "interface_gap": 0.1,
+     "bottom_gap": 0.1,
+     "wall": 0.44,
+     "gap": 1.76,
+     "pitch": 2.2,
+     "long_x": 1.0,
+     "short": 10.0,
+     "long": 20.0,
+     "rings": 2.0,
+     "inset": 2.2,
+     "hollow": 4.72,
+     "middle": 1.0,
+     "mid_lo": 4.78,
+     "wall_lo": 0.30000000000000004,
+     "wall_hi": 2.6999999999999997,
+     "strip_pitch": 1.3333333333333333,
+     "strip_gap": 0.8933333333333333,
+     "strips": 7.0,
+     "strip_in": 8.0,
+     "strip_mid": 9.78
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "-1",
+      null,
+      -1.0
+     ],
+     [
+      "-pitch",
+      null,
+      -2.2
+     ],
+     [
+      "-strip_pitch",
+      null,
+      -1.3333333333333333
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "bottom_gap",
+      null,
+      0.1
+     ],
+     [
+      "height + 1",
+      null,
+      4.0
+     ],
+     [
+      "height - interface_gap",
+      null,
+      2.9
+     ],
+     [
+      "length",
+      null,
+      20.0
+     ],
+     [
+      "length - line_w",
+      null,
+      19.56
+     ],
+     [
+      "length - wall",
+      null,
+      19.56
+     ],
+     [
+      "length - width / 2",
+      null,
+      15.0
+     ],
+     [
+      "length / 2",
+      null,
+      10.0
+     ],
+     [
+      "line_w",
+      null,
+      0.44
+     ],
+     [
+      "long_x > 0 ? 0 : 0",
+      null,
+      0.0
+     ],
+     [
+      "long_x > 0 ? 0 : long - line_w",
+      null,
+      0.0
+     ],
+     [
+      "long_x > 0 ? 0 : strip_mid",
+      null,
+      0.0
+     ],
+     [
+      "long_x > 0 ? 1 : strips",
+      null,
+      1.0
+     ],
+     [
+      "long_x > 0 ? inset + wall : mid_lo",
+      null,
+      2.64
+     ],
+     [
+      "long_x > 0 ? length - inset - wall : mid_lo + wall",
+      null,
+      17.36
+     ],
+     [
+      "long_x > 0 ? line_w : length",
+      null,
+      0.44
+     ],
+     [
+      "long_x > 0 ? long - line_w : 0",
+      null,
+      19.56
+     ],
+     [
+      "long_x > 0 ? mid_lo + wall : width - inset - wall",
+      null,
+      5.220000000000001
+     ],
+     [
+      "long_x > 0 ? mid_lo : inset + wall",
+      null,
+      4.78
+     ],
+     [
+      "long_x > 0 ? strip_mid + line_w : length",
+      null,
+      10.219999999999999
+     ],
+     [
+      "long_x > 0 ? strip_mid : 0",
+      null,
+      9.78
+     ],
+     [
+      "long_x > 0 ? strips : 1",
+      null,
+      7.0
+     ],
+     [
+      "long_x > 0 ? width : line_w",
+      null,
+      10.0
+     ],
+     [
+      "long_x > 0 ? width : strip_mid + line_w",
+      null,
+      10.0
+     ],
+     [
+      "pitch",
+      null,
+      2.2
+     ],
+     [
+      "rings",
+      null,
+      2.0
+     ],
+     [
+      "strip_pitch",
+      null,
+      1.3333333333333333
+     ],
+     [
+      "wall",
+      null,
+      0.44
+     ],
+     [
+      "wall_hi",
+      null,
+      2.6999999999999997
+     ],
+     [
+      "wall_lo",
+      null,
+      0.30000000000000004
+     ],
+     [
+      "width",
+      null,
+      10.0
+     ],
+     [
+      "width - length / 2",
+      null,
+      0.0
+     ],
+     [
+      "width - line_w",
+      null,
+      9.56
+     ],
+     [
+      "width - wall",
+      null,
+      9.56
+     ],
+     [
+      "width / 2",
+      null,
+      5.0
+     ]
+    ]
+   }
+  ],
+  "topeak_rail.prim": [
+   {
+    "values": {},
+    "names": {
+     "length": 20.0,
+     "base_depth": 2.0,
+     "base_width": -1.0,
+     "end_taper": 0.0,
+     "printer_width_offset": 0.2,
+     "screws": 0.0,
+     "screw_y": 18.4,
+     "drill_inset": 6.0,
+     "nominal_spacing": 30.0,
+     "min_spacing": 7.0,
+     "screw_r": 1.4,
+     "head_r": 2.75,
+     "head_h": 2.7,
+     "width": 61.4,
+     "angle": 60.0,
+     "depth": 6.35,
+     "tip_radius": 0.7,
+     "root_radius": 1.0,
+     "groove_width": 19.95,
+     "groove_depth": 1.2,
+     "groove_angle": 45.0,
+     "t_tip": 1.2124355652982142,
+     "t_root": 1.7320508075688774,
+     "tip_hw": 31.212435565298215,
+     "root_hw": 27.54626135594409,
+     "width_check": 61.4,
+     "base_hw": 29.278312163512968,
+     "span": 8.0,
+     "holes": 2.0
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "(base_hw + 1) + printer_width_offset / 2",
+      null,
+      30.37831216351297
+     ],
+     [
+      "(base_hw + 2) + printer_width_offset / 2",
+      null,
+      31.37831216351297
+     ],
+     [
+      "(base_hw) + printer_width_offset / 2",
+      null,
+      29.37831216351297
+     ],
+     [
+      "(root_hw - (0) / sin(angle)) + printer_width_offset / 2",
+      null,
+      27.64626135594409
+     ],
+     [
+      "(root_hw - (end_taper) / sin(angle)) + printer_width_offset / 2",
+      null,
+      27.64626135594409
+     ],
+     [
+      "(tip_hw - (0) / tan(angle / 2)) + printer_width_offset / 2",
+      null,
+      31.312435565298216
+     ],
+     [
+      "(tip_hw - (end_taper) / tan(angle / 2)) + printer_width_offset / 2",
+      null,
+      31.312435565298216
+     ],
+     [
+      "-((base_hw + 1) + printer_width_offset / 2)",
+      null,
+      -30.37831216351297
+     ],
+     [
+      "-((base_hw + 2) + printer_width_offset / 2)",
+      null,
+      -31.37831216351297
+     ],
+     [
+      "-((base_hw) + printer_width_offset / 2)",
+      null,
+      -29.37831216351297
+     ],
+     [
+      "-((root_hw - (0) / sin(angle)) + printer_width_offset / 2)",
+      null,
+      -27.64626135594409
+     ],
+     [
+      "-((root_hw - (end_taper) / sin(angle)) + printer_width_offset / 2)",
+      null,
+      -27.64626135594409
+     ],
+     [
+      "-((tip_hw - (0) / tan(angle / 2)) + printer_width_offset / 2)",
+      null,
+      -31.312435565298216
+     ],
+     [
+      "-((tip_hw - (end_taper) / tan(angle / 2)) + printer_width_offset / 2)",
+      null,
+      -31.312435565298216
+     ],
+     [
+      "-(groove_width / 2 + (-(0)) / tan(groove_angle) - (-(0)) / sin(groove_angle))",
+      null,
+      -9.975
+     ],
+     [
+      "-(groove_width / 2 + (-(end_taper)) / tan(groove_angle) - (-(end_taper)) / sin(groove_angle))",
+      null,
+      -9.975
+     ],
+     [
+      "-(groove_width / 2 - (groove_depth - (-(0))) / tan(groove_angle) - (-(0)) / sin(groove_angle))",
+      null,
+      -8.774999999999999
+     ],
+     [
+      "-(groove_width / 2 - (groove_depth - (-(end_taper))) / tan(groove_angle) - (-(end_taper)) / sin(groove_angle))",
+      null,
+      -8.774999999999999
+     ],
+     [
+      "-(screw_y + (screws > 0 ? 0 : 1000))",
+      null,
+      -1018.4
+     ],
+     [
+      "-1",
+      null,
+      -1.0
+     ],
+     [
+      "-depth",
+      null,
+      -6.35
+     ],
+     [
+      "-depth + (0)",
+      null,
+      -6.35
+     ],
+     [
+      "-depth + (end_taper)",
+      null,
+      -6.35
+     ],
+     [
+      "-depth + groove_depth - (-(0))",
+      null,
+      -5.1499999999999995
+     ],
+     [
+      "-depth + groove_depth - (-(end_taper))",
+      null,
+      -5.1499999999999995
+     ],
+     [
+      "-depth + head_h",
+      null,
+      -3.6499999999999995
+     ],
+     [
+      "-depth - (-(0))",
+      null,
+      -6.35
+     ],
+     [
+      "-depth - (-(end_taper))",
+      null,
+      -6.35
+     ],
+     [
+      "-depth - 1",
+      null,
+      -7.35
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "base_depth",
+      null,
+      2.0
+     ],
+     [
+      "base_depth + 1",
+      null,
+      3.0
+     ],
+     [
+      "base_width >= 0",
+      null,
+      0.0
+     ],
+     [
+      "end_taper",
+      null,
+      0.0
+     ],
+     [
+      "end_taper > 0",
+      null,
+      0.0
+     ],
+     [
+      "groove_width / 2 + (-(0)) / tan(groove_angle) - (-(0)) / sin(groove_angle)",
+      null,
+      9.975
+     ],
+     [
+      "groove_width / 2 + (-(end_taper)) / tan(groove_angle) - (-(end_taper)) / sin(groove_angle)",
+      null,
+      9.975
+     ],
+     [
+      "groove_width / 2 - (groove_depth - (-(0))) / tan(groove_angle) - (-(0)) / sin(groove_angle)",
+      null,
+      8.774999999999999
+     ],
+     [
+      "groove_width / 2 - (groove_depth - (-(end_taper))) / tan(groove_angle) - (-(end_taper)) / sin(groove_angle)",
+      null,
+      8.774999999999999
+     ],
+     [
+      "head_r",
+      null,
+      2.75
+     ],
+     [
+      "holes",
+      null,
+      2.0
+     ],
+     [
+      "holes > 1 ? drill_inset : length / 2",
+      null,
+      6.0
+     ],
+     [
+      "holes > 1 ? span / (holes - 1) : 0",
+      null,
+      8.0
+     ],
+     [
+      "length",
+      null,
+      20.0
+     ],
+     [
+      "length + 1",
+      null,
+      21.0
+     ],
+     [
+      "length - end_taper",
+      null,
+      20.0
+     ],
+     [
+      "root_radius",
+      null,
+      1.0
+     ],
+     [
+      "screw_r",
+      null,
+      1.4
+     ],
+     [
+      "screw_y + (screws > 0 ? 0 : 1000)",
+      null,
+      1018.4
+     ],
+     [
+      "tip_radius - (0)",
+      null,
+      0.7
+     ],
+     [
+      "tip_radius - (end_taper)",
+      null,
+      0.7
+     ],
+     [
+      "length",
+      null,
+      20.0
+     ],
+     [
+      "0.000001 - abs(width_check - width)",
+      null,
+      1e-06
+     ],
+     [
+      "root_hw + printer_width_offset / 2",
+      null,
+      27.64626135594409
+     ],
+     [
+      "end_taper >= end_taper * 0 ? 1 : 0",
+      null,
+      1.0
+     ],
+     [
+      "tip_radius - end_taper",
+      null,
+      0.7
+     ],
+     [
+      "length - 2 * end_taper",
+      null,
+      20.0
+     ],
+     [
+      "tip_hw - t_tip - groove_width / 2 - end_taper",
+      null,
+      20.025
+     ],
+     [
+      "base_depth",
+      null,
+      2.0
+     ],
+     [
+      "base_width < base_width * 0 ? 1 : base_width / 2 - root_hw - t_root",
+      null,
+      1.0
+     ],
+     [
+      "screw_y - head_r - groove_width / 2",
+      null,
+      5.674999999999999
+     ],
+     [
+      "tip_hw - t_tip - screw_y - head_r",
+      null,
+      8.850000000000001
+     ],
+     [
+      "root_hw - screw_y - screw_r",
+      null,
+      7.746261355944091
+     ],
+     [
+      "head_r - screw_r",
+      null,
+      1.35
+     ],
+     [
+      "depth - head_h",
+      null,
+      3.6499999999999995
+     ],
+     [
+      "span",
+      null,
+      8.0
+     ]
+    ]
+   },
+   {
+    "values": {
+     "base_width": "70"
+    },
+    "names": {
+     "length": 20.0,
+     "base_depth": 2.0,
+     "base_width": 70.0,
+     "end_taper": 0.0,
+     "printer_width_offset": 0.2,
+     "screws": 0.0,
+     "screw_y": 18.4,
+     "drill_inset": 6.0,
+     "nominal_spacing": 30.0,
+     "min_spacing": 7.0,
+     "screw_r": 1.4,
+     "head_r": 2.75,
+     "head_h": 2.7,
+     "width": 61.4,
+     "angle": 60.0,
+     "depth": 6.35,
+     "tip_radius": 0.7,
+     "root_radius": 1.0,
+     "groove_width": 19.95,
+     "groove_depth": 1.2,
+     "groove_angle": 45.0,
+     "t_tip": 1.2124355652982142,
+     "t_root": 1.7320508075688774,
+     "tip_hw": 31.212435565298215,
+     "root_hw": 27.54626135594409,
+     "width_check": 61.4,
+     "base_hw": 35.0,
+     "span": 8.0,
+     "holes": 2.0
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "(base_hw + 1) + printer_width_offset / 2",
+      null,
+      36.1
+     ],
+     [
+      "(base_hw + 2) + printer_width_offset / 2",
+      null,
+      37.1
+     ],
+     [
+      "(base_hw) + printer_width_offset / 2",
+      null,
+      35.1
+     ],
+     [
+      "(root_hw - (0) / sin(angle)) + printer_width_offset / 2",
+      null,
+      27.64626135594409
+     ],
+     [
+      "(root_hw - (end_taper) / sin(angle)) + printer_width_offset / 2",
+      null,
+      27.64626135594409
+     ],
+     [
+      "(tip_hw - (0) / tan(angle / 2)) + printer_width_offset / 2",
+      null,
+      31.312435565298216
+     ],
+     [
+      "(tip_hw - (end_taper) / tan(angle / 2)) + printer_width_offset / 2",
+      null,
+      31.312435565298216
+     ],
+     [
+      "-((base_hw + 1) + printer_width_offset / 2)",
+      null,
+      -36.1
+     ],
+     [
+      "-((base_hw + 2) + printer_width_offset / 2)",
+      null,
+      -37.1
+     ],
+     [
+      "-((base_hw) + printer_width_offset / 2)",
+      null,
+      -35.1
+     ],
+     [
+      "-((root_hw - (0) / sin(angle)) + printer_width_offset / 2)",
+      null,
+      -27.64626135594409
+     ],
+     [
+      "-((root_hw - (end_taper) / sin(angle)) + printer_width_offset / 2)",
+      null,
+      -27.64626135594409
+     ],
+     [
+      "-((tip_hw - (0) / tan(angle / 2)) + printer_width_offset / 2)",
+      null,
+      -31.312435565298216
+     ],
+     [
+      "-((tip_hw - (end_taper) / tan(angle / 2)) + printer_width_offset / 2)",
+      null,
+      -31.312435565298216
+     ],
+     [
+      "-(groove_width / 2 + (-(0)) / tan(groove_angle) - (-(0)) / sin(groove_angle))",
+      null,
+      -9.975
+     ],
+     [
+      "-(groove_width / 2 + (-(end_taper)) / tan(groove_angle) - (-(end_taper)) / sin(groove_angle))",
+      null,
+      -9.975
+     ],
+     [
+      "-(groove_width / 2 - (groove_depth - (-(0))) / tan(groove_angle) - (-(0)) / sin(groove_angle))",
+      null,
+      -8.774999999999999
+     ],
+     [
+      "-(groove_width / 2 - (groove_depth - (-(end_taper))) / tan(groove_angle) - (-(end_taper)) / sin(groove_angle))",
+      null,
+      -8.774999999999999
+     ],
+     [
+      "-(screw_y + (screws > 0 ? 0 : 1000))",
+      null,
+      -1018.4
+     ],
+     [
+      "-1",
+      null,
+      -1.0
+     ],
+     [
+      "-depth",
+      null,
+      -6.35
+     ],
+     [
+      "-depth + (0)",
+      null,
+      -6.35
+     ],
+     [
+      "-depth + (end_taper)",
+      null,
+      -6.35
+     ],
+     [
+      "-depth + groove_depth - (-(0))",
+      null,
+      -5.1499999999999995
+     ],
+     [
+      "-depth + groove_depth - (-(end_taper))",
+      null,
+      -5.1499999999999995
+     ],
+     [
+      "-depth + head_h",
+      null,
+      -3.6499999999999995
+     ],
+     [
+      "-depth - (-(0))",
+      null,
+      -6.35
+     ],
+     [
+      "-depth - (-(end_taper))",
+      null,
+      -6.35
+     ],
+     [
+      "-depth - 1",
+      null,
+      -7.35
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "base_depth",
+      null,
+      2.0
+     ],
+     [
+      "base_depth + 1",
+      null,
+      3.0
+     ],
+     [
+      "base_width >= 0",
+      null,
+      1.0
+     ],
+     [
+      "end_taper",
+      null,
+      0.0
+     ],
+     [
+      "end_taper > 0",
+      null,
+      0.0
+     ],
+     [
+      "groove_width / 2 + (-(0)) / tan(groove_angle) - (-(0)) / sin(groove_angle)",
+      null,
+      9.975
+     ],
+     [
+      "groove_width / 2 + (-(end_taper)) / tan(groove_angle) - (-(end_taper)) / sin(groove_angle)",
+      null,
+      9.975
+     ],
+     [
+      "groove_width / 2 - (groove_depth - (-(0))) / tan(groove_angle) - (-(0)) / sin(groove_angle)",
+      null,
+      8.774999999999999
+     ],
+     [
+      "groove_width / 2 - (groove_depth - (-(end_taper))) / tan(groove_angle) - (-(end_taper)) / sin(groove_angle)",
+      null,
+      8.774999999999999
+     ],
+     [
+      "head_r",
+      null,
+      2.75
+     ],
+     [
+      "holes",
+      null,
+      2.0
+     ],
+     [
+      "holes > 1 ? drill_inset : length / 2",
+      null,
+      6.0
+     ],
+     [
+      "holes > 1 ? span / (holes - 1) : 0",
+      null,
+      8.0
+     ],
+     [
+      "length",
+      null,
+      20.0
+     ],
+     [
+      "length + 1",
+      null,
+      21.0
+     ],
+     [
+      "length - end_taper",
+      null,
+      20.0
+     ],
+     [
+      "root_radius",
+      null,
+      1.0
+     ],
+     [
+      "screw_r",
+      null,
+      1.4
+     ],
+     [
+      "screw_y + (screws > 0 ? 0 : 1000)",
+      null,
+      1018.4
+     ],
+     [
+      "tip_radius - (0)",
+      null,
+      0.7
+     ],
+     [
+      "tip_radius - (end_taper)",
+      null,
+      0.7
+     ],
+     [
+      "length",
+      null,
+      20.0
+     ],
+     [
+      "0.000001 - abs(width_check - width)",
+      null,
+      1e-06
+     ],
+     [
+      "root_hw + printer_width_offset / 2",
+      null,
+      27.64626135594409
+     ],
+     [
+      "end_taper >= end_taper * 0 ? 1 : 0",
+      null,
+      1.0
+     ],
+     [
+      "tip_radius - end_taper",
+      null,
+      0.7
+     ],
+     [
+      "length - 2 * end_taper",
+      null,
+      20.0
+     ],
+     [
+      "tip_hw - t_tip - groove_width / 2 - end_taper",
+      null,
+      20.025
+     ],
+     [
+      "base_depth",
+      null,
+      2.0
+     ],
+     [
+      "base_width < base_width * 0 ? 1 : base_width / 2 - root_hw - t_root",
+      null,
+      5.721687836487033
+     ],
+     [
+      "screw_y - head_r - groove_width / 2",
+      null,
+      5.674999999999999
+     ],
+     [
+      "tip_hw - t_tip - screw_y - head_r",
+      null,
+      8.850000000000001
+     ],
+     [
+      "root_hw - screw_y - screw_r",
+      null,
+      7.746261355944091
+     ],
+     [
+      "head_r - screw_r",
+      null,
+      1.35
+     ],
+     [
+      "depth - head_h",
+      null,
+      3.6499999999999995
+     ],
+     [
+      "span",
+      null,
+      8.0
+     ]
+    ]
+   }
+  ],
+  "topeak_rail_housing.prim": [
+   {
+    "values": {},
+    "names": {
+     "clearance": 0.3,
+     "length": 20.0,
+     "block_width": 80.0,
+     "block_depth": 10.0,
+     "end_taper": 0.0,
+     "printer_width_offset": 0.0,
+     "width": 61.4,
+     "angle": 60.0,
+     "depth": 6.35,
+     "tip_radius": 0.7,
+     "root_radius": 1.0,
+     "groove_width": 19.95,
+     "groove_depth": 1.2,
+     "groove_angle": 45.0,
+     "t_tip": 1.2124355652982142,
+     "t_root": 1.7320508075688774,
+     "tip_hw": 31.212435565298215,
+     "root_hw": 27.54626135594409,
+     "width_check": 61.4,
+     "grow": 0.5196152422706632,
+     "floor_hw": 31.73205080756888,
+     "mouth_hw": 28.065876598214754,
+     "lip_end": 32.79792740578363
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "(floor_hw + (0) / tan(angle / 2)) + printer_width_offset / 2",
+      null,
+      31.73205080756888
+     ],
+     [
+      "(floor_hw + (end_taper + 0.2) / tan(angle / 2)) + printer_width_offset / 2",
+      null,
+      32.078460969082656
+     ],
+     [
+      "(lip_end) + printer_width_offset / 2",
+      null,
+      32.79792740578363
+     ],
+     [
+      "(mouth_hw + (0) / sin(angle)) + printer_width_offset / 2",
+      null,
+      28.065876598214754
+     ],
+     [
+      "(mouth_hw + (end_taper + 0.2) / sin(angle)) + printer_width_offset / 2",
+      null,
+      28.296816705890603
+     ],
+     [
+      "-((floor_hw + (0) / tan(angle / 2)) + printer_width_offset / 2)",
+      null,
+      -31.73205080756888
+     ],
+     [
+      "-((floor_hw + (end_taper + 0.2) / tan(angle / 2)) + printer_width_offset / 2)",
+      null,
+      -32.078460969082656
+     ],
+     [
+      "-((lip_end) + printer_width_offset / 2)",
+      null,
+      -32.79792740578363
+     ],
+     [
+      "-((mouth_hw + (0) / sin(angle)) + printer_width_offset / 2)",
+      null,
+      -28.065876598214754
+     ],
+     [
+      "-((mouth_hw + (end_taper + 0.2) / sin(angle)) + printer_width_offset / 2)",
+      null,
+      -28.296816705890603
+     ],
+     [
+      "-(1)",
+      null,
+      -1.0
+     ],
+     [
+      "-(groove_width / 2 + (clearance + (0)) / tan(groove_angle) - (clearance + (0)) / sin(groove_angle))",
+      null,
+      -9.850735931288073
+     ],
+     [
+      "-(groove_width / 2 + (clearance + (end_taper + 0.2)) / tan(groove_angle) - (clearance + (end_taper + 0.2)) / sin(groove_angle))",
+      null,
+      -9.767893218813452
+     ],
+     [
+      "-(groove_width / 2 - (groove_depth - (clearance + (0))) / tan(groove_angle) - (clearance + (0)) / sin(groove_angle))",
+      null,
+      -8.650735931288072
+     ],
+     [
+      "-(groove_width / 2 - (groove_depth - (clearance + (end_taper + 0.2))) / tan(groove_angle) - (clearance + (end_taper + 0.2)) / sin(groove_angle))",
+      null,
+      -8.567893218813452
+     ],
+     [
+      "-0.2",
+      null,
+      -0.2
+     ],
+     [
+      "-block_width / 2",
+      null,
+      -40.0
+     ],
+     [
+      "-clearance",
+      null,
+      -0.3
+     ],
+     [
+      "-clearance + 1",
+      null,
+      0.7
+     ],
+     [
+      "-clearance - block_depth",
+      null,
+      -10.3
+     ],
+     [
+      "-depth + groove_depth - (clearance + (0))",
+      null,
+      -5.449999999999999
+     ],
+     [
+      "-depth + groove_depth - (clearance + (end_taper + 0.2))",
+      null,
+      -5.6499999999999995
+     ],
+     [
+      "-depth - (clearance + (0))",
+      null,
+      -6.6499999999999995
+     ],
+     [
+      "-depth - (clearance + (end_taper + 0.2))",
+      null,
+      -6.85
+     ],
+     [
+      "-depth - clearance - (0)",
+      null,
+      -6.6499999999999995
+     ],
+     [
+      "-depth - clearance - (end_taper + 0.2)",
+      null,
+      -6.85
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "block_width / 2",
+      null,
+      40.0
+     ],
+     [
+      "end_taper",
+      null,
+      0.0
+     ],
+     [
+      "end_taper > 0",
+      null,
+      0.0
+     ],
+     [
+      "groove_width / 2 + (clearance + (0)) / tan(groove_angle) - (clearance + (0)) / sin(groove_angle)",
+      null,
+      9.850735931288073
+     ],
+     [
+      "groove_width / 2 + (clearance + (end_taper + 0.2)) / tan(groove_angle) - (clearance + (end_taper + 0.2)) / sin(groove_angle)",
+      null,
+      9.767893218813452
+     ],
+     [
+      "groove_width / 2 - (groove_depth - (clearance + (0))) / tan(groove_angle) - (clearance + (0)) / sin(groove_angle)",
+      null,
+      8.650735931288072
+     ],
+     [
+      "groove_width / 2 - (groove_depth - (clearance + (end_taper + 0.2))) / tan(groove_angle) - (clearance + (end_taper + 0.2)) / sin(groove_angle)",
+      null,
+      8.567893218813452
+     ],
+     [
+      "length",
+      null,
+      20.0
+     ],
+     [
+      "length + 0.2",
+      null,
+      20.2
+     ],
+     [
+      "length + 1",
+      null,
+      21.0
+     ],
+     [
+      "length - end_taper",
+      null,
+      20.0
+     ],
+     [
+      "root_radius - clearance",
+      null,
+      0.7
+     ],
+     [
+      "tip_radius + clearance + (0)",
+      null,
+      1.0
+     ],
+     [
+      "tip_radius + clearance + (end_taper + 0.2)",
+      null,
+      1.2
+     ],
+     [
+      "length",
+      null,
+      20.0
+     ],
+     [
+      "0.000001 - abs(width_check - width)",
+      null,
+      1e-06
+     ],
+     [
+      "root_hw + printer_width_offset / 2",
+      null,
+      27.54626135594409
+     ],
+     [
+      "end_taper >= end_taper * 0 ? 1 : 0",
+      null,
+      1.0
+     ],
+     [
+      "tip_radius - end_taper",
+      null,
+      0.7
+     ],
+     [
+      "length - 2 * end_taper",
+      null,
+      20.0
+     ],
+     [
+      "tip_hw - t_tip - groove_width / 2 - end_taper",
+      null,
+      20.025
+     ],
+     [
+      "clearance",
+      null,
+      0.3
+     ],
+     [
+      "block_depth - depth - end_taper",
+      null,
+      3.6500000000000004
+     ],
+     [
+      "block_width / 2 - floor_hw - end_taper / tan(angle / 2) - printer_width_offset / 2",
+      null,
+      8.267949192431121
+     ],
+     [
+      "groove_depth - clearance - end_taper",
+      null,
+      0.8999999999999999
+     ]
+    ]
+   }
+  ],
+  "twist_plug.prim": [
+   {
+    "values": {},
+    "names": {
+     "mouth_d": 30.0,
+     "depth": 3.5,
+     "taper_angle": 60.0,
+     "radius": 0.8,
+     "tol": 0.3,
+     "preload": 0.2,
+     "lugs": 3.0,
+     "lug_angle": 40.0,
+     "twist": 60.0,
+     "open_clr": 3.0,
+     "lead": 1.0,
+     "lead_angle": 12.0,
+     "body_d": 50.0,
+     "body_t": 5.0,
+     "flange_t": 2.0,
+     "detent_r": 1.0,
+     "detent_h": 0.4,
+     "detent_pos": 20.0,
+     "detent_angle": 20.0,
+     "overlap": 1.0,
+     "m": 15.0,
+     "floor_r": 17.02072594216369,
+     "r_small": 0.5,
+     "mouth_t": 0.8660254037844387,
+     "root_t": 1.385640646055102,
+     "shaft_r": 14.7,
+     "lug_z": -3.2
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "360",
+      null,
+      360.0
+     ],
+     [
+      "body_d / 2",
+      null,
+      25.0
+     ],
+     [
+      "detent_h - detent_r",
+      null,
+      -0.6
+     ],
+     [
+      "detent_pos * cos(detent_angle)",
+      null,
+      18.79385241571817
+     ],
+     [
+      "detent_pos * sin(detent_angle)",
+      null,
+      6.840402866513374
+     ],
+     [
+      "detent_r + tol",
+      null,
+      1.3
+     ],
+     [
+      "flange_t",
+      null,
+      2.0
+     ],
+     [
+      "lead_angle",
+      null,
+      12.0
+     ],
+     [
+      "lead_angle * 0 / 4",
+      null,
+      0.0
+     ],
+     [
+      "lead_angle * 1 / 4",
+      null,
+      3.0
+     ],
+     [
+      "lead_angle * 2 / 4",
+      null,
+      6.0
+     ],
+     [
+      "lead_angle * 3 / 4",
+      null,
+      9.0
+     ],
+     [
+      "lead_angle * 4 / 4",
+      null,
+      12.0
+     ],
+     [
+      "lug_angle",
+      null,
+      40.0
+     ],
+     [
+      "lug_z",
+      null,
+      -3.2
+     ],
+     [
+      "lugs",
+      null,
+      3.0
+     ],
+     [
+      "m + (preload - lead * 0 / 4 - lug_z) / tan(taper_angle)",
+      null,
+      16.962990915244728
+     ],
+     [
+      "m + (preload - lead * 0 / 4) / tan(taper_angle)",
+      null,
+      15.115470053837925
+     ],
+     [
+      "m + (preload - lead * 0 / 4) / tan(taper_angle) + root_t + overlap",
+      null,
+      17.501110699893026
+     ],
+     [
+      "m + (preload - lead * 1 / 4 - lug_z) / tan(taper_angle)",
+      null,
+      16.818653347947322
+     ],
+     [
+      "m + (preload - lead * 1 / 4) / tan(taper_angle)",
+      null,
+      14.971132486540519
+     ],
+     [
+      "m + (preload - lead * 1 / 4) / tan(taper_angle) + root_t + overlap",
+      null,
+      17.35677313259562
+     ],
+     [
+      "m + (preload - lead * 2 / 4 - lug_z) / tan(taper_angle)",
+      null,
+      16.674315780649916
+     ],
+     [
+      "m + (preload - lead * 2 / 4) / tan(taper_angle)",
+      null,
+      14.826794919243111
+     ],
+     [
+      "m + (preload - lead * 2 / 4) / tan(taper_angle) + root_t + overlap",
+      null,
+      17.212435565298215
+     ],
+     [
+      "m + (preload - lead * 3 / 4 - lug_z) / tan(taper_angle)",
+      null,
+      16.52997821335251
+     ],
+     [
+      "m + (preload - lead * 3 / 4) / tan(taper_angle)",
+      null,
+      14.682457351945706
+     ],
+     [
+      "m + (preload - lead * 3 / 4) / tan(taper_angle) + root_t + overlap",
+      null,
+      17.06809799800081
+     ],
+     [
+      "m + (preload - lead * 4 / 4 - lug_z) / tan(taper_angle)",
+      null,
+      16.3856406460551
+     ],
+     [
+      "m + (preload - lead * 4 / 4) / tan(taper_angle)",
+      null,
+      14.538119784648298
+     ],
+     [
+      "m + (preload - lead * 4 / 4) / tan(taper_angle) + root_t + overlap",
+      null,
+      16.9237604307034
+     ],
+     [
+      "m + (preload - lug_z) / tan(taper_angle)",
+      null,
+      16.962990915244728
+     ],
+     [
+      "m + (preload) / tan(taper_angle)",
+      null,
+      15.115470053837925
+     ],
+     [
+      "m + (preload) / tan(taper_angle) + root_t + overlap",
+      null,
+      17.501110699893026
+     ],
+     [
+      "overlap",
+      null,
+      1.0
+     ],
+     [
+      "r_small",
+      null,
+      0.5
+     ],
+     [
+      "radius",
+      null,
+      0.8
+     ],
+     [
+      "shaft_r",
+      null,
+      14.7
+     ],
+     [
+      "shaft_r - overlap",
+      null,
+      13.7
+     ],
+     [
+      "r_small",
+      null,
+      0.5
+     ],
+     [
+      "body_t - depth",
+      null,
+      1.5
+     ],
+     [
+      "body_d / 2 - floor_r - tol - 1",
+      null,
+      6.67927405783631
+     ],
+     [
+      "twist - open_clr - lug_angle",
+      null,
+      17.0
+     ],
+     [
+      "360 / lugs - twist - lug_angle - open_clr",
+      null,
+      17.0
+     ],
+     [
+      "lug_angle - lead_angle",
+      null,
+      28.0
+     ],
+     [
+      "lead - preload",
+      null,
+      0.8
+     ],
+     [
+      "detent_pos - detent_r - m - mouth_t",
+      null,
+      3.133974596215561
+     ],
+     [
+      "body_d / 2 - detent_pos - detent_r",
+      null,
+      4.0
+     ]
+    ]
+   }
+  ],
+  "twist_socket.prim": [
+   {
+    "values": {},
+    "names": {
+     "mouth_d": 30.0,
+     "depth": 3.5,
+     "taper_angle": 60.0,
+     "radius": 0.8,
+     "tol": 0.3,
+     "preload": 0.2,
+     "lugs": 3.0,
+     "lug_angle": 40.0,
+     "twist": 60.0,
+     "open_clr": 3.0,
+     "lead": 1.0,
+     "lead_angle": 12.0,
+     "body_d": 50.0,
+     "body_t": 5.0,
+     "flange_t": 2.0,
+     "detent_r": 1.0,
+     "detent_h": 0.4,
+     "detent_pos": 20.0,
+     "detent_angle": 20.0,
+     "overlap": 1.0,
+     "m": 15.0,
+     "floor_r": 17.02072594216369,
+     "r_small": 0.5,
+     "mouth_t": 0.8660254037844387,
+     "root_t": 1.385640646055102,
+     "shaft_r": 14.7,
+     "lug_z": -3.2
+    },
+    "failed": [],
+    "exprs": [
+     [
+      "-body_t",
+      null,
+      -5.0
+     ],
+     [
+      "-depth",
+      null,
+      -3.5
+     ],
+     [
+      "0",
+      null,
+      0.0
+     ],
+     [
+      "360",
+      null,
+      360.0
+     ],
+     [
+      "body_d / 2",
+      null,
+      25.0
+     ],
+     [
+      "detent_h - detent_r",
+      null,
+      -0.6
+     ],
+     [
+      "detent_pos * cos(detent_angle)",
+      null,
+      18.79385241571817
+     ],
+     [
+      "detent_pos * sin(detent_angle)",
+      null,
+      6.840402866513374
+     ],
+     [
+      "detent_r",
+      null,
+      1.0
+     ],
+     [
+      "floor_r",
+      null,
+      17.02072594216369
+     ],
+     [
+      "floor_r + tol",
+      null,
+      17.32072594216369
+     ],
+     [
+      "lugs",
+      null,
+      3.0
+     ],
+     [
+      "m",
+      null,
+      15.0
+     ],
+     [
+      "m + mouth_t + overlap",
+      null,
+      16.86602540378444
+     ],
+     [
+      "m - 1",
+      null,
+      14.0
+     ],
+     [
+      "overlap",
+      null,
+      1.0
+     ],
+     [
+      "r_small",
+      null,
+      0.5
+     ],
+     [
+      "radius",
+      null,
+      0.8
+     ],
+     [
+      "twist + lug_angle + open_clr",
+      null,
+      103.0
+     ],
+     [
+      "twist - open_clr",
+      null,
+      57.0
+     ],
+     [
+      "r_small",
+      null,
+      0.5
+     ],
+     [
+      "body_t - depth",
+      null,
+      1.5
+     ],
+     [
+      "body_d / 2 - floor_r - tol - 1",
+      null,
+      6.67927405783631
+     ],
+     [
+      "twist - open_clr - lug_angle",
+      null,
+      17.0
+     ],
+     [
+      "360 / lugs - twist - lug_angle - open_clr",
+      null,
+      17.0
+     ],
+     [
+      "lug_angle - lead_angle",
+      null,
+      28.0
+     ],
+     [
+      "lead - preload",
+      null,
+      0.8
+     ],
+     [
+      "detent_pos - detent_r - m - mouth_t",
+      null,
+      3.133974596215561
+     ],
+     [
+      "body_d / 2 - detent_pos - detent_r",
+      null,
+      4.0
+     ]
+    ]
+   }
+  ]
+ },
+ "errors": [
+  "1 +",
+  "(1",
+  "1 2",
+  "foo(1)",
+  "sin(1; 2)",
+  "nosuchname",
+  "1 / 0",
+  "@2",
+  "1 $ 2",
+  "xmin(@3)",
+  "max()",
+  "sqrt(-1)",
+  "asin(2)",
+  ""
+ ],
+ "text": {
+  "env": {
+   "key": "SFMF",
+   "k": 2.0,
+   "n": 3.0,
+   "bigs": 3.0,
+   "littles": 2.0
+  },
+  "cases": [
+   [
+    "key[k - 1:k]",
+    "F"
+   ],
+   [
+    "key[-1]",
+    "F"
+   ],
+   [
+    "key[0:9]",
+    "SFMF"
+   ],
+   [
+    "key[2:1]",
+    ""
+   ],
+   [
+    "key[-2:4]",
+    "MF"
+   ],
+   [
+    "<<ab>> + key[0:1] + <<c>>",
+    "abSc"
+   ],
+   [
+    "(k > 1 ? <<x>> : <<y>>) + <<z>>",
+    "xz"
+   ],
+   [
+    "key == <<SFMF>>",
+    1.0
+   ],
+   [
+    "key != <<SF>>",
+    1.0
+   ],
+   [
+    "mod(-7; 3)",
+    -1.0
+   ],
+   [
+    "mod(7.5; 2)",
+    1.5
+   ],
+   [
+    "len(key)",
+    4.0
+   ],
+   [
+    "count(key; <<F>>)",
+    2.0
+   ],
+   [
+    "repeat(<<ab>>; n)",
+    "ababab"
+   ],
+   [
+    "key[0:2] + repeat(<<O>>; k)",
+    "SFOO"
+   ],
+   [
+    "len(key + <<X>>) * 2",
+    10.0
+   ],
+   [
+    "count(<<FAF>> + key; <<F>>)",
+    4.0
+   ],
+   [
+    "len(k > 1 ? key : <<ab>>)",
+    4.0
+   ],
+   [
+    "count(key; <<F>>) > 1 ? 1 : 0",
+    1.0
+   ],
+   [
+    "len(repeat(<<B>>; floor(bigs / 2)))",
+    1.0
+   ],
+   [
+    "repeat(<<L>>; littles / 2) + repeat(<<B>>; floor(bigs / 2)) + (mod(bigs; 2) == 1 ? <<OBO>> : <<O>>) + repeat(<<B>>; floor(bigs / 2)) + repeat(<<L>>; littles / 2)",
+    "LBOBOBL"
+   ]
+  ],
+  "errors": [
+   "key[4]",
+   "key[0.5:1]",
+   "<<a>> + 1",
+   "1 + <<a>>",
+   "<<a>> < <<b>>",
+   "<<a>> == 1",
+   "-key",
+   "sin(key)",
+   "len(1)",
+   "repeat(<<a>>; -1)",
+   "repeat(<<a>>; 1.5)",
+   "(key)[0:1]",
+   "<<ab>>[0]",
+   "len(key; key)",
+   "key ? 1 : 0",
+   "<<open"
+  ]
+ }
+}

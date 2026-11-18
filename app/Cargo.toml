@@ -1,0 +1,16 @@
+[package]
+name = "view4d"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+view4d-scene = { path = "../scene" }
+view4d-model = { path = "../model" }
+view4d-orrery = { path = "../orrery" }
+termmd-surface.workspace = true
+termmd-vulkan.workspace = true

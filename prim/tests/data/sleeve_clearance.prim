@@ -1,0 +1,15 @@
+{
+  "format": "primlib.prim",
+  "version": 1,
+  "primitive": "sleeve_clearance",
+  "title": "Sleeve clearance",
+  "params": [{"name": "height", "default": "10", "note": "sleeve height, one pin segment", "group": null}, {"name": "diam", "default": "6", "note": "pin shaft diameter", "group": null}, {"name": "diam_end", "default": "10", "note": "pin flare diameter", "group": null}, {"name": "angle", "default": "45 deg", "note": "pin flare flank angle to the end face", "group": null}, {"name": "diam_outer", "default": "13", "note": "sleeve outside diameter", "group": null}, {"name": "tolerance", "default": "0.1", "note": "running clearance, normal to every pin face", "group": null}, {"name": "end_gap", "default": "0", "note": "gap to the next stacked sleeve (half at each end)", "group": null}, {"name": "clearance", "default": "0.2", "note": "gap around the sleeve, normal to every face", "group": null}],
+  "fixed": [],
+  "derived": [{"name": "outer_r", "expr": "diam_outer / 2", "note": "outside radius"}, {"name": "throat_r", "expr": "diam / 2 + tolerance", "note": "bore radius at the waist"}, {"name": "flare_r", "expr": "diam_end / 2 + tolerance / tan(angle / 2)", "note": "envelope flare radius (at z = -tolerance)"}, {"name": "bottom", "expr": "end_gap / 2", "note": "lowest point (bottom ridge ring)"}, {"name": "top", "expr": "height - end_gap / 2", "note": "highest point (top ridge ring)"}, {"name": "ridge_r", "expr": "flare_r - (tolerance + bottom) / tan(angle)", "note": "ridge ring: envelope flank at the end face"}, {"name": "valley_z", "expr": "(ridge_r - throat_r) * tan(angle)", "note": "height of each bore flank cone"}, {"name": "rim_h", "expr": "outer_r - ridge_r", "note": "height of each outer flank"}, {"name": "corner", "expr": "clearance * tan(22.5 deg)", "note": "shift of each 45-degree flank corner"}],
+  "checks": [{"expr": "diam_end - diam", "message": "diam_end must exceed diam"}, {"expr": "outer_r - ridge_r", "message": "diam_outer leaves no wall around the pin flare"}, {"expr": "end_gap < 0 ? 0 : 1", "message": "end_gap must not be negative"}, {"expr": "valley_z", "message": "end_gap is too large: the end face misses the bore flank"}, {"expr": "top - bottom - 2 * rim_h", "message": "height is too small for the outer flanks"}, {"expr": "top - bottom - 2 * valley_z", "message": "height is too small for the bore flanks"}],
+  "result": 0,
+  "motion": [],
+  "ops": [
+    {"id": 0, "op": "revolve", "name": null, "points": [["0", "(bottom) - (clearance)"], ["(ridge_r) + (corner)", "(bottom) - (clearance)"], ["(outer_r) + (clearance)", "(bottom) + (rim_h) - (corner)"], ["(outer_r) + (clearance)", "(top) - (rim_h) + (corner)"], ["(ridge_r) + (corner)", "(top) + (clearance)"], ["0", "(top) + (clearance)"]], "span": ["0", "360"]}
+  ]
+}

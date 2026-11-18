@@ -1,0 +1,15 @@
+{
+  "format": "primlib.prim",
+  "version": 1,
+  "primitive": "pin",
+  "title": "Retained pin",
+  "params": [{"name": "height", "default": "10", "note": "overall height, end face to end face", "group": null}, {"name": "diam", "default": "6", "note": "shaft diameter", "group": null}, {"name": "diam_end", "default": "10", "note": "flare diameter at each end face", "group": null}, {"name": "angle", "default": "45 deg", "note": "flare flank angle to the end face", "group": null}, {"name": "clearance", "default": "0", "note": "growth normal to every face", "group": null}],
+  "fixed": [],
+  "derived": [{"name": "shaft_r", "expr": "diam / 2 + clearance", "note": "shaft radius, grown"}, {"name": "flare_r", "expr": "diam_end / 2 + clearance / tan(angle / 2)", "note": "flare radius, grown"}, {"name": "cone", "expr": "(flare_r - shaft_r) * tan(angle)", "note": "flare height"}, {"name": "bottom", "expr": "-clearance", "note": "lowest face"}, {"name": "top", "expr": "height + clearance", "note": "highest face"}],
+  "checks": [{"expr": "diam", "message": "diam must be positive"}, {"expr": "diam_end - diam", "message": "diam_end must exceed diam"}, {"expr": "top - bottom - 2 * cone", "message": "height is too small for the flares"}],
+  "result": 0,
+  "motion": [],
+  "ops": [
+    {"id": 0, "op": "revolve", "name": null, "points": [["0", "(bottom)"], ["(flare_r)", "(bottom)"], ["(shaft_r)", "(bottom) + (cone)"], ["(shaft_r)", "(top) - (cone)"], ["(flare_r)", "(top)"], ["0", "(top)"]], "span": ["0", "360"]}
+  ]
+}

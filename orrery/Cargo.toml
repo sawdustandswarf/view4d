@@ -1,0 +1,12 @@
+[package]
+name = "view4d-orrery"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+view4d-scene = { path = "../scene" }

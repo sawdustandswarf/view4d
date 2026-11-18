@@ -1,0 +1,68 @@
+{
+  "format": "primlib.prim",
+  "version": 2,
+  "kind": "recipe",
+  "primitive": "support_pair",
+  "title": "Support pair",
+  "params": [{"name": "radius", "default": "5", "note": "the supported circle's radius", "group": null}, {"name": "height", "default": "3", "note": "from the face below to the face it holds up", "group": null}, {"name": "split", "default": "0.4", "note": "between the halves' flat sides", "group": null}, {"name": "line_w", "default": "0.44", "note": "the printer's line width", "group": null}, {"name": "layer_h", "default": "0.2", "note": "the printer's layer height", "group": null}, {"name": "gap_lines", "default": "4", "note": "lines between the rings", "group": null}, {"name": "interface_gap", "default": "0.1", "note": "under the supported face", "group": null}],
+  "fixed": [],
+  "derived": [],
+  "checks": [{"expr": "split >= 0", "message": "split can't be negative"}],
+  "slots": 8,
+  "result": 2,
+  "motion": [],
+  "parts": [
+    {"name": "half", "primitive": "support_half", "bind": {"radius": "radius", "height": "height", "line_w": "line_w", "layer_h": "layer_h", "gap_lines": "gap_lines", "interface_gap": "interface_gap"}, "mirror": null, "colour": [0.1, 0.62, 0.62], "pieces": null, "print": false},
+    {"name": "mirrored", "primitive": "support_half", "bind": {"radius": "radius", "height": "height", "line_w": "line_w", "layer_h": "layer_h", "gap_lines": "gap_lines", "interface_gap": "interface_gap"}, "mirror": "y", "colour": [0.93, 0.66, 0.18], "pieces": null, "print": false}
+  ],
+  "place": [
+    {"id": 0, "op": "instance", "name": "a", "part": "half", "at": ["0", "split / 2", "0"], "turn": []},
+    {"id": 1, "op": "instance", "name": "b", "part": "mirrored", "at": ["0", "-split / 2", "0"], "turn": []},
+    {"id": 2, "op": "group", "name": "pair", "of": [0, 1]}
+  ],
+  "uses": {
+    "support_half": {
+      "format": "primlib.prim",
+      "version": 1,
+      "primitive": "support_half",
+      "title": "Half-cylinder support",
+      "params": [{"name": "radius", "default": "5", "note": "radius of the half cylinder", "group": null}, {"name": "height", "default": "3", "note": "face below (z = 0) to the supported face, along z", "group": null}, {"name": "line_w", "default": "0.44", "note": "print line width", "group": null}, {"name": "layer_h", "default": "0.2", "note": "print layer height: each interface layer's thickness", "group": null}, {"name": "wall_lines", "default": "1", "note": "wall width, in line widths", "group": null}, {"name": "gap_lines", "default": "4", "note": "gap between walls, in line widths", "group": null}, {"name": "interface_density", "default": "0.33", "note": "interface layers' spokes, as a share of their area", "group": null}, {"name": "interface_gap", "default": "0.1", "note": "top interface layer to the supported face", "group": null}, {"name": "bottom_gap", "default": "=interface_gap", "note": "face below to the bottom interface layer (0 on the bed)", "group": null}, {"name": "trim", "default": "=-radius", "note": "cut off at x = trim, keeping x >= trim, with a wall along the cut (-radius: the whole half)", "group": null}],
+      "fixed": [],
+      "derived": [{"name": "wall", "expr": "wall_lines * line_w", "note": "wall width"}, {"name": "gap", "expr": "gap_lines * line_w", "note": "gap between walls"}, {"name": "pitch", "expr": "wall + gap", "note": "ring spacing"}, {"name": "rings", "expr": "max(1; floor((radius - 2 * wall) / pitch) + 1)", "note": "number of half rings, in from the rim"}, {"name": "wall_lo", "expr": "bottom_gap + layer_h", "note": "walls' bottom, on the bottom interface layer"}, {"name": "wall_hi", "expr": "height - interface_gap - layer_h", "note": "walls' top, under the top interface layer"}, {"name": "spokes", "expr": "max(2; floor(pi * radius * interface_density / line_w))", "note": "interface spokes: lines covering interface_density of the rim"}, {"name": "spoke_step", "expr": "180 deg / spokes", "note": "angle between spokes"}, {"name": "reach", "expr": "radius * 1.2", "note": "spokes' length before they are trimmed to the rim"}, {"name": "keep_lo", "expr": "(trim > -radius ? trim : -radius - 1)", "note": "the kept part's low x"}],
+      "checks": [],
+      "result": 28,
+      "motion": [],
+      "ops": [
+        {"id": 0, "op": "box", "name": "half", "x": ["keep_lo", "radius + 1"], "y": ["0", "radius + 1"], "z": ["-1", "height + 1"]},
+        {"id": 1, "op": "cylinder", "name": "disc", "axis": "z", "centre": ["0", "0"], "r": "radius", "span": ["-1", "height + 1"]},
+        {"id": 2, "op": "cylinder", "name": "ringi_out", "axis": "z", "centre": ["0", "0"], "r": "max(radius - i * pitch; 2 * wall)", "span": ["wall_lo", "wall_hi"]},
+        {"id": 3, "op": "cylinder", "name": "ringi_in", "axis": "z", "centre": ["0", "0"], "r": "max(radius - i * pitch; 2 * wall) - wall", "span": ["wall_lo - 1", "wall_hi + 1"]},
+        {"id": 4, "op": "cut", "name": "ringi", "base": 2, "tools": [3]},
+        {"id": 5, "op": "series", "name": "rings", "count": "rings", "index": "i", "item": 4, "join": "fuse"},
+        {"id": 6, "op": "box", "name": "flat", "x": ["-radius", "radius"], "y": ["0", "wall"], "z": ["wall_lo", "wall_hi"]},
+        {"id": 7, "op": "box", "name": "cut_wall", "x": ["trim", "trim + wall"], "y": ["0", "radius"], "z": ["wall_lo", "wall_hi"]},
+        {"id": 8, "op": "fuse", "name": "walls_all", "of": [5, 6, 7]},
+        {"id": 9, "op": "common", "name": "walls", "of": [8, 1, 0]},
+        {"id": 10, "op": "prism", "name": "bottom_spoke", "points": [["line_w / 2 * sin(spoke_step / 2)", "-line_w / 2 * cos(spoke_step / 2)"], ["reach * cos(spoke_step / 2) + line_w / 2 * sin(spoke_step / 2)", "reach * sin(spoke_step / 2) - line_w / 2 * cos(spoke_step / 2)"], ["reach * cos(spoke_step / 2) - line_w / 2 * sin(spoke_step / 2)", "reach * sin(spoke_step / 2) + line_w / 2 * cos(spoke_step / 2)"], ["-line_w / 2 * sin(spoke_step / 2)", "line_w / 2 * cos(spoke_step / 2)"]], "plane": "xy", "span": ["bottom_gap", "wall_lo"]},
+        {"id": 11, "op": "polar", "name": "bottom_spokes", "base": 10, "count": "spokes", "angle": "180 deg - spoke_step"},
+        {"id": 12, "op": "cylinder", "name": "bottom_rim_out", "axis": "z", "centre": ["0", "0"], "r": "radius", "span": ["bottom_gap", "wall_lo"]},
+        {"id": 13, "op": "cylinder", "name": "bottom_rim_in", "axis": "z", "centre": ["0", "0"], "r": "radius - line_w", "span": ["-1", "height + 1"]},
+        {"id": 14, "op": "cut", "name": "bottom_rim", "base": 12, "tools": [13]},
+        {"id": 15, "op": "box", "name": "bottom_flat", "x": ["-radius", "radius"], "y": ["0", "line_w"], "z": ["bottom_gap", "wall_lo"]},
+        {"id": 16, "op": "box", "name": "bottom_cut", "x": ["trim", "trim + line_w"], "y": ["0", "radius"], "z": ["bottom_gap", "wall_lo"]},
+        {"id": 17, "op": "fuse", "name": "bottom_parts", "of": [11, 14, 15, 16]},
+        {"id": 18, "op": "common", "name": "bottom_interface", "of": [17, 1, 0]},
+        {"id": 19, "op": "prism", "name": "top_spoke", "points": [["line_w / 2 * sin(spoke_step / 2)", "-line_w / 2 * cos(spoke_step / 2)"], ["reach * cos(spoke_step / 2) + line_w / 2 * sin(spoke_step / 2)", "reach * sin(spoke_step / 2) - line_w / 2 * cos(spoke_step / 2)"], ["reach * cos(spoke_step / 2) - line_w / 2 * sin(spoke_step / 2)", "reach * sin(spoke_step / 2) + line_w / 2 * cos(spoke_step / 2)"], ["-line_w / 2 * sin(spoke_step / 2)", "line_w / 2 * cos(spoke_step / 2)"]], "plane": "xy", "span": ["wall_hi", "height - interface_gap"]},
+        {"id": 20, "op": "polar", "name": "top_spokes", "base": 19, "count": "spokes", "angle": "180 deg - spoke_step"},
+        {"id": 21, "op": "cylinder", "name": "top_rim_out", "axis": "z", "centre": ["0", "0"], "r": "radius", "span": ["wall_hi", "height - interface_gap"]},
+        {"id": 22, "op": "cylinder", "name": "top_rim_in", "axis": "z", "centre": ["0", "0"], "r": "radius - line_w", "span": ["-1", "height + 1"]},
+        {"id": 23, "op": "cut", "name": "top_rim", "base": 21, "tools": [22]},
+        {"id": 24, "op": "box", "name": "top_flat", "x": ["-radius", "radius"], "y": ["0", "line_w"], "z": ["wall_hi", "height - interface_gap"]},
+        {"id": 25, "op": "box", "name": "top_cut", "x": ["trim", "trim + line_w"], "y": ["0", "radius"], "z": ["wall_hi", "height - interface_gap"]},
+        {"id": 26, "op": "fuse", "name": "top_parts", "of": [20, 23, 24, 25]},
+        {"id": 27, "op": "common", "name": "top_interface", "of": [26, 1, 0]},
+        {"id": 28, "op": "fuse", "name": null, "of": [9, 18, 27]}
+      ]
+    }
+  }
+}
